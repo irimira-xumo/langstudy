@@ -1,0 +1,4286 @@
+{
+ "language": "German",
+ "code": "de",
+ "speechLang": "de-DE",
+ "goal": "Goethe-Zertifikat B2",
+ "examDate": "December 2026",
+ "progression": "score",
+ "passMark": 70,
+ "units": [
+  {
+   "id": "de01",
+   "title": "sein, haben and the present tense",
+   "level": "A1 refresh",
+   "summary": "The two most important verbs and regular present-tense endings, including vowel changes.",
+   "notes": [
+    {
+     "heading": "sein (to be)",
+     "text": "Irregular in every form: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. Jobs and nationalities take no article: Ich bin Lehrerin.",
+     "examples": [
+      {
+       "t": "Ich bin Lehrerin.",
+       "en": "I am a teacher."
+      },
+      {
+       "t": "Wir sind heute müde.",
+       "en": "We are tired today."
+      },
+      {
+       "t": "Seid ihr verheiratet?",
+       "en": "Are you (plural) married?"
+      }
+     ]
+    },
+    {
+     "heading": "haben (to have)",
+     "text": "ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. Watch du hast and er hat: the b disappears.",
+     "examples": [
+      {
+       "t": "Hast du heute Zeit?",
+       "en": "Do you have time today?"
+      },
+      {
+       "t": "Sie hat zwei Brüder.",
+       "en": "She has two brothers."
+      }
+     ]
+    },
+    {
+     "heading": "Regular present tense",
+     "text": "Stem + endings: -e, -st, -t, -en, -t, -en (wohnen: ich wohne, du wohnst, er wohnt, wir wohnen, ihr wohnt, sie wohnen). If the stem ends in -t or -d, add an extra -e- before -st and -t: du arbeitest, er arbeitet, du findest. If the stem ends in -s, -ß or -z, du only adds -t: du heißt, du tanzt.",
+     "examples": [
+      {
+       "t": "Mein Bruder arbeitet in Berlin.",
+       "en": "My brother works in Berlin."
+      },
+      {
+       "t": "Wie heißt du?",
+       "en": "What is your name?"
+      }
+     ]
+    },
+    {
+     "heading": "Vowel change in du and er/sie/es",
+     "text": "Many strong verbs change their stem vowel only in the du and er/sie/es forms: e → i (sprechen: du sprichst, er spricht; essen: du isst, er isst), e → ie (lesen: du liest, er liest; sehen: du siehst, er sieht), a → ä (fahren: du fährst, er fährt; schlafen: du schläfst, er schläft). The wir/ihr/sie forms stay regular.",
+     "examples": [
+      {
+       "t": "Sprichst du Deutsch?",
+       "en": "Do you speak German?"
+      },
+      {
+       "t": "Er fährt nach Hamburg.",
+       "en": "He is driving to Hamburg."
+      },
+      {
+       "t": "Sie liest ein Buch.",
+       "en": "She is reading a book."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "die Familie",
+     "en": "family"
+    },
+    {
+     "term": "der Bruder (Brüder)",
+     "en": "brother"
+    },
+    {
+     "term": "die Schwester (-n)",
+     "en": "sister"
+    },
+    {
+     "term": "die Eltern (pl.)",
+     "en": "parents"
+    },
+    {
+     "term": "das Kind (-er)",
+     "en": "child"
+    },
+    {
+     "term": "der Beruf (-e)",
+     "en": "job, profession"
+    },
+    {
+     "term": "wohnen",
+     "en": "to live (reside)"
+    },
+    {
+     "term": "arbeiten",
+     "en": "to work"
+    },
+    {
+     "term": "sprechen (spricht)",
+     "en": "to speak"
+    },
+    {
+     "term": "heißen",
+     "en": "to be called"
+    },
+    {
+     "term": "verheiratet",
+     "en": "married"
+    },
+    {
+     "term": "müde",
+     "en": "tired"
+    },
+    {
+     "term": "die Zeit",
+     "en": "time"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ich ___ seit zwei Jahren in Seoul. (sein)",
+     "answer": "bin",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ du heute Zeit? (haben)",
+     "answer": "Hast",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Mein Bruder ___ in Frankfurt. (arbeiten)",
+     "answer": "arbeitet",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ du Englisch? (sprechen)",
+     "answer": "Sprichst",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite the sentence with er as the subject.",
+     "prompt": "Ich fahre morgen nach Hamburg.",
+     "answer": "Er fährt morgen nach Hamburg.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "translate",
+     "prompt": "We are tired, but we have time.",
+     "answer": "Wir sind müde, aber wir haben Zeit.",
+     "alternatives": [
+      "Wir sind müde, aber haben Zeit."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "My sister is reading a book.",
+     "answer": "Meine Schwester liest ein Buch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "write",
+     "prompt": "Introduce yourself in 3–4 sentences: your name, where you live, your job and your family.",
+     "answer": "Ich heiße Min. Ich wohne in Seoul und arbeite als Ingenieurin. Ich habe einen Bruder und eine Schwester. Meine Eltern wohnen in Busan.",
+     "alternatives": [],
+     "check": "self",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Jonas und seine Familie",
+     "passage": "Das ist Jonas. Er ist 34 Jahre alt und wohnt in Leipzig. Er ist Koch und arbeitet in einem Restaurant im Zentrum. Jonas ist verheiratet. Seine Frau heißt Aylin. Sie ist Ärztin und spricht Deutsch, Türkisch und Englisch. Sie haben eine Tochter. Die Tochter heißt Lea und ist fünf Jahre alt. Am Wochenende fahren sie oft zu Jonas' Eltern. Die Eltern haben einen Garten, und Lea spielt dort gern.",
+     "glossary": [
+      {
+       "term": "der Koch",
+       "en": "cook"
+      },
+      {
+       "term": "die Ärztin",
+       "en": "(female) doctor"
+      },
+      {
+       "term": "die Tochter",
+       "en": "daughter"
+      },
+      {
+       "term": "am Wochenende",
+       "en": "at the weekend"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where does Jonas live, and what is his job?",
+       "answer": "He lives in Leipzig. He is a cook in a restaurant in the city centre.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "Which languages does Aylin speak?",
+       "answer": "German, Turkish and English.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "How old is Lea?",
+       "answer": "She is five.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What does the family often do at the weekend?",
+       "answer": "They often go to Jonas's parents, who have a garden where Lea likes to play.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Ihr ___ sehr nett. (sein)",
+     "answer": "seid",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Er ___ jeden Abend die Zeitung. (lesen)",
+     "answer": "liest",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wie ___ du? (heißen)",
+     "answer": "heißt",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) have a brother?",
+     "answer": "Hast du einen Bruder?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "She works in Munich and speaks English.",
+     "answer": "Sie arbeitet in München und spricht Englisch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe one family member in 3 sentences: name, age, job and where they live.",
+     "answer": "Meine Schwester heißt Ji-woo. Sie ist 29 Jahre alt und arbeitet als Krankenschwester. Sie wohnt mit ihrem Mann in Incheon.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 1"
+  },
+  {
+   "id": "de02",
+   "title": "Word order, nominative and accusative",
+   "level": "A1 refresh",
+   "summary": "Verb-second word order, questions, and the accusative case (articles, pronouns, prepositions).",
+   "notes": [
+    {
+     "heading": "The verb is always in position 2",
+     "text": "In a main clause the conjugated verb is the second element. If something other than the subject comes first (a time, a place, an object), the subject moves to the position right after the verb.",
+     "examples": [
+      {
+       "t": "Ich lerne heute Deutsch.",
+       "en": "I am learning German today."
+      },
+      {
+       "t": "Heute lerne ich Deutsch.",
+       "en": "Today I am learning German."
+      },
+      {
+       "t": "Am Montag arbeitet Lisa nicht.",
+       "en": "On Monday Lisa doesn't work."
+      }
+     ]
+    },
+    {
+     "heading": "Questions",
+     "text": "W-questions (wer, was, wo, wann, wie, warum…) keep the verb in position 2. Yes/no questions put the verb first.",
+     "examples": [
+      {
+       "t": "Wo wohnst du?",
+       "en": "Where do you live?"
+      },
+      {
+       "t": "Kommst du mit?",
+       "en": "Are you coming along?"
+      }
+     ]
+    },
+    {
+     "heading": "Accusative: the direct object",
+     "text": "Only the masculine changes: der → den, ein → einen, kein → keinen, mein → meinen. Feminine (die/eine), neuter (das/ein) and plural (die) look the same as the nominative. Pronouns: mich, dich, ihn, sie, es, uns, euch, sie/Sie.",
+     "examples": [
+      {
+       "t": "Ich suche den Schlüssel.",
+       "en": "I'm looking for the key."
+      },
+      {
+       "t": "Hast du einen Stift?",
+       "en": "Do you have a pen?"
+      },
+      {
+       "t": "Ich sehe ihn morgen.",
+       "en": "I'll see him tomorrow."
+      }
+     ]
+    },
+    {
+     "heading": "Accusative prepositions and negation",
+     "text": "durch, für, gegen, ohne, um always take the accusative. Negate nouns with an indefinite article or no article using kein (Ich habe kein Auto). Negate verbs, adjectives and definite nouns with nicht (Ich komme nicht. Das Auto ist nicht neu.).",
+     "examples": [
+      {
+       "t": "Das Geschenk ist für meinen Vater.",
+       "en": "The present is for my father."
+      },
+      {
+       "t": "Wir gehen ohne den Hund.",
+       "en": "We're going without the dog."
+      },
+      {
+       "t": "Ich habe keinen Hunger.",
+       "en": "I'm not hungry."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "der Tisch (-e)",
+     "en": "table"
+    },
+    {
+     "term": "der Stuhl (Stühle)",
+     "en": "chair"
+    },
+    {
+     "term": "der Schlüssel (-)",
+     "en": "key"
+    },
+    {
+     "term": "der Stift (-e)",
+     "en": "pen"
+    },
+    {
+     "term": "die Tasche (-n)",
+     "en": "bag"
+    },
+    {
+     "term": "das Auto (-s)",
+     "en": "car"
+    },
+    {
+     "term": "die Wohnung (-en)",
+     "en": "flat, apartment"
+    },
+    {
+     "term": "kaufen",
+     "en": "to buy"
+    },
+    {
+     "term": "brauchen",
+     "en": "to need"
+    },
+    {
+     "term": "suchen",
+     "en": "to look for"
+    },
+    {
+     "term": "finden",
+     "en": "to find"
+    },
+    {
+     "term": "heute",
+     "en": "today"
+    },
+    {
+     "term": "morgen",
+     "en": "tomorrow"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Start the sentence with „Heute“.",
+     "prompt": "Ich lerne Deutsch.",
+     "answer": "Heute lerne ich Deutsch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Start the sentence with „Am Samstag“.",
+     "prompt": "Wir besuchen unsere Großeltern.",
+     "answer": "Am Samstag besuchen wir unsere Großeltern.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Turn it into a yes/no question.",
+     "prompt": "Du hast einen Schlüssel.",
+     "answer": "Hast du einen Schlüssel?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich suche ___ Schlüssel. (der)",
+     "answer": "den",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Hast du ___ Stift für mich? (ein)",
+     "answer": "einen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Geschenk ist für ___ . (er)",
+     "answer": "ihn",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "I don't have a car, but I need a car.",
+     "answer": "Ich habe kein Auto, aber ich brauche ein Auto.",
+     "alternatives": [
+      "Ich habe kein Auto, aber brauche ein Auto."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Tomorrow I'll buy the table without the chairs.",
+     "answer": "Morgen kaufe ich den Tisch ohne die Stühle.",
+     "alternatives": [
+      "Ich kaufe morgen den Tisch ohne die Stühle."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Mia zieht um",
+     "passage": "Mia zieht nächste Woche um. Die neue Wohnung ist klein, aber hell und ruhig. Mia hat schon ein Bett und einen Schrank. Sie hat aber keinen Tisch und kein Sofa. Heute sucht sie einen Tisch. Ihr Freund Tom hat ein Auto und fährt sie zum Möbelhaus. Dort findet Mia einen Tisch aus Holz. Er kostet 120 Euro. Ein Sofa kauft sie noch nicht, denn sie hat nicht genug Geld.",
+     "glossary": [
+      {
+       "term": "umziehen",
+       "en": "to move house"
+      },
+      {
+       "term": "hell",
+       "en": "bright"
+      },
+      {
+       "term": "ruhig",
+       "en": "quiet"
+      },
+      {
+       "term": "das Möbelhaus",
+       "en": "furniture store"
+      },
+      {
+       "term": "aus Holz",
+       "en": "made of wood"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What is the new flat like?",
+       "answer": "It is small, but bright and quiet.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "Which furniture does Mia already have?",
+       "answer": "A bed and a wardrobe.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What does she buy, and how much does it cost?",
+       "answer": "A wooden table for 120 euros.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "Why doesn't she buy a sofa yet?",
+       "answer": "She doesn't have enough money.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Start the sentence with „Morgen“.",
+     "prompt": "Ich besuche meine Mutter.",
+     "answer": "Morgen besuche ich meine Mutter.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir brauchen ___ Tisch. (kein)",
+     "answer": "keinen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Kennst du ___ ? (wir)",
+     "answer": "uns",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Where do you (informal) live?",
+     "answer": "Wo wohnst du?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The coffee is for my father.",
+     "answer": "Der Kaffee ist für meinen Vater.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 3 sentences about what you need for a new flat. Start at least one sentence with a time expression.",
+     "answer": "Ich brauche einen Tisch und zwei Stühle. Morgen kaufe ich ein Sofa. Am Wochenende suche ich eine Lampe für das Wohnzimmer.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 1"
+  },
+  {
+   "id": "de03",
+   "title": "The dative case",
+   "level": "A2",
+   "summary": "Indirect objects, dative pronouns, dative verbs and dative prepositions.",
+   "notes": [
+    {
+     "heading": "Dative articles and pronouns",
+     "text": "der → dem, die → der, das → dem, plural die → den (and the noun adds -n if possible: den Kindern). ein → einem, eine → einer. Pronouns: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen.",
+     "examples": [
+      {
+       "t": "Ich gebe dem Kind einen Apfel.",
+       "en": "I give the child an apple."
+      },
+      {
+       "t": "Wir spielen mit den Kindern.",
+       "en": "We play with the children."
+      }
+     ]
+    },
+    {
+     "heading": "Dative = the receiver",
+     "text": "With verbs like geben, schenken, zeigen, erklären, the person receiving is dative and the thing is accusative. Noun order: dative before accusative.",
+     "examples": [
+      {
+       "t": "Sie schenkt ihrer Mutter Blumen.",
+       "en": "She gives her mother flowers."
+      },
+      {
+       "t": "Kannst du mir den Weg zeigen?",
+       "en": "Can you show me the way?"
+      }
+     ]
+    },
+    {
+     "heading": "Verbs that take only a dative object",
+     "text": "helfen, danken, gefallen, gehören, schmecken, antworten, gratulieren. With gefallen and schmecken the thing is the subject: Das Kleid gefällt mir (literally: the dress pleases me).",
+     "examples": [
+      {
+       "t": "Kannst du mir helfen?",
+       "en": "Can you help me?"
+      },
+      {
+       "t": "Die Stadt gefällt mir.",
+       "en": "I like the city."
+      },
+      {
+       "t": "Wem gehört die Tasche?",
+       "en": "Whose bag is this? (To whom does the bag belong?)"
+      }
+     ]
+    },
+    {
+     "heading": "Dative prepositions",
+     "text": "aus, bei, mit, nach, seit, von, zu, gegenüber always take the dative. Common contractions: zu dem → zum, zu der → zur, bei dem → beim, von dem → vom.",
+     "examples": [
+      {
+       "t": "Ich fahre mit dem Bus zur Arbeit.",
+       "en": "I take the bus to work."
+      },
+      {
+       "t": "Seit einem Jahr wohne ich hier.",
+       "en": "I've been living here for a year."
+      },
+      {
+       "t": "Ich gehe heute zum Arzt.",
+       "en": "I'm going to the doctor today."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "helfen (hilft) + Dat.",
+     "en": "to help"
+    },
+    {
+     "term": "danken + Dat.",
+     "en": "to thank"
+    },
+    {
+     "term": "gefallen (gefällt) + Dat.",
+     "en": "to please, be liked by"
+    },
+    {
+     "term": "gehören + Dat.",
+     "en": "to belong to"
+    },
+    {
+     "term": "schmecken + Dat.",
+     "en": "to taste (good) to"
+    },
+    {
+     "term": "schenken",
+     "en": "to give as a present"
+    },
+    {
+     "term": "zeigen",
+     "en": "to show"
+    },
+    {
+     "term": "das Geschenk (-e)",
+     "en": "present, gift"
+    },
+    {
+     "term": "der Geburtstag (-e)",
+     "en": "birthday"
+    },
+    {
+     "term": "die Nachbarin (-nen)",
+     "en": "(female) neighbour"
+    },
+    {
+     "term": "der Bahnhof (Bahnhöfe)",
+     "en": "train station"
+    },
+    {
+     "term": "die Arbeit",
+     "en": "work"
+    },
+    {
+     "term": "der Bus (-se)",
+     "en": "bus"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ich fahre mit ___ Bus. (der)",
+     "answer": "dem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Sie wohnt seit ___ Jahr in Köln. (ein)",
+     "answer": "einem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Kuchen schmeckt ___ sehr gut. (ich)",
+     "answer": "mir",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Kannst du ___ helfen? (wir)",
+     "answer": "uns",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich gehe heute ___ Arzt. (zu + dem, contracted)",
+     "answer": "zum",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace „meiner Mutter“ with a pronoun.",
+     "prompt": "Ich schenke meiner Mutter Blumen.",
+     "answer": "Ich schenke ihr Blumen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "The bag belongs to my sister.",
+     "answer": "Die Tasche gehört meiner Schwester.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "After work I'm going to my (female) friend's place.",
+     "answer": "Nach der Arbeit gehe ich zu meiner Freundin.",
+     "alternatives": [
+      "Nach der Arbeit fahre ich zu meiner Freundin."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Ein Geschenk für Paul",
+     "passage": "Nächsten Freitag hat Paul Geburtstag. Seine Schwester Nina weiß noch nicht, was sie ihm schenken soll. Paul liest gern, aber er hat schon sehr viele Bücher. Nina fragt ihre Mutter. Die Mutter sagt: „Kauf ihm doch ein Konzertticket! Er hört so gern Jazz.“ Nina findet die Idee gut. Sie kauft zwei Tickets, eins für Paul und eins für sich. Am Freitag gibt sie ihm das Geschenk. Paul dankt ihr und sagt: „Das gefällt mir sehr!“",
+     "glossary": [
+      {
+       "term": "weiß noch nicht",
+       "en": "doesn't know yet"
+      },
+      {
+       "term": "doch",
+       "en": "(softens a suggestion) why not"
+      },
+      {
+       "term": "für sich",
+       "en": "for herself"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why is a book not a good present for Paul?",
+       "answer": "He already has a lot of books.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What does the mother suggest, and why?",
+       "answer": "A concert ticket, because Paul loves jazz.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "Why does Nina buy two tickets?",
+       "answer": "One for Paul and one for herself.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "How does Paul react?",
+       "answer": "He thanks her and says he likes it very much.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Das Handy gehört ___ . (er)",
+     "answer": "ihm",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir fahren mit ___ Kindern an den See. (die, plural)",
+     "answer": "den",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich komme gerade ___ Bahnhof. (von + dem, contracted)",
+     "answer": "vom",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm giving my (female) neighbour a present.",
+     "answer": "Ich gebe meiner Nachbarin ein Geschenk.",
+     "alternatives": [
+      "Ich schenke meiner Nachbarin ein Geschenk."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) like the city?",
+     "answer": "Gefällt dir die Stadt?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 3 sentences about how you get to work or school: transport, who you go with, and since when.",
+     "answer": "Ich fahre jeden Tag mit der U-Bahn zur Arbeit. Oft fahre ich mit einer Kollegin. Seit einem Jahr arbeite ich bei einer Firma im Zentrum.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 2"
+  },
+  {
+   "id": "de04",
+   "title": "Two-way prepositions",
+   "level": "A2",
+   "summary": "an, auf, hinter, in, neben, über, unter, vor, zwischen: accusative for movement, dative for location.",
+   "notes": [
+    {
+     "heading": "Wohin? → accusative, Wo? → dative",
+     "text": "These nine prepositions take the accusative when there is movement towards a destination (Wohin?) and the dative for a location (Wo?).",
+     "examples": [
+      {
+       "t": "Ich gehe in die Küche.",
+       "en": "I'm going into the kitchen. (Wohin?)"
+      },
+      {
+       "t": "Ich bin in der Küche.",
+       "en": "I am in the kitchen. (Wo?)"
+      }
+     ]
+    },
+    {
+     "heading": "Verb pairs: putting vs. being",
+     "text": "Action verbs take the accusative: stellen (put upright), legen (lay down), setzen (sit someone down), hängen (hang up). Position verbs take the dative: stehen, liegen, sitzen, hängen (be hanging).",
+     "examples": [
+      {
+       "t": "Ich stelle die Flasche auf den Tisch.",
+       "en": "I put the bottle on the table."
+      },
+      {
+       "t": "Die Flasche steht auf dem Tisch.",
+       "en": "The bottle is (standing) on the table."
+      },
+      {
+       "t": "Ich lege das Buch auf das Bett. Das Buch liegt auf dem Bett.",
+       "en": "I put the book on the bed. The book is lying on the bed."
+      }
+     ]
+    },
+    {
+     "heading": "Contractions",
+     "text": "in dem → im, in das → ins, an dem → am, an das → ans. Use the contraction unless you want to stress „this particular one“.",
+     "examples": [
+      {
+       "t": "Wir gehen ins Kino.",
+       "en": "We're going to the cinema."
+      },
+      {
+       "t": "Das Bild hängt am Fenster.",
+       "en": "The picture hangs by the window."
+      }
+     ]
+    },
+    {
+     "heading": "Time expressions",
+     "text": "In time expressions an, in and vor take the dative: am Montag, im Juli, in der Nacht, vor einer Woche (a week ago).",
+     "examples": [
+      {
+       "t": "Vor einer Woche war ich in Wien.",
+       "en": "A week ago I was in Vienna."
+      },
+      {
+       "t": "Am Abend lese ich.",
+       "en": "In the evening I read."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "die Küche (-n)",
+     "en": "kitchen"
+    },
+    {
+     "term": "das Wohnzimmer (-)",
+     "en": "living room"
+    },
+    {
+     "term": "das Regal (-e)",
+     "en": "shelf"
+    },
+    {
+     "term": "die Wand (Wände)",
+     "en": "wall"
+    },
+    {
+     "term": "der Schrank (Schränke)",
+     "en": "cupboard, wardrobe"
+    },
+    {
+     "term": "das Bett (-en)",
+     "en": "bed"
+    },
+    {
+     "term": "der Schreibtisch (-e)",
+     "en": "desk"
+    },
+    {
+     "term": "der Boden (Böden)",
+     "en": "floor"
+    },
+    {
+     "term": "stellen / stehen",
+     "en": "to put upright / to stand"
+    },
+    {
+     "term": "legen / liegen",
+     "en": "to lay down / to lie"
+    },
+    {
+     "term": "hängen",
+     "en": "to hang"
+    },
+    {
+     "term": "die Tür (-en)",
+     "en": "door"
+    },
+    {
+     "term": "aufräumen",
+     "en": "to tidy up"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ich stelle die Vase auf ___ Tisch.",
+     "answer": "den",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Die Vase steht auf ___ Tisch.",
+     "answer": "dem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Die Katze schläft unter ___ Bett.",
+     "answer": "dem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir gehen heute Abend ___ Kino. (in + das, contracted)",
+     "answer": "ins",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Bild hängt an ___ Wand.",
+     "answer": "der",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Describe the result with liegen.",
+     "prompt": "Ich lege das Handy auf den Schreibtisch. → Das Handy …",
+     "answer": "Das Handy liegt auf dem Schreibtisch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "The keys are on the shelf next to the door.",
+     "answer": "Die Schlüssel liegen auf dem Regal neben der Tür.",
+     "alternatives": [
+      "Die Schlüssel liegen im Regal neben der Tür.",
+      "Die Schlüssel sind auf dem Regal neben der Tür.",
+      "Die Schlüssel sind im Regal neben der Tür."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm hanging the picture over the sofa.",
+     "answer": "Ich hänge das Bild über das Sofa.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Lukas räumt auf",
+     "passage": "Lukas räumt sein Zimmer auf, denn morgen kommen seine Eltern. Zuerst legt er die Kleidung in den Schrank. Dann stellt er die Bücher ins Regal. Die leeren Flaschen stehen noch unter dem Schreibtisch – er bringt sie in die Küche. Neben dem Bett liegt ein Stapel Papier. Lukas legt ihn auf den Schreibtisch. Zum Schluss hängt er ein neues Bild an die Wand über dem Sofa. Jetzt sieht das Zimmer schön aus.",
+     "glossary": [
+      {
+       "term": "die Kleidung",
+       "en": "clothes"
+      },
+      {
+       "term": "leer",
+       "en": "empty"
+      },
+      {
+       "term": "der Stapel",
+       "en": "pile"
+      },
+      {
+       "term": "zum Schluss",
+       "en": "finally"
+      },
+      {
+       "term": "aussehen",
+       "en": "to look"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why is Lukas tidying his room?",
+       "answer": "His parents are coming tomorrow.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "Where does he put the clothes and the books?",
+       "answer": "The clothes go in the wardrobe, the books on the shelf.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "Where are the empty bottles, and where does he take them?",
+       "answer": "Under the desk; he takes them to the kitchen.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What does he do at the end?",
+       "answer": "He hangs a new picture on the wall above the sofa.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Leg den Brief bitte auf ___ Tisch!",
+     "answer": "den",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Hund liegt hinter ___ Sofa.",
+     "answer": "dem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich gehe jetzt in ___ Küche.",
+     "answer": "die",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "We'll meet in front of the station.",
+     "answer": "Wir treffen uns vor dem Bahnhof.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with stellen.",
+     "prompt": "Das Glas steht auf dem Tisch. → Ich stelle …",
+     "answer": "Ich stelle das Glas auf den Tisch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your room or desk in 3–4 sentences using at least three two-way prepositions.",
+     "answer": "Mein Schreibtisch steht am Fenster. Auf dem Schreibtisch liegen mein Laptop und zwei Bücher. Über dem Bett hängt ein Foto von meiner Familie. Unter dem Tisch steht eine Tasche.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 3"
+  },
+  {
+   "id": "de05",
+   "title": "Modal verbs and separable verbs",
+   "level": "A2",
+   "summary": "können, müssen, wollen, dürfen, sollen, möchten and verbs like aufstehen or anrufen.",
+   "notes": [
+    {
+     "heading": "Modal verb forms",
+     "text": "In the singular, modals change their vowel and ich/er have no ending: können → ich kann, du kannst, er kann; müssen → muss, musst, muss; wollen → will, willst, will; dürfen → darf, darfst, darf; sollen → soll, sollst, soll; möchten → möchte, möchtest, möchte. Plural forms are regular: wir können, ihr könnt, sie können.",
+     "examples": [
+      {
+       "t": "Ich kann gut schwimmen.",
+       "en": "I can swim well."
+      },
+      {
+       "t": "Er will Arzt werden.",
+       "en": "He wants to become a doctor."
+      }
+     ]
+    },
+    {
+     "heading": "The sentence bracket",
+     "text": "The modal is in position 2, the infinitive goes to the very end.",
+     "examples": [
+      {
+       "t": "Ich muss heute lange arbeiten.",
+       "en": "I have to work late today."
+      },
+      {
+       "t": "Darf ich hier rauchen?",
+       "en": "May I smoke here?"
+      }
+     ]
+    },
+    {
+     "heading": "Separable verbs",
+     "text": "In the present tense the prefix goes to the end: aufstehen → Ich stehe um sechs Uhr auf. With a modal, the whole infinitive stays together at the end: Ich muss um sechs Uhr aufstehen. Common prefixes: ab-, an-, auf-, aus-, ein-, mit-, vor-, zu-, fern-, zurück-. The prefix carries the stress.",
+     "examples": [
+      {
+       "t": "Ich rufe dich morgen an.",
+       "en": "I'll call you tomorrow."
+      },
+      {
+       "t": "Der Zug kommt um 8 Uhr an.",
+       "en": "The train arrives at 8."
+      },
+      {
+       "t": "Wir wollen am Samstag einkaufen.",
+       "en": "We want to go shopping on Saturday."
+      }
+     ]
+    },
+    {
+     "heading": "Inseparable prefixes",
+     "text": "be-, emp-, ent-, er-, ge-, miss-, ver-, zer- never separate and are not stressed: verstehen → Ich verstehe dich. bezahlen → Wir bezahlen jetzt.",
+     "examples": [
+      {
+       "t": "Ich verstehe die Frage nicht.",
+       "en": "I don't understand the question."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "aufstehen",
+     "en": "to get up"
+    },
+    {
+     "term": "anrufen",
+     "en": "to call (phone)"
+    },
+    {
+     "term": "einkaufen",
+     "en": "to go shopping"
+    },
+    {
+     "term": "fernsehen (sieht fern)",
+     "en": "to watch TV"
+    },
+    {
+     "term": "mitkommen",
+     "en": "to come along"
+    },
+    {
+     "term": "ankommen",
+     "en": "to arrive"
+    },
+    {
+     "term": "abfahren (fährt ab)",
+     "en": "to depart"
+    },
+    {
+     "term": "anfangen (fängt an)",
+     "en": "to begin"
+    },
+    {
+     "term": "verstehen",
+     "en": "to understand"
+    },
+    {
+     "term": "bezahlen",
+     "en": "to pay"
+    },
+    {
+     "term": "früh",
+     "en": "early"
+    },
+    {
+     "term": "spät",
+     "en": "late"
+    },
+    {
+     "term": "der Termin (-e)",
+     "en": "appointment"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ich ___ heute leider nicht kommen. (können)",
+     "answer": "kann",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ du morgen früh arbeiten? (müssen)",
+     "answer": "Musst",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the modal verb wollen.",
+     "prompt": "Wir kaufen ein neues Auto.",
+     "answer": "Wir wollen ein neues Auto kaufen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Build a sentence in the present tense.",
+     "prompt": "ich / anrufen / heute Abend / meine Mutter",
+     "answer": "Ich rufe heute Abend meine Mutter an.",
+     "alternatives": [
+      "Heute Abend rufe ich meine Mutter an.",
+      "Ich rufe meine Mutter heute Abend an."
+     ],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Build a sentence in the present tense.",
+     "prompt": "ich / müssen / aufstehen / um 6 Uhr",
+     "answer": "Ich muss um 6 Uhr aufstehen.",
+     "alternatives": [
+      "Um 6 Uhr muss ich aufstehen.",
+      "Ich muss um sechs Uhr aufstehen.",
+      "Um sechs Uhr muss ich aufstehen."
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Zug fährt um 8:15 Uhr ___ . (abfahren)",
+     "answer": "ab",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "May I pay by card?",
+     "answer": "Darf ich mit Karte bezahlen?",
+     "alternatives": [
+      "Kann ich mit Karte bezahlen?",
+      "Darf ich mit der Karte bezahlen?",
+      "Kann ich mit der Karte bezahlen?"
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Are you (informal) coming along? We're going shopping.",
+     "answer": "Kommst du mit? Wir gehen einkaufen.",
+     "alternatives": [
+      "Kommst du mit? Wir kaufen ein."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Frühschicht",
+     "passage": "Frau Becker ist Krankenpflegerin und arbeitet diese Woche in der Frühschicht. Sie muss schon um halb fünf aufstehen. Um sechs fängt ihre Schicht an. Mittags kauft sie schnell im Supermarkt ein. Nachmittags will sie eigentlich schlafen, aber ihr Sohn ruft oft an, denn er braucht Hilfe bei den Hausaufgaben. Abends sieht sie ein bisschen fern. Sie darf nicht zu spät ins Bett gehen, denn morgen muss sie wieder früh raus.",
+     "glossary": [
+      {
+       "term": "die Krankenpflegerin",
+       "en": "(female) nurse"
+      },
+      {
+       "term": "die Frühschicht",
+       "en": "early shift"
+      },
+      {
+       "term": "halb fünf",
+       "en": "half past four (4:30)"
+      },
+      {
+       "term": "eigentlich",
+       "en": "actually"
+      },
+      {
+       "term": "raus müssen",
+       "en": "to have to get up / get out"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What time does Frau Becker get up this week, and why?",
+       "answer": "At 4:30, because she is on the early shift, which starts at six.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "When does she do her shopping?",
+       "answer": "At midday, quickly in the supermarket.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "Why can't she always sleep in the afternoon?",
+       "answer": "Her son often calls because he needs help with his homework.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What does she do in the evening?",
+       "answer": "She watches a bit of TV and must not go to bed too late.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Hier ___ man nicht parken. (dürfen)",
+     "answer": "darf",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wann kommt dein Zug ___ ? (ankommen)",
+     "answer": "an",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Build a question.",
+     "prompt": "du / wollen / mitkommen / ?",
+     "answer": "Willst du mitkommen?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "I can't understand you (informal).",
+     "answer": "Ich kann dich nicht verstehen.",
+     "alternatives": [
+      "Ich verstehe dich nicht."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "She tidies up her room on Saturday.",
+     "answer": "Sie räumt am Samstag ihr Zimmer auf.",
+     "alternatives": [
+      "Am Samstag räumt sie ihr Zimmer auf.",
+      "Sie räumt ihr Zimmer am Samstag auf."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your morning routine in 4 sentences. Use at least two separable verbs and one modal verb.",
+     "answer": "Ich stehe um halb sieben auf. Dann mache ich Kaffee und sehe kurz die Nachrichten an. Um acht muss ich das Haus verlassen. Auf dem Weg rufe ich manchmal meine Mutter an.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 2"
+  },
+  {
+   "id": "de06",
+   "title": "The Perfekt",
+   "level": "A2",
+   "summary": "Talking about the past in speech: haben/sein + past participle.",
+   "notes": [
+    {
+     "heading": "Form",
+     "text": "haben or sein in position 2 + past participle (Partizip II) at the end.",
+     "examples": [
+      {
+       "t": "Ich habe Pizza gegessen.",
+       "en": "I ate pizza."
+      },
+      {
+       "t": "Wir sind nach Wien gefahren.",
+       "en": "We went to Vienna."
+      }
+     ]
+    },
+    {
+     "heading": "Building the participle",
+     "text": "Regular verbs: ge- + stem + -t (machen → gemacht, kaufen → gekauft, arbeiten → gearbeitet). Irregular verbs: ge- + stem + -en, often with a vowel change (essen → gegessen, trinken → getrunken, schreiben → geschrieben, nehmen → genommen, finden → gefunden). Separable verbs put ge- after the prefix (einkaufen → eingekauft, anrufen → angerufen). Verbs with an inseparable prefix or ending in -ieren have no ge- (verstehen → verstanden, bezahlen → bezahlt, studieren → studiert).",
+     "examples": [
+      {
+       "t": "Ich habe dich gestern angerufen.",
+       "en": "I called you yesterday."
+      },
+      {
+       "t": "Hast du das verstanden?",
+       "en": "Did you understand that?"
+      }
+     ]
+    },
+    {
+     "heading": "haben or sein?",
+     "text": "sein is used for movement from A to B (gehen, fahren, kommen, fliegen), change of state (aufstehen, einschlafen, werden, sterben) and for sein, bleiben and passieren. Everything else, including all verbs with a direct object, uses haben.",
+     "examples": [
+      {
+       "t": "Er ist zu Hause geblieben.",
+       "en": "He stayed at home."
+      },
+      {
+       "t": "Was ist passiert?",
+       "en": "What happened?"
+      }
+     ]
+    },
+    {
+     "heading": "When to use it",
+     "text": "The Perfekt is the normal past tense in conversation and informal writing (messages, emails to friends). Time words: gestern, letzte Woche, letztes Jahr, schon, noch nicht.",
+     "examples": [
+      {
+       "t": "Hast du schon gegessen?",
+       "en": "Have you eaten yet?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "gestern",
+     "en": "yesterday"
+    },
+    {
+     "term": "letzte Woche",
+     "en": "last week"
+    },
+    {
+     "term": "der Urlaub (-e)",
+     "en": "holiday, vacation"
+    },
+    {
+     "term": "besuchen",
+     "en": "to visit"
+    },
+    {
+     "term": "bleiben (ist geblieben)",
+     "en": "to stay"
+    },
+    {
+     "term": "passieren (ist passiert)",
+     "en": "to happen"
+    },
+    {
+     "term": "fliegen (ist geflogen)",
+     "en": "to fly"
+    },
+    {
+     "term": "verlieren (hat verloren)",
+     "en": "to lose"
+    },
+    {
+     "term": "vergessen (hat vergessen)",
+     "en": "to forget"
+    },
+    {
+     "term": "der Regenschirm (-e)",
+     "en": "umbrella"
+    },
+    {
+     "term": "regnen (hat geregnet)",
+     "en": "to rain"
+    },
+    {
+     "term": "schon",
+     "en": "already"
+    },
+    {
+     "term": "noch nicht",
+     "en": "not yet"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Gestern ___ ich lange gearbeitet.",
+     "answer": "habe",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir ___ nach Italien geflogen.",
+     "answer": "sind",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Ich kaufe ein Kleid.",
+     "answer": "Ich habe ein Kleid gekauft.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Er steht um sieben Uhr auf.",
+     "answer": "Er ist um sieben Uhr aufgestanden.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Wir besuchen unsere Freunde.",
+     "answer": "Wir haben unsere Freunde besucht.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Was passiert hier?",
+     "answer": "Was ist hier passiert?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "I forgot my umbrella.",
+     "answer": "Ich habe meinen Regenschirm vergessen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Did you (informal) sleep well?",
+     "answer": "Hast du gut geschlafen?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Eine Karte aus Hamburg",
+     "passage": "Liebe Anna, wir sind jetzt seit einer Woche in Hamburg. Am Montag hat es den ganzen Tag geregnet, deshalb sind wir ins Museum gegangen. Am Dienstag haben wir eine Hafenrundfahrt gemacht. Das hat mir sehr gut gefallen! Leider habe ich am Mittwoch mein Handy im Bus verloren. Ich bin sofort zur Polizei gegangen, aber niemand hat es gefunden. Morgen fahren wir zurück nach München. Viele Grüße, Sara",
+     "glossary": [
+      {
+       "term": "den ganzen Tag",
+       "en": "all day"
+      },
+      {
+       "term": "deshalb",
+       "en": "so, therefore"
+      },
+      {
+       "term": "die Hafenrundfahrt",
+       "en": "harbour boat tour"
+      },
+      {
+       "term": "leider",
+       "en": "unfortunately"
+      },
+      {
+       "term": "niemand",
+       "en": "nobody"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What did they do on Monday, and why?",
+       "answer": "They went to the museum because it rained all day.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What did Sara like a lot?",
+       "answer": "The harbour boat tour on Tuesday.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What happened on Wednesday?",
+       "answer": "She lost her phone on the bus. She went to the police, but nobody found it.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "When and where are they going back?",
+       "answer": "Tomorrow, to Munich.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Ich rufe dich an.",
+     "answer": "Ich habe dich angerufen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Perfekt.",
+     "prompt": "Sie bleibt zu Hause.",
+     "answer": "Sie ist zu Hause geblieben.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Hast du den Film schon ___ ? (sehen)",
+     "answer": "gesehen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "We went shopping yesterday.",
+     "answer": "Wir haben gestern eingekauft.",
+     "alternatives": [
+      "Gestern haben wir eingekauft.",
+      "Wir sind gestern einkaufen gegangen.",
+      "Gestern sind wir einkaufen gegangen."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "He studied in Berlin.",
+     "answer": "Er hat in Berlin studiert.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4–5 sentences about your last weekend in the Perfekt.",
+     "answer": "Am Samstag bin ich spät aufgestanden. Dann habe ich mit einer Freundin im Café gefrühstückt. Am Nachmittag sind wir in den Park gegangen. Am Sonntag habe ich vier Stunden Deutsch gelernt und abends einen Film gesehen.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 2"
+  },
+  {
+   "id": "de07",
+   "title": "Präteritum and Plusquamperfekt",
+   "level": "B1",
+   "summary": "The written past tense (stories, reports, news) and the past before the past.",
+   "notes": [
+    {
+     "heading": "sein, haben and modals",
+     "text": "These are used in the Präteritum even in speech. sein: ich war, du warst, er war, wir waren, ihr wart, sie waren. haben: ich hatte, du hattest, er hatte, wir hatten. Modals lose the umlaut and add -te: konnte, musste, wollte, durfte, sollte, mochte.",
+     "examples": [
+      {
+       "t": "Gestern war ich krank.",
+       "en": "Yesterday I was ill."
+      },
+      {
+       "t": "Wir mussten lange warten.",
+       "en": "We had to wait a long time."
+      }
+     ]
+    },
+    {
+     "heading": "Regular (weak) verbs",
+     "text": "Stem + -te + ending: ich machte, du machtest, er machte, wir machten, ihr machtet, sie machten. After -t/-d add -ete: arbeitete, redete. ich and er/sie/es are the same.",
+     "examples": [
+      {
+       "t": "Sie wohnte zehn Jahre in Hamburg.",
+       "en": "She lived in Hamburg for ten years."
+      }
+     ]
+    },
+    {
+     "heading": "Irregular (strong) verbs",
+     "text": "The stem vowel changes and ich/er have no ending: gehen → ging, kommen → kam, sehen → sah, finden → fand, geben → gab, fahren → fuhr, schreiben → schrieb, bleiben → blieb, nehmen → nahm, rufen → rief. Mixed verbs change the vowel and add -te: denken → dachte, bringen → brachte, wissen → wusste, kennen → kannte, nennen → nannte. Separable prefixes go to the end: ankommen → er kam an.",
+     "examples": [
+      {
+       "t": "Plötzlich klingelte das Telefon.",
+       "en": "Suddenly the phone rang."
+      },
+      {
+       "t": "Er kam um zehn Uhr an.",
+       "en": "He arrived at ten."
+      }
+     ]
+    },
+    {
+     "heading": "Plusquamperfekt",
+     "text": "hatte/war + past participle, for something that happened before another past event. Often with nachdem (the verb goes to the end of the nachdem clause).",
+     "examples": [
+      {
+       "t": "Nachdem er gegessen hatte, ging er spazieren.",
+       "en": "After he had eaten, he went for a walk."
+      },
+      {
+       "t": "Als wir ankamen, hatte der Film schon angefangen.",
+       "en": "When we arrived, the film had already started."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "damals",
+     "en": "back then"
+    },
+    {
+     "term": "plötzlich",
+     "en": "suddenly"
+    },
+    {
+     "term": "die Kindheit",
+     "en": "childhood"
+    },
+    {
+     "term": "eines Tages",
+     "en": "one day"
+    },
+    {
+     "term": "erzählen",
+     "en": "to tell (a story)"
+    },
+    {
+     "term": "klingeln",
+     "en": "to ring"
+    },
+    {
+     "term": "der Weg (-e)",
+     "en": "way, path"
+    },
+    {
+     "term": "mitnehmen (nahm mit)",
+     "en": "to take along"
+    },
+    {
+     "term": "behalten (behielt)",
+     "en": "to keep"
+    },
+    {
+     "term": "als (+ verb at the end)",
+     "en": "when (once, in the past)"
+    },
+    {
+     "term": "nachdem",
+     "en": "after (conjunction)"
+    },
+    {
+     "term": "das Fahrrad (Fahrräder)",
+     "en": "bicycle"
+    },
+    {
+     "term": "der Bauernhof (Bauernhöfe)",
+     "en": "farm"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Als Kind ___ ich keine Geschwister. (haben)",
+     "answer": "hatte",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wo ___ ihr gestern Abend? (sein)",
+     "answer": "wart",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir ___ früh nach Hause gehen. (müssen)",
+     "answer": "mussten",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Präteritum.",
+     "prompt": "Er kommt um zehn Uhr an.",
+     "answer": "Er kam um zehn Uhr an.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Präteritum.",
+     "prompt": "Sie schreibt einen langen Brief.",
+     "answer": "Sie schrieb einen langen Brief.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Präteritum.",
+     "prompt": "Wir wohnen in einer kleinen Stadt.",
+     "answer": "Wir wohnten in einer kleinen Stadt.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with nachdem: Plusquamperfekt in the nachdem clause, Präteritum in the main clause.",
+     "prompt": "Er isst. Dann geht er spazieren.",
+     "answer": "Nachdem er gegessen hatte, ging er spazieren.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Suddenly the phone rang.",
+     "answer": "Plötzlich klingelte das Telefon.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Flocke",
+     "passage": "Als Marie zwölf Jahre alt war, wohnte ihre Familie auf einem Bauernhof in der Nähe von Freiburg. Jeden Morgen musste sie mit dem Fahrrad zur Schule fahren, auch im Winter. Eines Tages fand sie auf dem Weg einen kleinen Hund. Er war nass und hatte Hunger. Marie nahm ihn mit nach Hause. Ihre Eltern wollten ihn zuerst nicht behalten, aber nach einer Woche gehörte er zur Familie. Marie nannte ihn Flocke.",
+     "glossary": [
+      {
+       "term": "in der Nähe von",
+       "en": "near"
+      },
+      {
+       "term": "nass",
+       "en": "wet"
+      },
+      {
+       "term": "zuerst",
+       "en": "at first"
+      },
+      {
+       "term": "die Flocke",
+       "en": "flake"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where did Marie live when she was twelve?",
+       "answer": "On a farm near Freiburg.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "How did she get to school?",
+       "answer": "By bike every morning, even in winter.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What state was the dog in?",
+       "answer": "It was wet and hungry.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What did her parents think at first, and what happened later?",
+       "answer": "At first they didn't want to keep it, but after a week it was part of the family.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Ich ___ dich gestern anrufen, aber ich hatte keine Zeit. (wollen)",
+     "answer": "wollte",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Präteritum.",
+     "prompt": "Wir fahren nach Paris.",
+     "answer": "Wir fuhren nach Paris.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the Präteritum.",
+     "prompt": "Du bist sehr müde.",
+     "answer": "Du warst sehr müde.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "She didn't know the answer.",
+     "answer": "Sie wusste die Antwort nicht.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "After he had finished his work, he went home.",
+     "answer": "Nachdem er seine Arbeit beendet hatte, ging er nach Hause.",
+     "alternatives": [
+      "Nachdem er seine Arbeit beendet hatte, fuhr er nach Hause.",
+      "Nachdem er mit der Arbeit fertig war, ging er nach Hause."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4–5 sentences in the Präteritum about a memory from your childhood.",
+     "answer": "Als ich acht Jahre alt war, wohnten wir in Daegu. Mein Großvater hatte einen kleinen Garten. Jeden Sommer halfen wir ihm bei der Arbeit. Eines Tages fanden wir dort eine Katze. Wir nannten sie Nabi.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 3, 5 and 7"
+  },
+  {
+   "id": "de08",
+   "title": "Adjective endings",
+   "level": "B1",
+   "summary": "Adjectives before nouns after der-words, ein-words and with no article.",
+   "notes": [
+    {
+     "heading": "After der, die, das (and dieser, jeder, welcher)",
+     "text": "Only two endings: -e in the nominative singular (all genders) and in the accusative feminine and neuter; -en everywhere else (masculine accusative, all dative, all genitive, all plural).",
+     "examples": [
+      {
+       "t": "der alte Mann, die alte Frau, das alte Haus",
+       "en": "the old man, woman, house"
+      },
+      {
+       "t": "Ich kenne den alten Mann.",
+       "en": "I know the old man."
+      },
+      {
+       "t": "mit den alten Freunden",
+       "en": "with the old friends"
+      }
+     ]
+    },
+    {
+     "heading": "After ein, kein, mein …",
+     "text": "Where the article does not show the gender, the adjective does: ein alter Mann (masc. nom.), ein altes Haus (neuter nom./acc.). Otherwise the pattern is like after der: eine alte Frau, einen alten Mann, mit einem alten Freund, keine alten Häuser.",
+     "examples": [
+      {
+       "t": "Das ist ein teures Auto.",
+       "en": "That is an expensive car."
+      },
+      {
+       "t": "Ich suche einen warmen Mantel.",
+       "en": "I'm looking for a warm coat."
+      }
+     ]
+    },
+    {
+     "heading": "No article",
+     "text": "The adjective takes the ending the definite article would have: kalter Kaffee (der), frische Milch (die), kaltes Wasser (das), mit kaltem Wasser (dem), alte Häuser (die, plural). Exception: genitive masculine/neuter takes -en (trotz schlechten Wetters).",
+     "examples": [
+      {
+       "t": "Ich trinke gern schwarzen Tee.",
+       "en": "I like drinking black tea."
+      },
+      {
+       "t": "Bei schönem Wetter gehen wir spazieren.",
+       "en": "When the weather is nice we go for a walk."
+      }
+     ]
+    },
+    {
+     "heading": "Predicate adjectives and spelling",
+     "text": "After sein, werden, bleiben the adjective has no ending: Das Haus ist alt. Adjectives in -el and -er (after a diphthong) drop the e: dunkel → ein dunkles Zimmer, teuer → ein teures Auto.",
+     "examples": [
+      {
+       "t": "Das Zimmer ist dunkel. Es ist ein dunkles Zimmer.",
+       "en": "The room is dark. It's a dark room."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "neu",
+     "en": "new"
+    },
+    {
+     "term": "alt",
+     "en": "old"
+    },
+    {
+     "term": "groß",
+     "en": "big, tall"
+    },
+    {
+     "term": "klein",
+     "en": "small"
+    },
+    {
+     "term": "teuer",
+     "en": "expensive"
+    },
+    {
+     "term": "billig / günstig",
+     "en": "cheap / reasonably priced"
+    },
+    {
+     "term": "hell",
+     "en": "bright, light"
+    },
+    {
+     "term": "dunkel",
+     "en": "dark"
+    },
+    {
+     "term": "frisch",
+     "en": "fresh"
+    },
+    {
+     "term": "bequem",
+     "en": "comfortable"
+    },
+    {
+     "term": "gemütlich",
+     "en": "cosy"
+    },
+    {
+     "term": "ruhig",
+     "en": "quiet"
+    },
+    {
+     "term": "modern",
+     "en": "modern"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Der ___ Kollege kommt aus Wien. (neu)",
+     "answer": "neue",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich suche einen ___ Mantel. (warm)",
+     "answer": "warmen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir wohnen in einem ___ Haus. (alt)",
+     "answer": "alten",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das ist ein ___ Auto. (teuer)",
+     "answer": "teures",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich trinke gern ___ Kaffee. (schwarz, no article)",
+     "answer": "schwarzen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Sie hat ___ Augen. (blau, no article, plural)",
+     "answer": "blaue",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "The small café has very good cake.",
+     "answer": "Das kleine Café hat sehr guten Kuchen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm looking for a cheap flat with a big kitchen.",
+     "answer": "Ich suche eine billige Wohnung mit einer großen Küche.",
+     "alternatives": [
+      "Ich suche eine günstige Wohnung mit einer großen Küche."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Wohnungsanzeige",
+     "passage": "Schöne 2-Zimmer-Wohnung in ruhiger Lage! Die helle Wohnung liegt im dritten Stock eines gepflegten Altbaus. Sie hat ein großes Wohnzimmer mit einem kleinen Balkon, ein gemütliches Schlafzimmer und eine moderne Küche. Das Bad ist neu. Die nächste U-Bahn-Station ist nur fünf Minuten entfernt. Miete: 950 Euro warm. Ideal für ruhige Nichtraucher. Haustiere sind leider nicht erlaubt.",
+     "glossary": [
+      {
+       "term": "die Lage",
+       "en": "location"
+      },
+      {
+       "term": "der Stock",
+       "en": "floor, storey"
+      },
+      {
+       "term": "gepflegt",
+       "en": "well-kept"
+      },
+      {
+       "term": "der Altbau",
+       "en": "old (pre-war) building"
+      },
+      {
+       "term": "warm (Miete)",
+       "en": "including heating"
+      },
+      {
+       "term": "erlaubt",
+       "en": "allowed"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "On which floor is the flat, and in what kind of building?",
+       "answer": "On the third floor of a well-kept old building.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "Describe the living room.",
+       "answer": "It is big and has a small balcony.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "How far is the nearest underground station?",
+       "answer": "Only five minutes away.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "Who is the flat ideal for, and what is not allowed?",
+       "answer": "Quiet non-smokers. Pets are not allowed.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Mit dem ___ Zug sind wir schneller. (neu)",
+     "answer": "neuen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Er trägt ein ___ Hemd. (weiß)",
+     "answer": "weißes",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Bei ___ Wetter gehen wir spazieren. (schön, no article)",
+     "answer": "schönem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Kennst du die ___ Nachbarn? (neu)",
+     "answer": "neuen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "I bought a red dress.",
+     "answer": "Ich habe ein rotes Kleid gekauft.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your home or your favourite café in 4 sentences with at least four adjectives in front of nouns.",
+     "answer": "Mein Lieblingscafé ist ein kleines Café in einer ruhigen Straße. Es hat große Fenster und alte Holztische. Dort gibt es frischen Kuchen und sehr guten Kaffee. Am Wochenende sitze ich gern in der gemütlichen Ecke.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 3 and 6"
+  },
+  {
+   "id": "de09",
+   "title": "Subordinate clauses and connectors",
+   "level": "B1",
+   "summary": "weil, dass, wenn, ob, obwohl, als – and the difference from denn, deshalb, trotzdem.",
+   "notes": [
+    {
+     "heading": "Verb to the end",
+     "text": "Subordinating conjunctions (weil, dass, wenn, ob, obwohl, als, bevor, nachdem, während, damit) send the conjugated verb to the end of their clause. A separable verb joins up again; a modal goes after the infinitive.",
+     "examples": [
+      {
+       "t": "Ich bleibe zu Hause, weil ich krank bin.",
+       "en": "I'm staying at home because I'm ill."
+      },
+      {
+       "t": "Ich glaube, dass er morgen anruft.",
+       "en": "I think he'll call tomorrow."
+      },
+      {
+       "t": "…, weil ich arbeiten muss.",
+       "en": "…, because I have to work."
+      }
+     ]
+    },
+    {
+     "heading": "Subordinate clause first",
+     "text": "If the subordinate clause comes first, it counts as position 1, so the main clause starts with its verb: verb, verb.",
+     "examples": [
+      {
+       "t": "Wenn ich Zeit habe, lese ich.",
+       "en": "When I have time, I read."
+      },
+      {
+       "t": "Obwohl es regnet, gehen wir spazieren.",
+       "en": "Although it's raining, we're going for a walk."
+      }
+     ]
+    },
+    {
+     "heading": "ob and indirect questions",
+     "text": "ob = whether (an indirect yes/no question). Indirect W-questions keep the question word and put the verb at the end.",
+     "examples": [
+      {
+       "t": "Weißt du, ob das Museum heute geöffnet ist?",
+       "en": "Do you know whether the museum is open today?"
+      },
+      {
+       "t": "Ich weiß nicht, wann der Kurs beginnt.",
+       "en": "I don't know when the course starts."
+      }
+     ]
+    },
+    {
+     "heading": "denn, deshalb, trotzdem; wenn or als?",
+     "text": "denn (because) is position 0 and keeps normal word order. deshalb (so) and trotzdem (nevertheless) are adverbs in position 1, so the verb follows directly. als is for a single event or a period in the past; wenn for the present/future and for repeated events in the past (whenever).",
+     "examples": [
+      {
+       "t": "Ich bleibe zu Hause, denn ich bin krank.",
+       "en": "I'm staying at home, for I'm ill."
+      },
+      {
+       "t": "Ich bin krank, deshalb bleibe ich zu Hause.",
+       "en": "I'm ill, so I'm staying at home."
+      },
+      {
+       "t": "Als ich ein Kind war, wohnte ich in Busan.",
+       "en": "When I was a child, I lived in Busan."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "weil",
+     "en": "because (verb at end)"
+    },
+    {
+     "term": "denn",
+     "en": "because, for (normal word order)"
+    },
+    {
+     "term": "dass",
+     "en": "that"
+    },
+    {
+     "term": "wenn",
+     "en": "if, when(ever)"
+    },
+    {
+     "term": "als",
+     "en": "when (one time in the past)"
+    },
+    {
+     "term": "ob",
+     "en": "whether"
+    },
+    {
+     "term": "obwohl",
+     "en": "although"
+    },
+    {
+     "term": "deshalb",
+     "en": "so, therefore"
+    },
+    {
+     "term": "trotzdem",
+     "en": "nevertheless, still"
+    },
+    {
+     "term": "das Homeoffice",
+     "en": "working from home"
+    },
+    {
+     "term": "die Meinung (-en)",
+     "en": "opinion"
+    },
+    {
+     "term": "der Vorteil (-e)",
+     "en": "advantage"
+    },
+    {
+     "term": "der Nachteil (-e)",
+     "en": "disadvantage"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with weil.",
+     "prompt": "Ich lerne Deutsch. Ich will in Deutschland studieren.",
+     "answer": "Ich lerne Deutsch, weil ich in Deutschland studieren will.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with dass.",
+     "prompt": "Ich glaube. Er kommt heute nicht.",
+     "answer": "Ich glaube, dass er heute nicht kommt.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it an indirect question with ob.",
+     "prompt": "Weißt du …? Ist das Museum heute geöffnet?",
+     "answer": "Weißt du, ob das Museum heute geöffnet ist?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Complete the sentence.",
+     "prompt": "Wenn ich Zeit habe, … (ich / ins Kino gehen)",
+     "answer": "Wenn ich Zeit habe, gehe ich ins Kino.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with obwohl.",
+     "prompt": "Sie geht zur Arbeit. Sie ist krank.",
+     "answer": "Sie geht zur Arbeit, obwohl sie krank ist.",
+     "alternatives": [
+      "Obwohl sie krank ist, geht sie zur Arbeit."
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with deshalb.",
+     "prompt": "Es regnet. Wir bleiben zu Hause.",
+     "answer": "Es regnet, deshalb bleiben wir zu Hause.",
+     "alternatives": [
+      "Es regnet. Deshalb bleiben wir zu Hause."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "When I was a child, I lived in Busan.",
+     "answer": "Als ich ein Kind war, wohnte ich in Busan.",
+     "alternatives": [
+      "Als ich Kind war, wohnte ich in Busan.",
+      "Als ich ein Kind war, habe ich in Busan gewohnt.",
+      "Als ich klein war, wohnte ich in Busan."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I don't know when the course starts.",
+     "answer": "Ich weiß nicht, wann der Kurs beginnt.",
+     "alternatives": [
+      "Ich weiß nicht, wann der Kurs anfängt."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Homeoffice: ja oder nein?",
+     "passage": "Viele Firmen erlauben heute Homeoffice. Herr Klein findet das gut, weil er nicht mehr eine Stunde mit dem Auto zur Arbeit fahren muss. Er sagt, dass er zu Hause konzentrierter arbeitet. Seine Kollegin Frau Yilmaz sieht das anders. Obwohl sie Zeit spart, fühlt sie sich zu Hause oft allein. Sie vermisst die Gespräche in der Kaffeeküche. Deshalb geht sie zweimal pro Woche ins Büro. Wenn beide im Büro sind, essen sie zusammen zu Mittag.",
+     "glossary": [
+      {
+       "term": "erlauben",
+       "en": "to allow"
+      },
+      {
+       "term": "konzentriert",
+       "en": "focused"
+      },
+      {
+       "term": "sparen",
+       "en": "to save"
+      },
+      {
+       "term": "vermissen",
+       "en": "to miss"
+      },
+      {
+       "term": "zu Mittag essen",
+       "en": "to have lunch"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why does Herr Klein like working from home?",
+       "answer": "He no longer has to drive an hour to work, and he concentrates better at home.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What is Frau Yilmaz's problem with it?",
+       "answer": "She often feels alone and misses the conversations in the office kitchen.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What does she do because of this?",
+       "answer": "She goes to the office twice a week.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What happens when both are in the office?",
+       "answer": "They have lunch together.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with weil.",
+     "prompt": "Ich komme zu spät. Der Bus ist nicht gekommen.",
+     "answer": "Ich komme zu spät, weil der Bus nicht gekommen ist.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences, starting with obwohl.",
+     "prompt": "Er ist müde. Er arbeitet weiter.",
+     "answer": "Obwohl er müde ist, arbeitet er weiter.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with trotzdem.",
+     "prompt": "Das Wetter ist schlecht. Wir machen einen Ausflug.",
+     "answer": "Das Wetter ist schlecht, trotzdem machen wir einen Ausflug.",
+     "alternatives": [
+      "Das Wetter ist schlecht. Trotzdem machen wir einen Ausflug."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Can you (formal) tell me whether the train is late?",
+     "answer": "Können Sie mir sagen, ob der Zug Verspätung hat?",
+     "alternatives": [
+      "Können Sie mir sagen, ob der Zug zu spät kommt?",
+      "Könnten Sie mir sagen, ob der Zug Verspätung hat?"
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with weil instead of denn.",
+     "prompt": "Ich gehe früh ins Bett, denn ich muss morgen früh aufstehen.",
+     "answer": "Ich gehe früh ins Bett, weil ich morgen früh aufstehen muss.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences giving your opinion about working from home. Use weil, obwohl, dass and deshalb.",
+     "answer": "Ich finde, dass Homeoffice viele Vorteile hat. Man spart Zeit, weil man nicht zur Arbeit fahren muss. Obwohl ich gern zu Hause arbeite, vermisse ich manchmal meine Kollegen. Deshalb gehe ich einmal pro Woche ins Büro.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 4"
+  },
+  {
+   "id": "de10",
+   "title": "Relative clauses",
+   "level": "B1",
+   "summary": "der, die, das, dessen, denen … to describe people and things.",
+   "notes": [
+    {
+     "heading": "Gender from the noun, case from the clause",
+     "text": "The relative pronoun takes its gender and number from the noun it refers to, and its case from its job inside the relative clause. The verb goes to the end. Always use a comma.",
+     "examples": [
+      {
+       "t": "Der Mann, der dort steht, ist mein Chef.",
+       "en": "The man who is standing there is my boss. (subject → der)"
+      },
+      {
+       "t": "Der Mann, den ich gestern gesehen habe, …",
+       "en": "The man (whom) I saw yesterday … (object → den)"
+      },
+      {
+       "t": "Der Mann, dem ich helfe, …",
+       "en": "The man I'm helping … (helfen + dative → dem)"
+      }
+     ]
+    },
+    {
+     "heading": "The forms",
+     "text": "Nominative: der, die, das, die (pl.). Accusative: den, die, das, die. Dative: dem, der, dem, denen. Genitive: dessen (masc./neut.), deren (fem./pl.). Note the special dative plural denen and the genitives.",
+     "examples": [
+      {
+       "t": "Die Kinder, denen ich Deutsch unterrichte, …",
+       "en": "The children I teach German to …"
+      },
+      {
+       "t": "Das ist der Kollege, dessen Auto kaputt ist.",
+       "en": "That's the colleague whose car is broken."
+      }
+     ]
+    },
+    {
+     "heading": "With a preposition",
+     "text": "The preposition comes first and decides the case.",
+     "examples": [
+      {
+       "t": "Die Stadt, in der ich wohne, ist klein.",
+       "en": "The city I live in is small."
+      },
+      {
+       "t": "Der Freund, mit dem ich reise, kommt aus Graz.",
+       "en": "The friend I'm travelling with is from Graz."
+      }
+     ]
+    },
+    {
+     "heading": "was and wo",
+     "text": "Use was after alles, etwas, nichts, das (Beste) and when referring to a whole clause. wo can replace a preposition + relative pronoun for places.",
+     "examples": [
+      {
+       "t": "Alles, was er sagt, ist wahr.",
+       "en": "Everything he says is true."
+      },
+      {
+       "t": "Das ist die Stadt, wo ich geboren bin.",
+       "en": "That's the city where I was born."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "das Unternehmen (-)",
+     "en": "company, business"
+    },
+    {
+     "term": "die Firma (Firmen)",
+     "en": "company"
+    },
+    {
+     "term": "der Chef (-s) / die Chefin",
+     "en": "boss"
+    },
+    {
+     "term": "die Abteilung (-en)",
+     "en": "department"
+    },
+    {
+     "term": "die Stelle (-n)",
+     "en": "job, position"
+    },
+    {
+     "term": "die Bewerbung (-en)",
+     "en": "job application"
+    },
+    {
+     "term": "sich bewerben (um)",
+     "en": "to apply (for)"
+    },
+    {
+     "term": "die Erfahrung (-en)",
+     "en": "experience"
+    },
+    {
+     "term": "empfehlen (empfiehlt, empfohlen)",
+     "en": "to recommend"
+    },
+    {
+     "term": "herstellen",
+     "en": "to manufacture"
+    },
+    {
+     "term": "der Kunde (-n) / die Kundin",
+     "en": "customer"
+    },
+    {
+     "term": "anbieten (bot an, angeboten)",
+     "en": "to offer"
+    },
+    {
+     "term": "kostenlos",
+     "en": "free of charge"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Das ist die Frau, ___ mir geholfen hat.",
+     "answer": "die",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Film, ___ wir gestern gesehen haben, war langweilig.",
+     "answer": "den",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Die Kinder, ___ ich Deutsch unterrichte, sind sehr nett.",
+     "answer": "denen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das ist der Kollege, ___ Auto kaputt ist.",
+     "answer": "dessen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with a relative clause.",
+     "prompt": "Ich arbeite in einer Firma. Die Firma stellt Möbel her.",
+     "answer": "Ich arbeite in einer Firma, die Möbel herstellt.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with a preposition + relative pronoun.",
+     "prompt": "Das ist die Stadt. Ich bin in der Stadt geboren.",
+     "answer": "Das ist die Stadt, in der ich geboren bin.",
+     "alternatives": [
+      "Das ist die Stadt, wo ich geboren bin."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "Is that the book you (informal) recommended to me?",
+     "answer": "Ist das das Buch, das du mir empfohlen hast?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Everything he says is true.",
+     "answer": "Alles, was er sagt, ist wahr.",
+     "alternatives": [
+      "Alles, was er sagt, stimmt."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Stellenanzeige",
+     "passage": "Wir sind ein mittelständisches Unternehmen, das seit 1985 Fahrräder herstellt. Für unsere Marketingabteilung suchen wir eine Person, die kreativ ist und gern im Team arbeitet. Sie betreuen unsere Kunden, mit denen wir in ganz Europa zusammenarbeiten. Bewerberinnen und Bewerber, deren Englisch sehr gut ist, haben einen Vorteil. Wir bieten flexible Arbeitszeiten und ein Jobticket, mit dem Sie kostenlos Bus und Bahn fahren. Bitte schicken Sie Ihre Bewerbung bis zum 15. Januar.",
+     "glossary": [
+      {
+       "term": "mittelständisch",
+       "en": "medium-sized"
+      },
+      {
+       "term": "betreuen",
+       "en": "to look after"
+      },
+      {
+       "term": "der Bewerber",
+       "en": "applicant"
+      },
+      {
+       "term": "das Jobticket",
+       "en": "public transport pass paid by the employer"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What does the company make, and since when?",
+       "answer": "Bicycles, since 1985.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What kind of person are they looking for?",
+       "answer": "Someone creative who likes working in a team, for the marketing department.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "Who has an advantage?",
+       "answer": "Applicants whose English is very good.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What does the job ticket allow you to do?",
+       "answer": "Travel by bus and train for free.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Wie heißt der Mann, ___ du gestern geholfen hast?",
+     "answer": "dem",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Die Wohnung, in ___ wir wohnen, ist sehr hell.",
+     "answer": "der",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Meine Nachbarin, ___ Sohn in Japan lebt, lernt Japanisch.",
+     "answer": "deren",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with a preposition + relative pronoun.",
+     "prompt": "Ich habe eine Kollegin. Ich verstehe mich sehr gut mit ihr.",
+     "answer": "Ich habe eine Kollegin, mit der ich mich sehr gut verstehe.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The people I work with are very friendly.",
+     "answer": "Die Leute, mit denen ich arbeite, sind sehr freundlich.",
+     "alternatives": [
+      "Die Menschen, mit denen ich arbeite, sind sehr freundlich.",
+      "Die Leute, mit denen ich zusammenarbeite, sind sehr freundlich.",
+      "Die Kollegen, mit denen ich arbeite, sind sehr freundlich."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your ideal job in 3–4 sentences using at least three relative clauses.",
+     "answer": "Ich möchte in einem Unternehmen arbeiten, das international ist. Ich suche eine Stelle, in der ich viel Deutsch sprechen kann. Ideal wären Kollegen, mit denen ich gut im Team arbeiten kann, und eine Chefin, die klare Ziele hat.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 5"
+  },
+  {
+   "id": "de11",
+   "title": "Konjunktiv II",
+   "level": "B1–B2",
+   "summary": "würde, wäre, hätte, könnte: wishes, unreal conditions, polite requests, advice and the past.",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "Most verbs: würde + infinitive (ich würde, du würdest, er würde, wir würden, ihr würdet, sie würden). Own forms that are always used: wäre (sein), hätte (haben) and the modals könnte, müsste, dürfte, sollte, wollte. Common in writing: wüsste, käme, ginge, gäbe (es gäbe = there would be).",
+     "examples": [
+      {
+       "t": "Ich würde gern reisen.",
+       "en": "I would like to travel."
+      },
+      {
+       "t": "Das wäre schön.",
+       "en": "That would be nice."
+      }
+     ]
+    },
+    {
+     "heading": "Unreal conditions and wishes",
+     "text": "wenn-clause (verb at end) + main clause, both in Konjunktiv II. Wishes often add doch or nur.",
+     "examples": [
+      {
+       "t": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+       "en": "If I were rich, I would buy a house."
+      },
+      {
+       "t": "Wenn ich doch mehr Zeit hätte!",
+       "en": "If only I had more time!"
+      }
+     ]
+    },
+    {
+     "heading": "Polite requests and advice",
+     "text": "Könnten Sie …? / Würden Sie …? / Ich hätte gern … are the standard polite forms. Advice: Du solltest … / An deiner Stelle würde ich …",
+     "examples": [
+      {
+       "t": "Könnten Sie mir bitte helfen?",
+       "en": "Could you help me, please?"
+      },
+      {
+       "t": "Du solltest mehr schlafen.",
+       "en": "You should sleep more."
+      },
+      {
+       "t": "An deiner Stelle würde ich mich bewerben.",
+       "en": "If I were you, I would apply."
+      }
+     ]
+    },
+    {
+     "heading": "The past: hätte/wäre + participle",
+     "text": "For things that did not happen: hätte or wäre (same choice as haben/sein in the Perfekt) + past participle. With a modal: hätte + infinitive + modal infinitive.",
+     "examples": [
+      {
+       "t": "Wenn ich das gewusst hätte, wäre ich gekommen.",
+       "en": "If I had known that, I would have come."
+      },
+      {
+       "t": "Ich hätte mehr lernen sollen.",
+       "en": "I should have studied more."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "der Wunsch (Wünsche)",
+     "en": "wish"
+    },
+    {
+     "term": "an deiner/Ihrer Stelle",
+     "en": "if I were you"
+    },
+    {
+     "term": "reich",
+     "en": "rich"
+    },
+    {
+     "term": "die Gelegenheit (-en)",
+     "en": "opportunity"
+    },
+    {
+     "term": "eigentlich",
+     "en": "actually, really"
+    },
+    {
+     "term": "lieber",
+     "en": "rather, preferably"
+    },
+    {
+     "term": "am liebsten",
+     "en": "most of all"
+    },
+    {
+     "term": "der Rat (Ratschläge)",
+     "en": "advice"
+    },
+    {
+     "term": "träumen von",
+     "en": "to dream of"
+    },
+    {
+     "term": "die Weltreise (-n)",
+     "en": "trip around the world"
+    },
+    {
+     "term": "sich vorstellen",
+     "en": "to imagine"
+    },
+    {
+     "term": "die Rechnung (-en)",
+     "en": "bill"
+    },
+    {
+     "term": "realistisch",
+     "en": "realistic"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Wenn ich mehr Zeit ___ , würde ich öfter Sport machen. (haben)",
+     "answer": "hätte",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ Sie mir bitte das Salz geben? (können)",
+     "answer": "Könnten",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make an unreal condition.",
+     "prompt": "Ich habe kein Auto. Ich fahre nicht ans Meer. → Wenn ich ein Auto hätte, …",
+     "answer": "Wenn ich ein Auto hätte, würde ich ans Meer fahren.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Give advice with sollte.",
+     "prompt": "Du schläfst zu wenig.",
+     "answer": "Du solltest mehr schlafen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Express it as a wish beginning with Wenn.",
+     "prompt": "Ich bin nicht in Berlin.",
+     "answer": "Wenn ich doch in Berlin wäre!",
+     "alternatives": [
+      "Wenn ich nur in Berlin wäre!",
+      "Wenn ich in Berlin wäre!"
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as an unreal condition in the past (you didn't have time, so you didn't come).",
+     "prompt": "Wenn ich Zeit habe, komme ich.",
+     "answer": "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "If I were you (informal), I would apply.",
+     "answer": "An deiner Stelle würde ich mich bewerben.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'd like a glass of water, please.",
+     "answer": "Ich hätte gern ein Glas Wasser, bitte.",
+     "alternatives": [
+      "Ich hätte gerne ein Glas Wasser, bitte.",
+      "Ich hätte gern ein Glas Wasser.",
+      "Ich möchte ein Glas Wasser, bitte."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Ein Jahr frei",
+     "passage": "„Was würdet ihr machen, wenn ihr ein Jahr frei hättet?“, fragt Jana in einem Forum. Tim antwortet: „Ich würde sofort eine Weltreise machen. Am liebsten würde ich mit dem Zug durch Asien fahren.“ Sabine schreibt: „Ich wäre lieber zu Hause. Ich hätte endlich Zeit für meinen Garten und würde Italienisch lernen.“ Paul ist realistischer: „Eigentlich hätte ich gar kein Geld für ein freies Jahr. Wenn ich es gehabt hätte, hätte ich es schon vor zehn Jahren gemacht.“",
+     "glossary": [
+      {
+       "term": "sofort",
+       "en": "immediately"
+      },
+      {
+       "term": "endlich",
+       "en": "finally"
+      },
+      {
+       "term": "gar kein",
+       "en": "no … at all"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What question does Jana ask?",
+       "answer": "What would you do if you had a year off?",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "How would Tim most like to travel?",
+       "answer": "By train through Asia, as part of a trip around the world.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What would Sabine do?",
+       "answer": "Stay at home, work in her garden and learn Italian.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What is Paul's point?",
+       "answer": "He wouldn't have the money. If he had had it, he would have done it ten years ago.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Wenn das Wetter besser ___ , könnten wir grillen. (sein)",
+     "answer": "wäre",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it a polite request with könnten.",
+     "prompt": "Geben Sie mir die Rechnung!",
+     "answer": "Könnten Sie mir bitte die Rechnung geben?",
+     "alternatives": [
+      "Könnten Sie mir die Rechnung geben?",
+      "Könnten Sie mir die Rechnung bitte geben?"
+     ],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make an unreal condition beginning with Wenn.",
+     "prompt": "Ich spreche kein Japanisch. Ich verstehe den Film nicht.",
+     "answer": "Wenn ich Japanisch sprechen würde, würde ich den Film verstehen.",
+     "alternatives": [
+      "Wenn ich Japanisch spräche, würde ich den Film verstehen.",
+      "Wenn ich Japanisch sprechen könnte, würde ich den Film verstehen.",
+      "Wenn ich Japanisch könnte, würde ich den Film verstehen.",
+      "Wenn ich Japanisch sprechen würde, verstünde ich den Film."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "You (informal) should see a doctor.",
+     "answer": "Du solltest zum Arzt gehen.",
+     "alternatives": [
+      "Du solltest einen Arzt aufsuchen.",
+      "Du solltest zur Ärztin gehen."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "If I had known that, I would have stayed at home.",
+     "answer": "Wenn ich das gewusst hätte, wäre ich zu Hause geblieben.",
+     "alternatives": [
+      "Hätte ich das gewusst, wäre ich zu Hause geblieben."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "What would you do if you passed the B2 exam? Write 4 sentences in Konjunktiv II.",
+     "answer": "Wenn ich die B2-Prüfung bestehen würde, wäre ich sehr stolz. Ich würde mit meinen Freunden feiern. Danach hätte ich mehr Zeit für Italienisch. Vielleicht würde ich mich sogar für ein Praktikum in Deutschland bewerben.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 5 and 7"
+  },
+  {
+   "id": "de12",
+   "title": "The passive",
+   "level": "B1–B2",
+   "summary": "werden + participle in all tenses, with modals, the state passive, and alternatives.",
+   "notes": [
+    {
+     "heading": "Present and Präteritum",
+     "text": "werden (conjugated) + past participle at the end. The doer is often left out; if needed: von + dative (a person), durch + accusative (a means or cause).",
+     "examples": [
+      {
+       "t": "Das Haus wird renoviert.",
+       "en": "The house is being renovated."
+      },
+      {
+       "t": "Die Brücke wurde 1890 gebaut.",
+       "en": "The bridge was built in 1890."
+      },
+      {
+       "t": "Der Patient wird vom Arzt untersucht.",
+       "en": "The patient is examined by the doctor."
+      }
+     ]
+    },
+    {
+     "heading": "Perfekt: ist … worden",
+     "text": "In the passive Perfekt the participle of werden is worden (not geworden), and the auxiliary is always sein.",
+     "examples": [
+      {
+       "t": "Der Brief ist schon abgeschickt worden.",
+       "en": "The letter has already been sent."
+      }
+     ]
+    },
+    {
+     "heading": "With modal verbs",
+     "text": "modal (position 2) + past participle + werden at the end.",
+     "examples": [
+      {
+       "t": "Das Formular muss unterschrieben werden.",
+       "en": "The form must be signed."
+      },
+      {
+       "t": "Hier darf nicht geraucht werden.",
+       "en": "Smoking is not allowed here."
+      }
+     ]
+    },
+    {
+     "heading": "State passive and alternatives",
+     "text": "sein + participle describes the resulting state: Die Tür ist geschlossen (the door is closed). Alternatives to the passive: man (Man spricht hier Deutsch), sich lassen + infinitive (Das Problem lässt sich lösen = can be solved), adjectives in -bar (lösbar = solvable).",
+     "examples": [
+      {
+       "t": "Das Problem lässt sich lösen.",
+       "en": "The problem can be solved."
+      },
+      {
+       "t": "Der Text ist gut lesbar.",
+       "en": "The text is easy to read."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "bauen",
+     "en": "to build"
+    },
+    {
+     "term": "reparieren",
+     "en": "to repair"
+    },
+    {
+     "term": "renovieren",
+     "en": "to renovate"
+    },
+    {
+     "term": "erfinden (erfunden)",
+     "en": "to invent"
+    },
+    {
+     "term": "herstellen",
+     "en": "to produce"
+    },
+    {
+     "term": "unterschreiben (unterschrieben)",
+     "en": "to sign"
+    },
+    {
+     "term": "ausfüllen",
+     "en": "to fill in"
+    },
+    {
+     "term": "eröffnen",
+     "en": "to open (officially)"
+    },
+    {
+     "term": "verbieten (verboten)",
+     "en": "to forbid"
+    },
+    {
+     "term": "das Formular (-e)",
+     "en": "form"
+    },
+    {
+     "term": "die Brücke (-n)",
+     "en": "bridge"
+    },
+    {
+     "term": "das Gebäude (-)",
+     "en": "building"
+    },
+    {
+     "term": "liefern",
+     "en": "to deliver"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Hier ___ ein neues Krankenhaus gebaut. (present passive)",
+     "answer": "wird",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive.",
+     "prompt": "Man repariert das Auto.",
+     "answer": "Das Auto wird repariert.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive (Präteritum).",
+     "prompt": "Man baute die Brücke 1890.",
+     "answer": "Die Brücke wurde 1890 gebaut.",
+     "alternatives": [
+      "1890 wurde die Brücke gebaut."
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive (Perfekt).",
+     "prompt": "Man hat den Brief schon abgeschickt.",
+     "answer": "Der Brief ist schon abgeschickt worden.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive with the modal.",
+     "prompt": "Man muss das Formular ausfüllen.",
+     "answer": "Das Formular muss ausgefüllt werden.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive, keeping the doer (von).",
+     "prompt": "Der Arzt untersucht den Patienten.",
+     "answer": "Der Patient wird vom Arzt untersucht.",
+     "alternatives": [
+      "Der Patient wird von dem Arzt untersucht."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with sich lassen.",
+     "prompt": "Das Problem kann gelöst werden.",
+     "answer": "Das Problem lässt sich lösen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "The museum was opened in 2005.",
+     "answer": "Das Museum wurde 2005 eröffnet.",
+     "alternatives": [
+      "2005 wurde das Museum eröffnet.",
+      "Das Museum ist 2005 eröffnet worden."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Wie wird Schokolade hergestellt?",
+     "passage": "Wie wird Schokolade hergestellt? Zuerst werden die Kakaobohnen geerntet und einige Tage fermentiert. Dann werden sie getrocknet und in die Fabrik transportiert. Dort werden die Bohnen geröstet und gemahlen. Die Kakaomasse wird mit Zucker und Milchpulver gemischt. Danach muss die Masse mehrere Stunden gerührt werden. Zum Schluss wird die flüssige Schokolade in Formen gegossen und gekühlt. Die erste feste Schokolade wurde übrigens 1847 in England produziert.",
+     "glossary": [
+      {
+       "term": "ernten",
+       "en": "to harvest"
+      },
+      {
+       "term": "trocknen",
+       "en": "to dry"
+      },
+      {
+       "term": "rösten",
+       "en": "to roast"
+      },
+      {
+       "term": "mahlen (gemahlen)",
+       "en": "to grind"
+      },
+      {
+       "term": "rühren",
+       "en": "to stir"
+      },
+      {
+       "term": "gießen (gegossen)",
+       "en": "to pour"
+      },
+      {
+       "term": "übrigens",
+       "en": "by the way"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What happens to the beans before they reach the factory?",
+       "answer": "They are harvested, fermented for a few days and dried.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What happens to them first in the factory?",
+       "answer": "They are roasted and ground.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What is the cocoa mass mixed with?",
+       "answer": "Sugar and milk powder.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "When and where was the first solid chocolate produced?",
+       "answer": "In 1847 in England.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive.",
+     "prompt": "In Deutschland trinkt man viel Kaffee.",
+     "answer": "In Deutschland wird viel Kaffee getrunken.",
+     "alternatives": [
+      "Viel Kaffee wird in Deutschland getrunken."
+     ],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive (Präteritum).",
+     "prompt": "Man erfand das Telefon im 19. Jahrhundert.",
+     "answer": "Das Telefon wurde im 19. Jahrhundert erfunden.",
+     "alternatives": [
+      "Im 19. Jahrhundert wurde das Telefon erfunden."
+     ],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the passive with the modal.",
+     "prompt": "Man darf hier nicht rauchen.",
+     "answer": "Hier darf nicht geraucht werden.",
+     "alternatives": [
+      "Es darf hier nicht geraucht werden."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das Paket ist gestern geliefert ___ .",
+     "answer": "worden",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The windows are being cleaned.",
+     "answer": "Die Fenster werden geputzt.",
+     "alternatives": [
+      "Die Fenster werden gereinigt.",
+      "Die Fenster werden sauber gemacht."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe in 4 passive sentences how a dish you know is prepared.",
+     "answer": "Zuerst wird der Reis gewaschen und gekocht. Dann wird das Gemüse in kleine Stücke geschnitten. Das Fleisch wird mit Sojasoße mariniert und kurz gebraten. Zum Schluss wird alles zusammen mit einem Ei serviert.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 6 and 9"
+  },
+  {
+   "id": "de13",
+   "title": "Genitive and n-nouns",
+   "level": "B2",
+   "summary": "Possession, genitive prepositions and the masculine nouns that add -n.",
+   "notes": [
+    {
+     "heading": "Genitive forms",
+     "text": "Masculine and neuter: des / eines / meines + noun with -s (or -es after one-syllable nouns and -s/-ß/-z): des Vaters, des Kindes, des Hauses. Feminine and plural: der / einer / meiner, no change to the noun. Names just add -s: Annas Buch.",
+     "examples": [
+      {
+       "t": "das Auto meines Vaters",
+       "en": "my father's car"
+      },
+      {
+       "t": "die Farbe der Wand",
+       "en": "the colour of the wall"
+      },
+      {
+       "t": "die Meinung der Experten",
+       "en": "the experts' opinion"
+      }
+     ]
+    },
+    {
+     "heading": "Genitive prepositions",
+     "text": "wegen (because of), trotz (despite), während (during), statt/anstatt (instead of), innerhalb/außerhalb (inside/outside). In everyday speech wegen and trotz are often used with the dative, but write the genitive in the exam.",
+     "examples": [
+      {
+       "t": "Wegen des Regens bleiben wir zu Hause.",
+       "en": "Because of the rain we're staying at home."
+      },
+      {
+       "t": "Trotz der Kälte gehen wir schwimmen.",
+       "en": "Despite the cold we're going swimming."
+      },
+      {
+       "t": "Während des Urlaubs habe ich viel gelesen.",
+       "en": "During the holiday I read a lot."
+      }
+     ]
+    },
+    {
+     "heading": "n-declension",
+     "text": "Some masculine nouns add -n or -en in every case except the nominative singular: der Kunde → den/dem/des Kunden. They include nouns for people and animals in -e (der Kollege, der Junge, der Löwe), nouns in -ist, -ent, -ant (der Polizist, der Student, der Praktikant), and der Mensch, der Herr (den Herrn), der Nachbar, der Bauer.",
+     "examples": [
+      {
+       "t": "Ich frage den Kollegen.",
+       "en": "I'm asking my colleague."
+      },
+      {
+       "t": "Der Polizist hilft dem Jungen.",
+       "en": "The police officer helps the boy."
+      }
+     ]
+    },
+    {
+     "heading": "Mixed exceptions",
+     "text": "A few nouns take -n in the accusative and dative and -ns in the genitive: der Name → den Namen, des Namens (also der Gedanke, der Buchstabe, der Glaube). Neuter das Herz: dem Herzen, des Herzens.",
+     "examples": [
+      {
+       "t": "Wie ist die Bedeutung des Namens?",
+       "en": "What is the meaning of the name?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "der Kunde (-n)",
+     "en": "customer"
+    },
+    {
+     "term": "der Kollege (-n)",
+     "en": "colleague"
+    },
+    {
+     "term": "der Praktikant (-en)",
+     "en": "intern"
+    },
+    {
+     "term": "der Mensch (-en)",
+     "en": "human being, person"
+    },
+    {
+     "term": "der Nachbar (-n)",
+     "en": "neighbour"
+    },
+    {
+     "term": "der Name (-ns, -n)",
+     "en": "name"
+    },
+    {
+     "term": "wegen + Gen.",
+     "en": "because of"
+    },
+    {
+     "term": "trotz + Gen.",
+     "en": "despite"
+    },
+    {
+     "term": "während + Gen.",
+     "en": "during"
+    },
+    {
+     "term": "statt + Gen.",
+     "en": "instead of"
+    },
+    {
+     "term": "der Streik (-s)",
+     "en": "strike"
+    },
+    {
+     "term": "die Verspätung (-en)",
+     "en": "delay"
+    },
+    {
+     "term": "sich entschuldigen",
+     "en": "to apologise"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Das ist das Fahrrad ___ Bruders. (mein)",
+     "answer": "meines",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wegen ___ Streiks fahren heute keine Züge. (der)",
+     "answer": "des",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Trotz ___ Kälte gehen wir schwimmen. (die)",
+     "answer": "der",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Hast du den neuen ___ schon kennengelernt? (Kollege)",
+     "answer": "Kollegen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich habe mit ___ gesprochen. (der Nachbar)",
+     "answer": "dem Nachbarn",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with a genitive instead of von.",
+     "prompt": "Das Ende von dem Film war traurig.",
+     "answer": "Das Ende des Films war traurig.",
+     "alternatives": [
+      "Das Ende des Filmes war traurig."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with während + genitive.",
+     "prompt": "Als wir Urlaub machten, hat es nur geregnet.",
+     "answer": "Während des Urlaubs hat es nur geregnet.",
+     "alternatives": [
+      "Während unseres Urlaubs hat es nur geregnet."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "The students' opinion is important.",
+     "answer": "Die Meinung der Studenten ist wichtig.",
+     "alternatives": [
+      "Die Meinung der Studierenden ist wichtig.",
+      "Die Meinung der Schüler ist wichtig."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Drei Stunden im ICE",
+     "passage": "Wegen eines technischen Problems blieb der ICE von Hamburg nach München gestern drei Stunden zwischen zwei Bahnhöfen stehen. Trotz der Hitze funktionierte die Klimaanlage nicht. Ein Sprecher der Deutschen Bahn entschuldigte sich bei den Kunden. Während der Wartezeit verteilte das Personal kostenlos Wasser. Ein Student, der zu einer Prüfung fahren wollte, sagte einem Journalisten: „Ich habe die Prüfung verpasst. Den Ärger der Passagiere kann ich gut verstehen.“",
+     "glossary": [
+      {
+       "term": "stehen bleiben",
+       "en": "to come to a stop"
+      },
+      {
+       "term": "die Hitze",
+       "en": "heat"
+      },
+      {
+       "term": "die Klimaanlage",
+       "en": "air conditioning"
+      },
+      {
+       "term": "verteilen",
+       "en": "to hand out"
+      },
+      {
+       "term": "verpassen",
+       "en": "to miss"
+      },
+      {
+       "term": "der Ärger",
+       "en": "anger, annoyance"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why did the train stop?",
+       "answer": "Because of a technical problem.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What made the situation worse?",
+       "answer": "It was hot, but the air conditioning didn't work.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What did the staff do during the wait?",
+       "answer": "They handed out free water.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What happened to the student?",
+       "answer": "He missed his exam.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Während ___ Sitzung bleibt das Handy aus. (die)",
+     "answer": "der",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der Polizist hilft dem ___ . (Junge)",
+     "answer": "Jungen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with a genitive instead of von.",
+     "prompt": "Das Haus von meiner Tante ist sehr alt.",
+     "answer": "Das Haus meiner Tante ist sehr alt.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Because of the rain we stayed at home.",
+     "answer": "Wegen des Regens sind wir zu Hause geblieben.",
+     "alternatives": [
+      "Wegen des Regens blieben wir zu Hause."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) know the customer's name?",
+     "answer": "Kennst du den Namen des Kunden?",
+     "alternatives": [
+      "Weißt du den Namen des Kunden?"
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 3–4 sentences about a recent problem (travel, work, weather) using wegen, trotz and während.",
+     "answer": "Letzte Woche war ich wegen einer Erkältung zu Hause. Trotz des Fiebers habe ich jeden Tag ein bisschen Deutsch gelernt. Während der Krankheit habe ich viele Podcasts gehört. Wegen des schlechten Wetters bin ich auch am Wochenende zu Hause geblieben.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 6 and 7"
+  },
+  {
+   "id": "de14",
+   "title": "B2 connectors, infinitive clauses and reported speech",
+   "level": "B2",
+   "summary": "zu + infinitive, um/ohne/statt … zu, damit, two-part connectors, je … desto and Konjunktiv I.",
+   "notes": [
+    {
+     "heading": "zu + infinitive",
+     "text": "After many verbs and expressions (versuchen, vergessen, anfangen, aufhören, vorhaben, Lust haben, es ist wichtig/schwer …) the second verb goes to the end with zu. Separable verbs put zu between prefix and verb: anzurufen. No zu after modal verbs.",
+     "examples": [
+      {
+       "t": "Ich habe vergessen, dich anzurufen.",
+       "en": "I forgot to call you."
+      },
+      {
+       "t": "Es ist wichtig, regelmäßig zu üben.",
+       "en": "It's important to practise regularly."
+      }
+     ]
+    },
+    {
+     "heading": "um … zu, damit, ohne … zu, statt … zu",
+     "text": "um … zu expresses purpose when both parts have the same subject; damit is used when the subjects differ (verb at the end). ohne … zu = without doing; (an)statt … zu = instead of doing.",
+     "examples": [
+      {
+       "t": "Ich lerne Deutsch, um in Wien zu arbeiten.",
+       "en": "I'm learning German in order to work in Vienna."
+      },
+      {
+       "t": "Ich spreche langsam, damit du mich verstehst.",
+       "en": "I speak slowly so that you understand me."
+      },
+      {
+       "t": "Er ging, ohne sich zu verabschieden.",
+       "en": "He left without saying goodbye."
+      }
+     ]
+    },
+    {
+     "heading": "Two-part connectors and je … desto",
+     "text": "nicht nur … sondern auch, sowohl … als auch, weder … noch, entweder … oder, zwar … aber. je + comparative (verb at the end), desto/umso + comparative + verb.",
+     "examples": [
+      {
+       "t": "Sie spricht sowohl Englisch als auch Koreanisch.",
+       "en": "She speaks both English and Korean."
+      },
+      {
+       "t": "Er trinkt weder Kaffee noch Tee.",
+       "en": "He drinks neither coffee nor tea."
+      },
+      {
+       "t": "Je mehr ich lese, desto besser verstehe ich.",
+       "en": "The more I read, the better I understand."
+      }
+     ]
+    },
+    {
+     "heading": "Konjunktiv I for reported speech",
+     "text": "Newspapers and formal reports use Konjunktiv I to report what someone said: stem + -e in the er/sie/es form (er komme, er habe, er müsse), and sein is special (er sei, sie seien). If Konjunktiv I looks the same as the indicative (usually plural), use Konjunktiv II: sie hätten.",
+     "examples": [
+      {
+       "t": "Der Minister sagte, die Lage sei stabil.",
+       "en": "The minister said the situation was stable."
+      },
+      {
+       "t": "Sie erklärte, sie habe keine Zeit.",
+       "en": "She explained that she had no time."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "die Umwelt",
+     "en": "environment"
+    },
+    {
+     "term": "der Verkehr",
+     "en": "traffic"
+    },
+    {
+     "term": "die Gesellschaft (-en)",
+     "en": "society"
+    },
+    {
+     "term": "der öffentliche Nahverkehr",
+     "en": "local public transport"
+    },
+    {
+     "term": "die Entwicklung (-en)",
+     "en": "development"
+    },
+    {
+     "term": "versuchen",
+     "en": "to try"
+    },
+    {
+     "term": "vorhaben (hat vor)",
+     "en": "to plan, intend"
+    },
+    {
+     "term": "verzichten auf + Akk.",
+     "en": "to do without"
+    },
+    {
+     "term": "nachhaltig",
+     "en": "sustainable"
+    },
+    {
+     "term": "einerseits … andererseits",
+     "en": "on the one hand … on the other hand"
+    },
+    {
+     "term": "außerdem",
+     "en": "moreover, besides"
+    },
+    {
+     "term": "angewiesen sein auf + Akk.",
+     "en": "to depend on"
+    },
+    {
+     "term": "befürchten",
+     "en": "to fear"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Rewrite with zu + infinitive.",
+     "prompt": "Ich rufe dich an. Ich habe es vergessen. → Ich habe vergessen, …",
+     "answer": "Ich habe vergessen, dich anzurufen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with um … zu.",
+     "prompt": "Sie spart Geld. Sie will ein Auto kaufen.",
+     "answer": "Sie spart Geld, um ein Auto zu kaufen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with damit.",
+     "prompt": "Ich spreche langsam. Die Kinder verstehen mich.",
+     "answer": "Ich spreche langsam, damit die Kinder mich verstehen.",
+     "alternatives": [
+      "Ich spreche langsam, damit mich die Kinder verstehen."
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with ohne … zu.",
+     "prompt": "Er ging nach Hause. Er sagte nichts.",
+     "answer": "Er ging nach Hause, ohne etwas zu sagen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join with je … desto.",
+     "prompt": "Ich übe viel. Ich spreche gut. (je mehr … desto besser)",
+     "answer": "Je mehr ich übe, desto besser spreche ich.",
+     "alternatives": [
+      "Je mehr ich übe, umso besser spreche ich."
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with weder … noch.",
+     "prompt": "Er trinkt keinen Kaffee. Er trinkt keinen Tee.",
+     "answer": "Er trinkt weder Kaffee noch Tee.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Report the statement using Konjunktiv I.",
+     "prompt": "Der Sprecher sagt: „Das Projekt ist ein Erfolg.“",
+     "answer": "Der Sprecher sagt, das Projekt sei ein Erfolg.",
+     "alternatives": [
+      "Der Sprecher sagt, dass das Projekt ein Erfolg sei."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Not only the price but also the quality is important.",
+     "answer": "Nicht nur der Preis, sondern auch die Qualität ist wichtig.",
+     "alternatives": [
+      "Nicht nur der Preis ist wichtig, sondern auch die Qualität."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Autos raus aus der Innenstadt?",
+     "passage": "Sollten Autos aus den Innenstädten verbannt werden? Einerseits gibt es gute Gründe dafür: Je weniger Autos fahren, desto sauberer ist die Luft. Außerdem hätten Fußgänger und Radfahrer mehr Platz. Andererseits sind viele Menschen auf das Auto angewiesen, zum Beispiel ältere Menschen oder Handwerker, die schwere Werkzeuge transportieren müssen. Auch Geschäfte befürchten, weniger Kunden zu haben. Ein Kompromiss wäre, den öffentlichen Nahverkehr auszubauen, um das Autofahren weniger attraktiv zu machen, ohne es ganz zu verbieten.",
+     "glossary": [
+      {
+       "term": "verbannen",
+       "en": "to ban"
+      },
+      {
+       "term": "der Grund (Gründe)",
+       "en": "reason"
+      },
+      {
+       "term": "der Handwerker",
+       "en": "tradesperson"
+      },
+      {
+       "term": "das Werkzeug",
+       "en": "tool"
+      },
+      {
+       "term": "ausbauen",
+       "en": "to expand"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Which two advantages of a ban does the text mention?",
+       "answer": "Cleaner air and more space for pedestrians and cyclists.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "Which groups depend on the car?",
+       "answer": "Older people and tradespeople who have to carry heavy tools.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "What do shops fear?",
+       "answer": "Having fewer customers.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What compromise does the author suggest?",
+       "answer": "Expanding public transport to make driving less attractive, without banning it completely.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Join with um … zu.",
+     "prompt": "Ich gehe in die Bibliothek. Ich will in Ruhe lernen.",
+     "answer": "Ich gehe in die Bibliothek, um in Ruhe zu lernen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with zu + infinitive.",
+     "prompt": "Ich habe keine Lust. Ich koche heute. → Ich habe keine Lust, …",
+     "answer": "Ich habe keine Lust, heute zu kochen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with sowohl … als auch.",
+     "prompt": "Sie spricht Englisch. Sie spricht auch Koreanisch.",
+     "answer": "Sie spricht sowohl Englisch als auch Koreanisch.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Report the statement using Konjunktiv I.",
+     "prompt": "Die Firma erklärt: „Wir haben keine Probleme.“",
+     "answer": "Die Firma erklärt, sie habe keine Probleme.",
+     "alternatives": [
+      "Die Firma erklärt, dass sie keine Probleme habe."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The older I get, the less I sleep.",
+     "answer": "Je älter ich werde, desto weniger schlafe ich.",
+     "alternatives": [
+      "Je älter ich werde, umso weniger schlafe ich."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Exam-style task: in about 80 words, give your opinion on banning cars from city centres. Use einerseits/andererseits, je … desto and um … zu.",
+     "answer": "Ich finde, dass Autos in der Innenstadt stark reduziert werden sollten. Einerseits brauchen manche Menschen das Auto, zum Beispiel Handwerker oder ältere Leute. Andererseits ist die Luft in vielen Städten sehr schlecht. Je weniger Autos fahren, desto ruhiger und gesünder wird die Stadt. Um das zu erreichen, sollte man den öffentlichen Nahverkehr billiger machen und mehr Radwege bauen. Ein komplettes Verbot halte ich aber nicht für realistisch.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Weeks 6, 8 and 9"
+  }
+ ]
+}

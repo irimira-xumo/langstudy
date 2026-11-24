@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>LangStudy</title>
+  <meta name="description" content="Daily German (Goethe B2) and Italian (CILS A2) study notebook.">
+  <meta name="theme-color" content="#fbf8f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b1a18" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='10' y='6' width='44' height='52' rx='6' fill='%23fbf8f1' stroke='%232f5d9a' stroke-width='4'/%3E%3Cline x1='20' y1='8' x2='20' y2='56' stroke='%23e5a3a3' stroke-width='3'/%3E%3Cline x1='26' y1='22' x2='46' y2='22' stroke='%232f5d9a' stroke-width='3'/%3E%3Cline x1='26' y1='32' x2='46' y2='32' stroke='%232f5d9a' stroke-width='3'/%3E%3Cline x1='26' y1='42' x2='40' y2='42' stroke='%232f5d9a' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try {
+      var s = JSON.parse(localStorage.getItem("langstudy.v1") || "{}");
+      if (s.theme === "light" || s.theme === "dark") document.documentElement.dataset.theme = s.theme;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/today">LangStudy</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/today" data-nav="today">Today</a>
+        <a href="#/de" data-nav="de">Deutsch</a>
+        <a href="#/it" data-nav="it">Italiano</a>
+      </nav>
+      <details class="menu" id="menu">
+        <summary aria-label="Settings and backup">⋯</summary>
+        <div class="menu-panel">
+          <div class="menu-title">Theme</div>
+          <div class="row" role="group" aria-label="Theme">
+            <button class="chip" data-action="theme" data-value="auto">Auto</button>
+            <button class="chip" data-action="theme" data-value="light">Light</button>
+            <button class="chip" data-action="theme" data-value="dark">Dark</button>
+          </div>
+          <hr>
+          <label class="check"><input type="checkbox" id="opt-lenient" data-action="lenient">
+            <span>Accept answers with missing umlauts or accents (ä → a/ae, ß → ss, è → e), with a warning</span></label>
+          <hr>
+          <div class="menu-title">Backup</div>
+          <div class="row">
+            <button class="btn small" data-action="export">Export progress</button>
+            <button class="btn small" data-action="import">Import…</button>
+          </div>
+          <input type="file" id="import-file" accept="application/json,.json" hidden>
+          <hr>
+          <button class="btn small ghost" data-action="reset">Reset all progress…</button>
+        </div>
+      </details>
+    </div>
+  </header>
+  <main id="app"><div class="loading">Loading…</div></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3747 @@
+{
+ "language": "Italian",
+ "code": "it",
+ "speechLang": "it-IT",
+ "goal": "CILS A2",
+ "examDate": "June 2027",
+ "progression": "attempt",
+ "units": [
+  {
+   "id": "it01",
+   "title": "Pronunciation and greetings",
+   "level": "A1",
+   "summary": "How Italian sounds, and the phrases you need to say hello, goodbye and your name.",
+   "notes": [
+    {
+     "heading": "Vowels and double consonants",
+     "text": "The five vowels a, e, i, o, u are always pronounced clearly, even at the end of a word. Double consonants are held longer, and the difference changes the meaning: pala (shovel) vs. palla (ball), nono (ninth) vs. nonno (grandfather).",
+     "examples": [
+      {
+       "t": "nonno, palla, mamma",
+       "en": "grandfather, ball, mum"
+      }
+     ]
+    },
+    {
+     "heading": "c and g: hard or soft?",
+     "text": "Before a, o, u, and before h, c and g are hard (k, g): casa, gatto, chiave, ghiaccio. Before e and i they are soft (ch as in church, j as in jam): cena, ciao, gelato, giorno. In ciao and giorno the i only makes the sound soft; you don't hear it as a separate vowel.",
+     "examples": [
+      {
+       "t": "casa – cena – chiave – ciao",
+       "en": "house – dinner – key – hi/bye"
+      },
+      {
+       "t": "gatto – gelato – ghiaccio – giorno",
+       "en": "cat – ice cream – ice – day"
+      }
+     ]
+    },
+    {
+     "heading": "gn, gli, sc and stress",
+     "text": "gn sounds like ny in canyon (bagno, signora). gli sounds like lli in million (famiglia, figlio). sc before e/i sounds like sh (pesce, scena); before a, o, u, h it is sk (scuola, schiena). Most words are stressed on the second-to-last syllable; a written accent marks a stressed final vowel: città, caffè, perché.",
+     "examples": [
+      {
+       "t": "signora, famiglia, pesce, scuola",
+       "en": "madam, family, fish, school"
+      }
+     ]
+    },
+    {
+     "heading": "Greetings and set phrases",
+     "text": "Learn these as fixed phrases for now; the grammar behind them comes in later units. Informal (tu) is for friends, family and children; formal (Lei) is for strangers, shop staff and older people. Ciao = hi and bye (informal). Buongiorno = good morning/good day; buonasera = good evening (from mid-afternoon); buonanotte = good night (going to bed). Arrivederci = goodbye.",
+     "examples": [
+      {
+       "t": "Come ti chiami? – Mi chiamo Shao.",
+       "en": "What's your name? (informal) – My name is Shao."
+      },
+      {
+       "t": "Come si chiama?",
+       "en": "What's your name? (formal)"
+      },
+      {
+       "t": "Come stai? – Bene, grazie. E tu?",
+       "en": "How are you? (informal) – Fine, thanks. And you?"
+      },
+      {
+       "t": "Come sta? – Bene, grazie. E Lei?",
+       "en": "How are you? (formal) – Fine, thanks. And you?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "ciao",
+     "en": "hi / bye (informal)"
+    },
+    {
+     "term": "buongiorno",
+     "en": "good morning, good day"
+    },
+    {
+     "term": "buonasera",
+     "en": "good evening"
+    },
+    {
+     "term": "buonanotte",
+     "en": "good night"
+    },
+    {
+     "term": "arrivederci",
+     "en": "goodbye"
+    },
+    {
+     "term": "a presto",
+     "en": "see you soon"
+    },
+    {
+     "term": "a domani",
+     "en": "see you tomorrow"
+    },
+    {
+     "term": "grazie",
+     "en": "thank you"
+    },
+    {
+     "term": "prego",
+     "en": "you're welcome"
+    },
+    {
+     "term": "per favore",
+     "en": "please"
+    },
+    {
+     "term": "scusa / scusi",
+     "en": "excuse me, sorry (informal / formal)"
+    },
+    {
+     "term": "piacere",
+     "en": "nice to meet you"
+    },
+    {
+     "term": "sì / no",
+     "en": "yes / no"
+    },
+    {
+     "term": "bene",
+     "en": "well, fine"
+    },
+    {
+     "term": "signora / signore",
+     "en": "madam, Mrs / sir, Mr"
+    }
+   ],
+   "practice": [
+    {
+     "type": "translate",
+     "prompt": "Good evening! (to a shop assistant at 7 pm)",
+     "answer": "Buonasera!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "translate",
+     "prompt": "What's your name? (informal)",
+     "answer": "Come ti chiami?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "translate",
+     "prompt": "My name is Shao.",
+     "answer": "Mi chiamo Shao.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "translate",
+     "prompt": "How are you? (informal) – Fine, thanks. And you?",
+     "answer": "Come stai? Bene, grazie. E tu?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Excuse me! (formal, to a stranger)",
+     "answer": "Scusi!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "instruction": "Pronunciation",
+     "prompt": "Is the c in “cena” hard or soft? Answer hard or soft.",
+     "answer": "soft",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "instruction": "Pronunciation",
+     "prompt": "Is the ch in “chiave” pronounced like k or like ch in “church”? Answer k or ch.",
+     "answer": "k",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "write",
+     "prompt": "Write a short dialogue (4 lines) between you and a new classmate: say hello, ask names, say nice to meet you, say goodbye.",
+     "answer": "– Ciao! Come ti chiami?\n– Mi chiamo Giulia. E tu?\n– Mi chiamo Shao. Piacere!\n– Piacere! Ciao, a presto!",
+     "alternatives": [],
+     "check": "self",
+     "id": "p8"
+    },
+    {
+     "type": "reading",
+     "title": "Buongiorno, signora!",
+     "passage": "Marco: Buongiorno, signora!\nSignora Bianchi: Buongiorno! Come sta?\nMarco: Bene, grazie. E Lei?\nSignora Bianchi: Bene, grazie. Scusi, come si chiama?\nMarco: Mi chiamo Marco. E Lei?\nSignora Bianchi: Mi chiamo Anna Bianchi. Piacere!\nMarco: Piacere, signora. Arrivederci!\nSignora Bianchi: Arrivederci, a presto!\nLuca: Ciao, Marco! Come stai?\nMarco: Ciao, Luca! Bene, grazie. E tu?\nLuca: Bene, grazie! Ciao, a domani!\nMarco: Ciao!",
+     "glossary": [],
+     "questions": [
+      {
+       "prompt": "Is the conversation between Marco and Signora Bianchi formal or informal? How can you tell?",
+       "answer": "Formal: they say Come sta?, E Lei?, Scusi and Arrivederci.",
+       "check": "self",
+       "id": "p9a"
+      },
+      {
+       "prompt": "What is the signora's full name?",
+       "answer": "Anna Bianchi.",
+       "check": "self",
+       "id": "p9b"
+      },
+      {
+       "prompt": "How does Marco greet Luca? Is it formal or informal?",
+       "answer": "Ciao, Luca! – informal.",
+       "check": "self",
+       "id": "p9c"
+      },
+      {
+       "prompt": "What does Luca say at the end, and what does it mean?",
+       "answer": "Ciao, a domani! – Bye, see you tomorrow.",
+       "check": "self",
+       "id": "p9d"
+      }
+     ],
+     "id": "p9"
+    }
+   ],
+   "test": [
+    {
+     "type": "translate",
+     "prompt": "Good morning, madam!",
+     "answer": "Buongiorno, signora!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "translate",
+     "prompt": "Thank you! – You're welcome.",
+     "answer": "Grazie! Prego.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "translate",
+     "prompt": "Nice to meet you. See you soon!",
+     "answer": "Piacere. A presto!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Sorry! (informal, to a friend)",
+     "answer": "Scusa!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "fill",
+     "instruction": "Pronunciation",
+     "prompt": "Is the g in “gelato” hard or soft? Answer hard or soft.",
+     "answer": "soft",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write what you would say (a) to greet a friend in the morning and say goodbye, and (b) to greet an older neighbour (a woman) in the evening and say goodbye.",
+     "answer": "(a) Ciao! Come stai? … Ciao, a presto!\n(b) Buonasera, signora! Come sta? … Arrivederci, signora!",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "October"
+  },
+  {
+   "id": "it02",
+   "title": "essere and subject pronouns",
+   "level": "A1",
+   "summary": "I am, you are …: saying who you are and where you are from.",
+   "notes": [
+    {
+     "heading": "Subject pronouns",
+     "text": "io (I), tu (you, informal), lui (he), lei (she), Lei (you, formal – written with a capital L), noi (we), voi (you, plural), loro (they). Because the verb ending already shows the person, Italians usually leave the pronoun out: Sono Shao. Use it only for emphasis or contrast.",
+     "examples": [
+      {
+       "t": "Sono Shao.",
+       "en": "I'm Shao."
+      },
+      {
+       "t": "Io sono di Seul, lui è di Roma.",
+       "en": "I'm from Seoul, he's from Rome."
+      }
+     ]
+    },
+    {
+     "heading": "essere (to be)",
+     "text": "io sono, tu sei, lui/lei/Lei è, noi siamo, voi siete, loro sono. Careful: è (is) has an accent; e without accent means and. sono is both I am and they are.",
+     "examples": [
+      {
+       "t": "Sei italiana?",
+       "en": "Are you Italian? (to a woman)"
+      },
+      {
+       "t": "Siamo a casa.",
+       "en": "We're at home."
+      }
+     ]
+    },
+    {
+     "heading": "Negatives and questions",
+     "text": "Put non directly before the verb. A question has the same word order as a statement; only your voice rises at the end.",
+     "examples": [
+      {
+       "t": "Non sono italiana.",
+       "en": "I'm not Italian."
+      },
+      {
+       "t": "Paolo è di Milano?",
+       "en": "Is Paolo from Milan?"
+      }
+     ]
+    },
+    {
+     "heading": "Where from, where, and describing people",
+     "text": "di + city = from: Sono di Seul. Di dove sei? = Where are you from? a + city = in/at: Sono a Roma. Words describing a person (nationalities, simpatico) end in -o for a man and -a for a woman: coreano/coreana, italiano/italiana, simpatico/simpatica. Words in -ese are the same for both: inglese, giapponese, francese, cinese. Jobs follow essere without an article: Sono studentessa.",
+     "examples": [
+      {
+       "t": "Marco è italiano. Giulia è italiana.",
+       "en": "Marco is Italian. Giulia is Italian."
+      },
+      {
+       "t": "Paul è inglese e anche Kate è inglese.",
+       "en": "Paul is English and Kate is English too."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "io, tu, lui, lei, Lei",
+     "en": "I, you, he, she, you (formal)"
+    },
+    {
+     "term": "noi, voi, loro",
+     "en": "we, you (plural), they"
+    },
+    {
+     "term": "italiano / italiana",
+     "en": "Italian (m / f)"
+    },
+    {
+     "term": "coreano / coreana",
+     "en": "Korean (m / f)"
+    },
+    {
+     "term": "tedesco / tedesca",
+     "en": "German (m / f)"
+    },
+    {
+     "term": "inglese",
+     "en": "English (m and f)"
+    },
+    {
+     "term": "giapponese",
+     "en": "Japanese (m and f)"
+    },
+    {
+     "term": "di dove?",
+     "en": "where from?"
+    },
+    {
+     "term": "studente / studentessa",
+     "en": "student (m / f)"
+    },
+    {
+     "term": "insegnante",
+     "en": "teacher (m and f)"
+    },
+    {
+     "term": "simpatico / simpatica",
+     "en": "nice, friendly (m / f)"
+    },
+    {
+     "term": "a casa",
+     "en": "at home"
+    },
+    {
+     "term": "adesso",
+     "en": "now"
+    },
+    {
+     "term": "anche",
+     "en": "also, too"
+    },
+    {
+     "term": "o",
+     "en": "or"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ coreana.",
+     "answer": "sono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ di Roma?",
+     "answer": "sei",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ a casa.",
+     "answer": "siamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ di Milano?",
+     "answer": "siete",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro ___ di Napoli.",
+     "answer": "sono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make the sentence negative.",
+     "prompt": "Sono tedesca.",
+     "answer": "Non sono tedesca.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "Where are you from? (informal) – I'm from Seoul.",
+     "answer": "Di dove sei? Sono di Seul.",
+     "alternatives": [
+      "Di dove sei? Io sono di Seul."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Is Anna Italian? – No, she's English.",
+     "answer": "Anna è italiana? No, è inglese.",
+     "alternatives": [
+      "Anna è italiana? No, lei è inglese."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Are you Italian, madam? (formal)",
+     "answer": "Lei è italiana, signora?",
+     "alternatives": [
+      "È italiana, signora?",
+      "Signora, Lei è italiana?",
+      "Signora, è italiana?"
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Ciao, sono Sofia!",
+     "passage": "Ciao! Io sono Sofia. Sono italiana, di Bologna, e sono studentessa. Paul è inglese, di Londra. Anche lui è studente. Adesso Paul e io siamo a Bologna. Hana è giapponese, di Osaka. Lei non è studentessa: è insegnante. Hana è simpatica! E voi? Di dove siete? Siete di Roma o di Milano? Io adesso sono a casa. Ciao, a presto!",
+     "glossary": [],
+     "questions": [
+      {
+       "prompt": "Where is Sofia from, and what does she do?",
+       "answer": "She is Italian, from Bologna, and she is a student.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "What nationality is Paul, and what does he do?",
+       "answer": "He is English, from London, and he is also a student.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "Where are Sofia and Paul now?",
+       "answer": "In Bologna.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What is Hana's job?",
+       "answer": "She is a teacher, not a student. She is Japanese, from Osaka.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Lei ___ di Firenze.",
+     "answer": "è",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ a casa adesso?",
+     "answer": "siete",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "translate",
+     "prompt": "We're in Rome now.",
+     "answer": "Adesso siamo a Roma.",
+     "alternatives": [
+      "Siamo a Roma adesso.",
+      "Noi siamo a Roma adesso.",
+      "Adesso noi siamo a Roma."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm not Italian, I'm Korean. (woman speaking; men use -o)",
+     "answer": "Non sono italiana, sono coreana.",
+     "alternatives": [
+      "Non sono italiano, sono coreano.",
+      "Io non sono italiana, sono coreana.",
+      "Io non sono italiano, sono coreano."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Are you a student? (informal, to a woman)",
+     "answer": "Sei studentessa?",
+     "alternatives": [
+      "Tu sei studentessa?"
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Introduce yourself in 3–4 sentences: name, nationality, city and job.",
+     "answer": "Ciao! Sono Shao. Sono coreana, di Seul. Adesso sono a casa, a Seul. Sono insegnante. (Use your own job: studentessa, insegnante …)",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "October"
+  },
+  {
+   "id": "it03",
+   "title": "Nouns and articles",
+   "level": "A1",
+   "summary": "Masculine and feminine, singular and plural, il / lo / la / l' and un / uno / una / un'.",
+   "notes": [
+    {
+     "heading": "Gender",
+     "text": "Nouns ending in -o are usually masculine (il libro), nouns ending in -a usually feminine (la casa). Nouns ending in -e can be either (il pane, la notte), so always learn the article with the noun. A few exceptions: il problema (m), la mano (f), la foto (f).",
+     "examples": [
+      {
+       "t": "il libro, la casa, il pane, la notte",
+       "en": "the book, the house, the bread, the night"
+      }
+     ]
+    },
+    {
+     "heading": "Plural",
+     "text": "-o → -i (libro → libri), -a → -e (casa → case), -e → -i (pane → pani, notte → notti). Nouns ending in an accented vowel or a consonant don't change: il caffè → i caffè, la città → le città, il bar → i bar. Spelling: amica → amiche (h keeps the k sound), but amico → amici (soft c).",
+     "examples": [
+      {
+       "t": "due libri, due case, due città",
+       "en": "two books, two houses, two cities"
+      }
+     ]
+    },
+    {
+     "heading": "The definite article (the)",
+     "text": "Masculine: il before most consonants (il libro → i libri); lo before s + consonant, z, gn, ps, y (lo studente, lo zaino → gli studenti, gli zaini); l' before a vowel (l'amico → gli amici). Feminine: la (la casa → le case); l' before a vowel (l'amica → le amiche).",
+     "examples": [
+      {
+       "t": "il libro, lo zaino, l'amico",
+       "en": "the book, the backpack, the friend (m)"
+      },
+      {
+       "t": "i libri, gli zaini, gli amici",
+       "en": "the books, the backpacks, the friends"
+      }
+     ]
+    },
+    {
+     "heading": "The indefinite article (a/an) and di",
+     "text": "un (masculine), uno (masculine before s + consonant, z …), una (feminine), un' (feminine before a vowel). Note: un amico (no apostrophe, masculine) but un'amica. To show possession use di: la casa di Marco = Marco's house. ecco = here is / here are.",
+     "examples": [
+      {
+       "t": "un libro, uno zaino, una casa, un'amica",
+       "en": "a book, a backpack, a house, a friend (f)"
+      },
+      {
+       "t": "Ecco la casa di Giulia.",
+       "en": "Here is Giulia's house."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "il libro",
+     "en": "book"
+    },
+    {
+     "term": "la casa",
+     "en": "house, home"
+    },
+    {
+     "term": "l'amico / l'amica",
+     "en": "friend (m / f)"
+    },
+    {
+     "term": "lo studente",
+     "en": "student (m)"
+    },
+    {
+     "term": "lo zaino",
+     "en": "backpack"
+    },
+    {
+     "term": "la città",
+     "en": "city"
+    },
+    {
+     "term": "il caffè",
+     "en": "coffee"
+    },
+    {
+     "term": "la penna",
+     "en": "pen"
+    },
+    {
+     "term": "la chiave",
+     "en": "key"
+    },
+    {
+     "term": "il tavolo",
+     "en": "table"
+    },
+    {
+     "term": "la sedia",
+     "en": "chair"
+    },
+    {
+     "term": "il letto",
+     "en": "bed"
+    },
+    {
+     "term": "la stanza",
+     "en": "room"
+    },
+    {
+     "term": "la ragazza / il ragazzo",
+     "en": "girl / boy"
+    },
+    {
+     "term": "ecco / qui",
+     "en": "here is, here are / here"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ zaino (the)",
+     "answer": "lo",
+     "alternatives": [
+      "lo zaino"
+     ],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ amica (the)",
+     "answer": "l'",
+     "alternatives": [
+      "l'amica"
+     ],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ studente (a)",
+     "answer": "uno",
+     "alternatives": [
+      "uno studente"
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ amica (a)",
+     "answer": "un'",
+     "alternatives": [
+      "un'amica"
+     ],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the plural with the article.",
+     "prompt": "il libro",
+     "answer": "i libri",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the plural with the article.",
+     "prompt": "lo studente",
+     "answer": "gli studenti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the plural with the article.",
+     "prompt": "la città",
+     "answer": "le città",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Here are the books and the pens.",
+     "answer": "Ecco i libri e le penne.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "The keys are here.",
+     "answer": "Le chiavi sono qui.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "La stanza di Giulia",
+     "passage": "Giulia è una studentessa di Siena. Adesso è a Roma, a casa di un'amica, Elena. La casa di Elena è un appartamento in centro. Ecco la stanza di Giulia: ecco il letto, la sedia, il tavolo e lo zaino. Ecco i libri e le penne. E le chiavi? Sono qui! Elena è una ragazza simpatica, e anche Giulia è simpatica. Ecco il caffè di Elena: grazie!",
+     "glossary": [
+      {
+       "term": "l'appartamento",
+       "en": "flat, apartment"
+      },
+      {
+       "term": "in centro",
+       "en": "in the centre (of town)"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where is Giulia from, and where is she now?",
+       "answer": "From Siena. Now she is in Rome, at the home of her friend Elena.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "Where is Elena's flat?",
+       "answer": "In the centre of town.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "Name three things in Giulia's room.",
+       "answer": "The bed, the chair, the table, the backpack, the books, the pens (any three).",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "Where are the keys?",
+       "answer": "Here.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Write the plural with the article.",
+     "prompt": "l'amico",
+     "answer": "gli amici",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the plural with the article.",
+     "prompt": "la sedia",
+     "answer": "le sedie",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ zaino (a)",
+     "answer": "uno",
+     "alternatives": [
+      "uno zaino"
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the article.",
+     "prompt": "___ problema (the)",
+     "answer": "il",
+     "alternatives": [
+      "il problema"
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Here is the key.",
+     "answer": "Ecco la chiave.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "translate",
+     "prompt": "The friends (m) are in Rome.",
+     "answer": "Gli amici sono a Roma.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t6"
+    }
+   ],
+   "schedule": "October"
+  },
+  {
+   "id": "it04",
+   "title": "avere, c'è / ci sono and numbers",
+   "level": "A1",
+   "summary": "Having things, saying your age, what there is, and counting to fifty.",
+   "notes": [
+    {
+     "heading": "avere (to have)",
+     "text": "io ho, tu hai, lui/lei/Lei ha, noi abbiamo, voi avete, loro hanno. The h is silent: ho sounds like o.",
+     "examples": [
+      {
+       "t": "Ho un fratello e una sorella.",
+       "en": "I have a brother and a sister."
+      },
+      {
+       "t": "Avete un cane?",
+       "en": "Do you (plural) have a dog?"
+      }
+     ]
+    },
+    {
+     "heading": "Expressions with avere",
+     "text": "Italian uses avere where English uses to be: avere … anni (to be … years old), avere fame (hungry), sete (thirsty), freddo (cold), caldo (hot), sonno (sleepy), fretta (in a hurry).",
+     "examples": [
+      {
+       "t": "Quanti anni hai? – Ho trent'anni.",
+       "en": "How old are you? – I'm thirty."
+      },
+      {
+       "t": "Ho fame e sete.",
+       "en": "I'm hungry and thirsty."
+      }
+     ]
+    },
+    {
+     "heading": "c'è and ci sono",
+     "text": "c'è (there is) + singular, ci sono (there are) + plural. Questions and negatives work as usual: C'è un bar? Non c'è un supermercato.",
+     "examples": [
+      {
+       "t": "C'è un bar in via Roma.",
+       "en": "There's a bar in Via Roma."
+      },
+      {
+       "t": "Ci sono due gatti.",
+       "en": "There are two cats."
+      }
+     ]
+    },
+    {
+     "heading": "Numbers 0–50",
+     "text": "zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci, undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti. Tens: trenta, quaranta, cinquanta. Add units directly: ventidue, trentacinque; with uno and otto drop the final vowel of the ten: ventuno, ventotto, trentuno, trentotto. tre at the end takes an accent: ventitré.",
+     "examples": [
+      {
+       "t": "ventuno, ventotto, trentatré",
+       "en": "21, 28, 33"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "il fratello",
+     "en": "brother"
+    },
+    {
+     "term": "la sorella",
+     "en": "sister"
+    },
+    {
+     "term": "il padre",
+     "en": "father"
+    },
+    {
+     "term": "la madre",
+     "en": "mother"
+    },
+    {
+     "term": "il figlio / la figlia",
+     "en": "son / daughter"
+    },
+    {
+     "term": "il cane",
+     "en": "dog"
+    },
+    {
+     "term": "il gatto",
+     "en": "cat"
+    },
+    {
+     "term": "la macchina",
+     "en": "car"
+    },
+    {
+     "term": "la bici",
+     "en": "bike (plural: le bici)"
+    },
+    {
+     "term": "il bar",
+     "en": "café-bar"
+    },
+    {
+     "term": "il supermercato",
+     "en": "supermarket"
+    },
+    {
+     "term": "la via",
+     "en": "street"
+    },
+    {
+     "term": "avere fame / sete",
+     "en": "to be hungry / thirsty"
+    },
+    {
+     "term": "quanti / quante?",
+     "en": "how many? (m / f)"
+    },
+    {
+     "term": "ma",
+     "en": "but"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ due sorelle.",
+     "answer": "ho",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quanti anni ___ tu?",
+     "answer": "hai",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Marco e Anna ___ un cane.",
+     "answer": "hanno",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ un bar in via Dante? (there is)",
+     "answer": "C'è",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ tre gatti a casa. (there are)",
+     "answer": "Ci sono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm hungry and thirsty.",
+     "answer": "Ho fame e sete.",
+     "alternatives": [
+      "Ho fame e ho sete."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "prompt": "Anna is 25 years old.",
+     "answer": "Anna ha venticinque anni.",
+     "alternatives": [
+      "Anna ha 25 anni."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "We have a car, but we don't have a dog.",
+     "answer": "Abbiamo una macchina, ma non abbiamo un cane.",
+     "alternatives": [
+      "Noi abbiamo una macchina, ma non abbiamo un cane."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "fill",
+     "instruction": "Numbers",
+     "prompt": "Write 18 in words.",
+     "answer": "diciotto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "fill",
+     "instruction": "Numbers",
+     "prompt": "Write 31 in words.",
+     "answer": "trentuno",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "La famiglia di Paolo",
+     "passage": "Ciao! Sono Paolo e ho trentadue anni. Ho una sorella, Chiara, e un fratello, Davide. Chiara ha ventotto anni e ha due figli: un figlio di cinque anni e una figlia di tre anni. Davide ha un gatto, Micio. La casa di Chiara è in via Roma, a Bologna. In via Roma ci sono due bar e c'è un supermercato. Io non ho una macchina, ma ho una bici. Adesso ho fame: ciao!",
+     "glossary": [
+      {
+       "term": "un figlio di cinque anni",
+       "en": "a five-year-old son"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "How old is Paolo?",
+       "answer": "He is 32.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "How many children does Chiara have, and how old are they?",
+       "answer": "Two: a son of five and a daughter of three.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What is there in Via Roma?",
+       "answer": "Two bars and a supermarket (and Chiara's house).",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "Does Paolo have a car?",
+       "answer": "No, he has a bike.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Voi ___ fretta?",
+     "answer": "avete",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Non ___ un supermercato in via Dante. (there isn't)",
+     "answer": "c'è",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "translate",
+     "prompt": "How old are you? (informal) – I'm 30.",
+     "answer": "Quanti anni hai? Ho trent'anni.",
+     "alternatives": [
+      "Quanti anni hai? Ho trenta anni.",
+      "Quanti anni hai? Ho 30 anni."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "There are two cats and a dog.",
+     "answer": "Ci sono due gatti e un cane.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "We are cold.",
+     "answer": "Abbiamo freddo.",
+     "alternatives": [
+      "Noi abbiamo freddo."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 3–4 sentences about your family: brothers and sisters, their ages, any pets.",
+     "answer": "Ho un fratello. Lui ha trentacinque anni. Non ho sorelle. Ho un gatto, Nabi: ha tre anni.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "October"
+  },
+  {
+   "id": "it05",
+   "title": "Present tense: -are verbs",
+   "level": "A1",
+   "summary": "The biggest verb group: parlare, abitare, lavorare, studiare …",
+   "notes": [
+    {
+     "heading": "Endings",
+     "text": "Remove -are and add: -o, -i, -a, -iamo, -ate, -ano. parlare: parlo, parli, parla, parliamo, parlate, parlano. In parlano the stress is on the first syllable: PAR-la-no.",
+     "examples": [
+      {
+       "t": "Parlo coreano e inglese.",
+       "en": "I speak Korean and English."
+      },
+      {
+       "t": "Lavorate oggi?",
+       "en": "Are you (plural) working today?"
+      }
+     ]
+    },
+    {
+     "heading": "Spelling changes",
+     "text": "Verbs in -care and -gare add h before i to keep the hard sound: cercare → tu cerchi, noi cerchiamo; pagare → tu paghi, noi paghiamo. Verbs in -iare keep only one i: studiare → tu studi, noi studiamo; mangiare → tu mangi, noi mangiamo.",
+     "examples": [
+      {
+       "t": "Cerchi le chiavi?",
+       "en": "Are you looking for the keys?"
+      },
+      {
+       "t": "Mangiamo la pizza.",
+       "en": "We're eating pizza."
+      }
+     ]
+    },
+    {
+     "heading": "Uses of the present",
+     "text": "The present covers what you do now, what you do regularly, and plans for the near future: Domani lavoro = I'm working tomorrow. Lei (formal you) uses the lui/lei form: Lei parla inglese?",
+     "examples": [
+      {
+       "t": "Domani lavoro.",
+       "en": "I'm working tomorrow."
+      },
+      {
+       "t": "Signora, Lei parla inglese?",
+       "en": "Madam, do you speak English?"
+      }
+     ]
+    },
+    {
+     "heading": "Where you live: a and in",
+     "text": "abitare a + city (Abito a Seul), abitare in + country (Abito in Corea). la mattina / la sera / il sabato = in the morning / in the evening / on Saturdays.",
+     "examples": [
+      {
+       "t": "Abito a Seul, in Corea.",
+       "en": "I live in Seoul, in Korea."
+      },
+      {
+       "t": "La sera guardo la televisione.",
+       "en": "In the evening I watch TV."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "parlare",
+     "en": "to speak"
+    },
+    {
+     "term": "abitare",
+     "en": "to live (reside)"
+    },
+    {
+     "term": "lavorare",
+     "en": "to work"
+    },
+    {
+     "term": "studiare",
+     "en": "to study"
+    },
+    {
+     "term": "mangiare",
+     "en": "to eat"
+    },
+    {
+     "term": "cercare",
+     "en": "to look for"
+    },
+    {
+     "term": "pagare",
+     "en": "to pay"
+    },
+    {
+     "term": "comprare",
+     "en": "to buy"
+    },
+    {
+     "term": "ascoltare",
+     "en": "to listen to"
+    },
+    {
+     "term": "guardare",
+     "en": "to watch, look at"
+    },
+    {
+     "term": "cucinare",
+     "en": "to cook"
+    },
+    {
+     "term": "aspettare",
+     "en": "to wait (for)"
+    },
+    {
+     "term": "oggi / domani",
+     "en": "today / tomorrow"
+    },
+    {
+     "term": "la mattina / la sera",
+     "en": "in the morning / in the evening"
+    },
+    {
+     "term": "sempre / spesso / molto",
+     "en": "always / often / a lot"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ in un ufficio. (lavorare)",
+     "answer": "lavoro",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ italiano? (parlare)",
+     "answer": "parli",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ la pizza. (mangiare)",
+     "answer": "mangiamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ a Milano? (abitare)",
+     "answer": "abitate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro ___ la musica. (ascoltare)",
+     "answer": "ascoltano",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ con la carta? (pagare)",
+     "answer": "paghi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lei ___ medicina. (studiare)",
+     "answer": "studia",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I live in Korea and I work in Seoul.",
+     "answer": "Abito in Corea e lavoro a Seul.",
+     "alternatives": [
+      "Io abito in Corea e lavoro a Seul."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (plural) watch TV in the evening?",
+     "answer": "Guardate la televisione la sera?",
+     "alternatives": [
+      "Guardate la tv la sera?",
+      "La sera guardate la televisione?",
+      "La sera guardate la tv?"
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Laura e Marta",
+     "passage": "Laura abita a Torino e lavora in una banca. Marta, una collega, abita con Laura. La mattina Laura e Marta aspettano il tram insieme. La sera Laura cucina e Marta guarda la televisione. Il sabato Laura studia inglese e ascolta la musica. Marta non studia: compra il pane e il caffè e paga il conto. E tu? Studi la sera? Cucini spesso?",
+     "glossary": [
+      {
+       "term": "la banca",
+       "en": "bank"
+      },
+      {
+       "term": "la collega",
+       "en": "(female) colleague"
+      },
+      {
+       "term": "insieme",
+       "en": "together"
+      },
+      {
+       "term": "il conto",
+       "en": "bill"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where does Laura work?",
+       "answer": "In a bank in Turin.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "How do Laura and Marta get to work?",
+       "answer": "They wait for the tram together in the morning.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What does each of them do in the evening?",
+       "answer": "Laura cooks and Marta watches TV.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What does Laura do on Saturdays?",
+       "answer": "She studies English and listens to music.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Noi ___ il treno. (aspettare)",
+     "answer": "aspettiamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ le chiavi? (cercare)",
+     "answer": "cerchi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "I ragazzi ___ molto. (parlare)",
+     "answer": "parlano",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you speak English? (formal)",
+     "answer": "Lei parla inglese?",
+     "alternatives": [
+      "Parla inglese?"
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Today I'm cooking and you (informal) are paying.",
+     "answer": "Oggi io cucino e tu paghi.",
+     "alternatives": [
+      "Oggi cucino io e paghi tu.",
+      "Oggi cucino e tu paghi."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences about a typical day using at least four different -are verbs.",
+     "answer": "La mattina studio l'italiano. Lavoro in un ufficio. La sera cucino e mangio a casa. Poi ascolto la musica o guardo la televisione.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "November"
+  },
+  {
+   "id": "it06",
+   "title": "Present tense: -ere and -ire verbs",
+   "level": "A1",
+   "summary": "prendere, leggere, dormire, capire … including the -isc- verbs.",
+   "notes": [
+    {
+     "heading": "-ere verbs",
+     "text": "prendere: prendo, prendi, prende, prendiamo, prendete, prendono. Others: leggere, scrivere, vivere, vedere, chiudere, rispondere, credere. Watch the sound in leggere: leggo (hard g) but leggi, legge (soft g).",
+     "examples": [
+      {
+       "t": "Prendo un caffè.",
+       "en": "I'll have a coffee."
+      },
+      {
+       "t": "Leggiamo il giornale.",
+       "en": "We read the newspaper."
+      }
+     ]
+    },
+    {
+     "heading": "-ire verbs (type 1)",
+     "text": "dormire: dormo, dormi, dorme, dormiamo, dormite, dormono. The endings are the same as -ere except voi (-ite). Others: partire, sentire, aprire, offrire.",
+     "examples": [
+      {
+       "t": "Dormi bene?",
+       "en": "Do you sleep well?"
+      },
+      {
+       "t": "Partiamo domani.",
+       "en": "We leave tomorrow."
+      }
+     ]
+    },
+    {
+     "heading": "-ire verbs with -isc-",
+     "text": "capire: capisco, capisci, capisce, capiamo, capite, capiscono. -isc- appears only in io, tu, lui/lei and loro. Others: finire, preferire, pulire. Sound: capisco (sk) but capisci (sh).",
+     "examples": [
+      {
+       "t": "Non capisco.",
+       "en": "I don't understand."
+      },
+      {
+       "t": "Preferisci il tè o il caffè?",
+       "en": "Do you prefer tea or coffee?"
+      }
+     ]
+    },
+    {
+     "heading": "Useful words",
+     "text": "non … mai = never (Non pulisco mai = I never clean). il sabato / la domenica = on Saturdays / on Sundays.",
+     "examples": [
+      {
+       "t": "Lucia non pulisce mai la casa.",
+       "en": "Lucia never cleans the house."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "prendere",
+     "en": "to take, to have (food/drink)"
+    },
+    {
+     "term": "leggere",
+     "en": "to read"
+    },
+    {
+     "term": "scrivere",
+     "en": "to write"
+    },
+    {
+     "term": "vivere",
+     "en": "to live"
+    },
+    {
+     "term": "vedere",
+     "en": "to see"
+    },
+    {
+     "term": "dormire",
+     "en": "to sleep"
+    },
+    {
+     "term": "partire",
+     "en": "to leave, depart"
+    },
+    {
+     "term": "aprire",
+     "en": "to open"
+    },
+    {
+     "term": "capire (-isc-)",
+     "en": "to understand"
+    },
+    {
+     "term": "finire (-isc-)",
+     "en": "to finish"
+    },
+    {
+     "term": "preferire (-isc-)",
+     "en": "to prefer"
+    },
+    {
+     "term": "pulire (-isc-)",
+     "en": "to clean"
+    },
+    {
+     "term": "il giornale",
+     "en": "newspaper"
+    },
+    {
+     "term": "la lettera",
+     "en": "letter"
+    },
+    {
+     "term": "tardi",
+     "en": "late"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ un caffè. (prendere)",
+     "answer": "prendo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ molto? (dormire)",
+     "answer": "dormi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lui non ___ l'italiano. (capire)",
+     "answer": "capisce",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ un libro. (leggere)",
+     "answer": "leggiamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro ___ il tè. (preferire)",
+     "answer": "preferiscono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ domani? (partire)",
+     "answer": "partite",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io ___ la casa il sabato. (pulire)",
+     "answer": "pulisco",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "Sorry, I don't understand. (informal)",
+     "answer": "Scusa, non capisco.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "She writes a letter and reads the newspaper.",
+     "answer": "Scrive una lettera e legge il giornale.",
+     "alternatives": [
+      "Lei scrive una lettera e legge il giornale."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with loro as the subject.",
+     "prompt": "Lui apre la porta.",
+     "answer": "Loro aprono la porta.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Tre ragazze a Napoli",
+     "passage": "Francesca vive a Napoli con due amiche, Sara e Lucia. Le tre ragazze sono studentesse. Francesca legge molto e scrive per un giornale online. Sara preferisce la musica: suona la chitarra. Lucia dorme molto e non pulisce mai la casa! Il sabato Francesca e Sara puliscono, e Lucia prende un caffè con un amico. La domenica le tre ragazze partono per il mare e la sera tornano a casa.",
+     "glossary": [
+      {
+       "term": "suonare la chitarra",
+       "en": "to play the guitar"
+      },
+      {
+       "term": "il mare",
+       "en": "the sea, the seaside"
+      },
+      {
+       "term": "tornare",
+       "en": "to come back"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Who does Francesca live with?",
+       "answer": "With two friends, Sara and Lucia, in Naples.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What does Francesca do?",
+       "answer": "She reads a lot and writes for an online newspaper.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What is the problem with Lucia?",
+       "answer": "She sleeps a lot and never cleans the house.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What do the girls do on Sundays?",
+       "answer": "They go to the seaside and come back home in the evening.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Tu ___ la porta? (aprire)",
+     "answer": "apri",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il film ___ tardi. (finire)",
+     "answer": "finisce",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ la lettera? (scrivere)",
+     "answer": "scrivete",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) prefer tea or coffee?",
+     "answer": "Preferisci il tè o il caffè?",
+     "alternatives": [
+      "Tu preferisci il tè o il caffè?",
+      "Preferisci tè o caffè?"
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "We live in Seoul and we leave tomorrow.",
+     "answer": "Viviamo a Seul e partiamo domani.",
+     "alternatives": [
+      "Abitiamo a Seul e partiamo domani."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences about your reading and sleeping habits, using -ere and -ire verbs (leggere, dormire, preferire, capire …).",
+     "answer": "La sera leggo un libro. Preferisco i libri in inglese. Dormo sette ore. Capisco un po' l'italiano.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "November"
+  },
+  {
+   "id": "it07",
+   "title": "Adjectives",
+   "level": "A1",
+   "summary": "Agreement, position, colours and molto.",
+   "notes": [
+    {
+     "heading": "Agreement",
+     "text": "Adjectives agree with the noun in gender and number. -o adjectives have four forms: alto, alta, alti, alte. -e adjectives have two: grande (m/f singular), grandi (m/f plural). A mixed group of masculine and feminine takes the masculine plural.",
+     "examples": [
+      {
+       "t": "un ragazzo alto, una ragazza alta",
+       "en": "a tall boy, a tall girl"
+      },
+      {
+       "t": "due ragazzi alti, due ragazze alte",
+       "en": "two tall boys, two tall girls"
+      },
+      {
+       "t": "una casa grande, due case grandi",
+       "en": "a big house, two big houses"
+      }
+     ]
+    },
+    {
+     "heading": "Position",
+     "text": "Most adjectives come after the noun, and colours and nationalities always do: una macchina rossa, un libro interessante. A few short common ones (piccolo, grande, nuovo, vecchio) can also go before the noun: una piccola casa. After the noun is always correct.",
+     "examples": [
+      {
+       "t": "un libro interessante",
+       "en": "an interesting book"
+      },
+      {
+       "t": "La casa è grande.",
+       "en": "The house is big."
+      }
+     ]
+    },
+    {
+     "heading": "Colours and invariable adjectives",
+     "text": "rosso, bianco, nero, giallo have four forms. verde and marrone have two. blu, rosa and viola never change: una borsa blu, due borse blu.",
+     "examples": [
+      {
+       "t": "una borsa blu, due penne nere",
+       "en": "a blue bag, two black pens"
+      }
+     ]
+    },
+    {
+     "heading": "Plurals in -co/-ca, -go/-ga and molto",
+     "text": "Feminine plurals always add h: bianca → bianche, simpatica → simpatiche, lunga → lunghe. Masculine: bianco → bianchi, lungo → lunghi, but simpatico → simpatici (soft c). molto before an adjective means very and does not change: molto bella, molto caro.",
+     "examples": [
+      {
+       "t": "Le ragazze sono simpatiche.",
+       "en": "The girls are nice."
+      },
+      {
+       "t": "L'appartamento è molto caro.",
+       "en": "The flat is very expensive."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "grande",
+     "en": "big"
+    },
+    {
+     "term": "piccolo",
+     "en": "small"
+    },
+    {
+     "term": "alto / basso",
+     "en": "tall / short"
+    },
+    {
+     "term": "bello / brutto",
+     "en": "beautiful / ugly"
+    },
+    {
+     "term": "nuovo / vecchio",
+     "en": "new / old"
+    },
+    {
+     "term": "giovane",
+     "en": "young"
+    },
+    {
+     "term": "interessante",
+     "en": "interesting"
+    },
+    {
+     "term": "noioso",
+     "en": "boring"
+    },
+    {
+     "term": "caro",
+     "en": "expensive; dear"
+    },
+    {
+     "term": "economico",
+     "en": "cheap"
+    },
+    {
+     "term": "rosso",
+     "en": "red"
+    },
+    {
+     "term": "verde",
+     "en": "green"
+    },
+    {
+     "term": "bianco",
+     "en": "white"
+    },
+    {
+     "term": "nero",
+     "en": "black"
+    },
+    {
+     "term": "blu",
+     "en": "blue (invariable)"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "una macchina (rosso)",
+     "answer": "una macchina rossa",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "due libri (interessante)",
+     "answer": "due libri interessanti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "le ragazze (simpatico)",
+     "answer": "le ragazze simpatiche",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "i gatti (bianco)",
+     "answer": "i gatti bianchi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "una borsa (blu)",
+     "answer": "una borsa blu",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make the whole sentence plural.",
+     "prompt": "La casa è vecchia.",
+     "answer": "Le case sono vecchie.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make the whole sentence plural.",
+     "prompt": "Lo studente è giovane.",
+     "answer": "Gli studenti sono giovani.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "The flat is big but very expensive.",
+     "answer": "L'appartamento è grande ma molto caro.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "I have a green bag and two black pens.",
+     "answer": "Ho una borsa verde e due penne nere.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Una lettera da Verona",
+     "passage": "Ciao Marta! Adesso abito a Verona. L'appartamento è piccolo ma molto bello. C'è una cucina nuova e ci sono due stanze grandi. I vicini sono simpatici: c'è una signora anziana con un gatto nero e ci sono due studenti tedeschi. La città è molto bella e non è cara. Il lavoro è interessante, ma i colleghi sono un po' noiosi. A presto! Giulia",
+     "glossary": [
+      {
+       "term": "la cucina",
+       "en": "kitchen"
+      },
+      {
+       "term": "il vicino",
+       "en": "neighbour"
+      },
+      {
+       "term": "anziano",
+       "en": "elderly"
+      },
+      {
+       "term": "il collega (pl. i colleghi)",
+       "en": "colleague"
+      },
+      {
+       "term": "un po'",
+       "en": "a bit"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What is Giulia's flat like?",
+       "answer": "Small but very beautiful, with a new kitchen and two big rooms.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "Who are her neighbours?",
+       "answer": "An elderly lady with a black cat and two German students. They are nice.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What does she say about Verona?",
+       "answer": "It is very beautiful and not expensive.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What does she think of her job and her colleagues?",
+       "answer": "The job is interesting, but the colleagues are a bit boring.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "le scarpe (nero)",
+     "answer": "le scarpe nere",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "gli amici (simpatico)",
+     "answer": "gli amici simpatici",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Add the adjective in the correct form.",
+     "prompt": "una camicia (verde)",
+     "answer": "una camicia verde",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make the whole sentence plural.",
+     "prompt": "Il libro è nuovo e interessante.",
+     "answer": "I libri sono nuovi e interessanti.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The girls are tall and nice.",
+     "answer": "Le ragazze sono alte e simpatiche.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your home or your city in 4 sentences with at least five adjectives.",
+     "answer": "Abito in un appartamento piccolo ma molto bello. La cucina è nuova e le stanze sono bianche. Seul è una città grande e interessante. I ristoranti sono buoni ma un po' cari.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "November"
+  },
+  {
+   "id": "it08",
+   "title": "Prepositions and articulated prepositions",
+   "level": "A1",
+   "summary": "di, a, da, in, su + the article: nel, sul, alla, dal …",
+   "notes": [
+    {
+     "heading": "Simple prepositions",
+     "text": "di (of, from a city), a (to/at; with cities), da (from; at someone's place), in (in/to; with countries and many places), con (with), su (on), per (for), tra/fra (between).",
+     "examples": [
+      {
+       "t": "Sono di Seul. Abito a Roma, in Italia.",
+       "en": "I'm from Seoul. I live in Rome, in Italy."
+      },
+      {
+       "t": "Domani ceno da Marco.",
+       "en": "Tomorrow I'm having dinner at Marco's."
+      }
+     ]
+    },
+    {
+     "heading": "Preposition + article",
+     "text": "di, a, da, in, su join with the definite article. With il: del, al, dal, nel, sul. With lo: dello, allo, dallo, nello, sullo. With l': dell', all', dall', nell', sull'. With la: della, alla, dalla, nella, sulla. With i: dei, ai, dai, nei, sui. With gli: degli, agli, dagli, negli, sugli. With le: delle, alle, dalle, nelle, sulle. con usually stays separate: con il, con la.",
+     "examples": [
+      {
+       "t": "Il libro è sul tavolo.",
+       "en": "The book is on the table."
+      },
+      {
+       "t": "Le chiavi sono nella borsa.",
+       "en": "The keys are in the bag."
+      },
+      {
+       "t": "il libro degli studenti",
+       "en": "the students' book"
+      }
+     ]
+    },
+    {
+     "heading": "a or in?",
+     "text": "a + city, and fixed phrases: a casa, a scuola, a letto. in + country or region (in Italia, in Toscana), and many places: in banca, in ufficio, in centro, in piazza, in farmacia, in cucina. With an article these become al/nel: al bar, al supermercato, nel centro della città.",
+     "examples": [
+      {
+       "t": "Lavoro in banca.",
+       "en": "I work at a bank."
+      },
+      {
+       "t": "I bambini sono a scuola.",
+       "en": "The children are at school."
+      }
+     ]
+    },
+    {
+     "heading": "Position words",
+     "text": "vicino a (near), lontano da (far from), davanti a (in front of), accanto a (next to), dietro (behind), sopra (above), sotto (under). They combine with the article: vicino alla stazione, davanti al bar, lontano dal centro.",
+     "examples": [
+      {
+       "t": "La banca è davanti alla stazione.",
+       "en": "The bank is in front of the station."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "la stazione",
+     "en": "station"
+    },
+    {
+     "term": "il centro",
+     "en": "centre"
+    },
+    {
+     "term": "la piazza",
+     "en": "square"
+    },
+    {
+     "term": "la farmacia",
+     "en": "pharmacy"
+    },
+    {
+     "term": "la libreria",
+     "en": "bookshop"
+    },
+    {
+     "term": "la chiesa",
+     "en": "church"
+    },
+    {
+     "term": "il medico",
+     "en": "doctor"
+    },
+    {
+     "term": "l'ufficio",
+     "en": "office"
+    },
+    {
+     "term": "la scuola",
+     "en": "school"
+    },
+    {
+     "term": "la scrivania",
+     "en": "desk"
+    },
+    {
+     "term": "vicino a",
+     "en": "near"
+    },
+    {
+     "term": "lontano da",
+     "en": "far from"
+    },
+    {
+     "term": "davanti a",
+     "en": "in front of"
+    },
+    {
+     "term": "accanto a",
+     "en": "next to"
+    },
+    {
+     "term": "i genitori",
+     "en": "parents"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Il gatto è ___ tavolo. (su + il)",
+     "answer": "sul",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Le chiavi sono ___ borsa. (in + la)",
+     "answer": "nella",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il treno arriva ___ stazione. (da + la)",
+     "answer": "dalla",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Abito vicino ___ università. (a + l')",
+     "answer": "all'",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il libro ___ studenti è nuovo. (di + gli)",
+     "answer": "degli",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Domani ceno ___ Marco. (at Marco's place)",
+     "answer": "da",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lavoro ___ banca.",
+     "answer": "in",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "The pens are on the desk next to the computer.",
+     "answer": "Le penne sono sulla scrivania accanto al computer.",
+     "alternatives": [
+      "Le penne sono sulla scrivania vicino al computer."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "I live in Italy, in Florence.",
+     "answer": "Abito in Italia, a Firenze.",
+     "alternatives": [
+      "Vivo in Italia, a Firenze."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Il quartiere di Elisa",
+     "passage": "Il quartiere di Elisa è molto comodo. Elisa abita in via Dante, al numero 12, vicino alla stazione. Davanti alla casa c'è una farmacia e accanto alla farmacia c'è una piccola libreria. Il supermercato è lontano dalla casa, ma la scuola dei bambini è vicina: è in piazza, accanto alla chiesa. Elisa lavora in un ufficio nel centro della città. La sera cena spesso dai genitori.",
+     "glossary": [
+      {
+       "term": "il quartiere",
+       "en": "neighbourhood"
+      },
+      {
+       "term": "comodo",
+       "en": "convenient"
+      },
+      {
+       "term": "il numero",
+       "en": "number"
+      },
+      {
+       "term": "i bambini",
+       "en": "the children"
+      },
+      {
+       "term": "cenare",
+       "en": "to have dinner"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where exactly does Elisa live?",
+       "answer": "At Via Dante 12, near the station.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "What is in front of her house, and what is next to it?",
+       "answer": "A pharmacy, and next to the pharmacy a small bookshop.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What is far from the house, and what is near?",
+       "answer": "The supermarket is far; the children's school is near, in the square next to the church.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "Where does she often have dinner in the evening?",
+       "answer": "At her parents'.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "La lettera è ___ zaino. (in + lo)",
+     "answer": "nello",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il nome ___ ragazza è Anna. (di + la)",
+     "answer": "della",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Parlo ___ studenti. (a + gli)",
+     "answer": "agli",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Domani sono ___ medico. (da + il)",
+     "answer": "dal",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "The bank is in front of the station.",
+     "answer": "La banca è davanti alla stazione.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "translate",
+     "prompt": "We are at home and the children are at school.",
+     "answer": "Siamo a casa e i bambini sono a scuola.",
+     "alternatives": [
+      "Noi siamo a casa e i bambini sono a scuola."
+     ],
+     "check": "auto",
+     "id": "t6"
+    }
+   ],
+   "schedule": "December"
+  },
+  {
+   "id": "it09",
+   "title": "Key irregular verbs",
+   "level": "A1",
+   "summary": "andare, venire, fare, stare, uscire and the modal verbs volere, potere, dovere.",
+   "notes": [
+    {
+     "heading": "andare and venire",
+     "text": "andare (to go): vado, vai, va, andiamo, andate, vanno. venire (to come): vengo, vieni, viene, veniamo, venite, vengono. andare a + city or + infinitive; in + country or place: Vado a Roma. Vado in Italia. Vado a dormire. With places that need an article: al cinema, al mare, in montagna.",
+     "examples": [
+      {
+       "t": "Vado al cinema stasera.",
+       "en": "I'm going to the cinema tonight."
+      },
+      {
+       "t": "Vieni al mare con Paolo?",
+       "en": "Are you coming to the seaside with Paolo?"
+      }
+     ]
+    },
+    {
+     "heading": "fare and stare",
+     "text": "fare (to do, make): faccio, fai, fa, facciamo, fate, fanno. Many fixed phrases: fare colazione (have breakfast), fare la spesa (do the food shopping), fare una passeggiata (go for a walk), fare la doccia. Weather: Che tempo fa? Fa caldo / freddo / bel tempo / brutto tempo. stare (to stay, to be): sto, stai, sta, stiamo, state, stanno. Now you know why Come stai? means How are you?",
+     "examples": [
+      {
+       "t": "Faccio la spesa il sabato.",
+       "en": "I do the shopping on Saturdays."
+      },
+      {
+       "t": "Oggi fa freddo.",
+       "en": "It's cold today."
+      },
+      {
+       "t": "Sto a casa.",
+       "en": "I'm staying at home."
+      }
+     ]
+    },
+    {
+     "heading": "uscire",
+     "text": "uscire (to go out): esco, esci, esce, usciamo, uscite, escono.",
+     "examples": [
+      {
+       "t": "Usciamo stasera?",
+       "en": "Shall we go out tonight?"
+      }
+     ]
+    },
+    {
+     "heading": "volere, potere, dovere + infinitive",
+     "text": "volere (to want): voglio, vuoi, vuole, vogliamo, volete, vogliono. potere (can, may): posso, puoi, può, possiamo, potete, possono. dovere (must, have to): devo, devi, deve, dobbiamo, dovete, devono. The second verb stays in the infinitive.",
+     "examples": [
+      {
+       "t": "Voglio imparare l'italiano.",
+       "en": "I want to learn Italian."
+      },
+      {
+       "t": "Posso pagare con la carta?",
+       "en": "Can I pay by card?"
+      },
+      {
+       "t": "Devo lavorare domani.",
+       "en": "I have to work tomorrow."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "andare",
+     "en": "to go"
+    },
+    {
+     "term": "venire",
+     "en": "to come"
+    },
+    {
+     "term": "fare",
+     "en": "to do, make"
+    },
+    {
+     "term": "stare",
+     "en": "to stay, to be"
+    },
+    {
+     "term": "uscire",
+     "en": "to go out"
+    },
+    {
+     "term": "volere",
+     "en": "to want"
+    },
+    {
+     "term": "potere",
+     "en": "can, to be able to"
+    },
+    {
+     "term": "dovere",
+     "en": "must, to have to"
+    },
+    {
+     "term": "il cinema",
+     "en": "cinema"
+    },
+    {
+     "term": "il mare",
+     "en": "sea, seaside"
+    },
+    {
+     "term": "la montagna",
+     "en": "mountains"
+    },
+    {
+     "term": "fare la spesa",
+     "en": "to do the food shopping"
+    },
+    {
+     "term": "fare colazione",
+     "en": "to have breakfast"
+    },
+    {
+     "term": "stasera",
+     "en": "tonight, this evening"
+    },
+    {
+     "term": "insieme",
+     "en": "together"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ al cinema stasera. (andare)",
+     "answer": "vado",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ al mare con Paolo? (venire)",
+     "answer": "vieni",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Che cosa ___ voi il sabato? (fare)",
+     "answer": "fate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ stasera. (uscire)",
+     "answer": "usciamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro non ___ venire. (potere)",
+     "answer": "possono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io ___ fare la spesa. (dovere)",
+     "answer": "devo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Che tempo ___ oggi? (fare)",
+     "answer": "fa",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I want to go to the seaside.",
+     "answer": "Voglio andare al mare.",
+     "alternatives": [
+      "Io voglio andare al mare."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Can I pay by card?",
+     "answer": "Posso pagare con la carta?",
+     "alternatives": [
+      "Posso pagare con carta?"
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "We're going to Italy together.",
+     "answer": "Andiamo in Italia insieme.",
+     "alternatives": [
+      "Insieme andiamo in Italia.",
+      "Noi andiamo in Italia insieme."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Un sabato di pioggia",
+     "passage": "Sabato Matteo vuole fare una gita in montagna con gli amici. Ma la mattina fa brutto tempo e piove. Allora gli amici stanno a casa. Matteo non vuole stare a casa: esce e va in centro. Fa la spesa al mercato e poi va da Chiara. Chiara deve studiare, ma può fare una pausa. Insieme prendono un caffè e parlano. La sera vanno al cinema. E domenica? Fa bel tempo, e tutti vanno in montagna!",
+     "glossary": [
+      {
+       "term": "la gita",
+       "en": "trip, outing"
+      },
+      {
+       "term": "piove",
+       "en": "it's raining"
+      },
+      {
+       "term": "allora",
+       "en": "so, then"
+      },
+      {
+       "term": "il mercato",
+       "en": "market"
+      },
+      {
+       "term": "la pausa",
+       "en": "break"
+      },
+      {
+       "term": "tutti",
+       "en": "everybody"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What did Matteo want to do on Saturday, and why couldn't he?",
+       "answer": "Go on a trip to the mountains with friends, but the weather was bad and it was raining.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What does Matteo do instead in the morning?",
+       "answer": "He goes out to the centre, does the shopping at the market and then goes to Chiara's.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What does Chiara have to do?",
+       "answer": "She has to study, but she can take a break.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What happens on Sunday?",
+       "answer": "The weather is good and everybody goes to the mountains.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Voi ___ al ristorante stasera? (andare)",
+     "answer": "andate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io ___ colazione a casa. (fare)",
+     "answer": "faccio",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lui ___ da Napoli. (venire)",
+     "answer": "viene",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ studiare oggi? (dovere)",
+     "answer": "devi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you want to go out tonight? (informal)",
+     "answer": "Vuoi uscire stasera?",
+     "alternatives": [
+      "Stasera vuoi uscire?",
+      "Tu vuoi uscire stasera?"
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences about your weekend plans using andare, fare, volere and potere.",
+     "answer": "Sabato vado in centro con un'amica. La mattina faccio la spesa. Domenica voglio studiare l'italiano. La sera possiamo andare al cinema.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "November"
+  },
+  {
+   "id": "it10",
+   "title": "Reflexive verbs and telling the time",
+   "level": "A1",
+   "summary": "mi sveglio, mi alzo … and Che ore sono?",
+   "notes": [
+    {
+     "heading": "Reflexive verbs",
+     "text": "The infinitive ends in -si (svegliarsi). A reflexive pronoun goes before the verb: mi, ti, si, ci, vi, si. svegliarsi: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano. Now you can see that Mi chiamo means literally I call myself.",
+     "examples": [
+      {
+       "t": "Mi sveglio alle sette.",
+       "en": "I wake up at seven."
+      },
+      {
+       "t": "A che ora ti alzi?",
+       "en": "What time do you get up?"
+      }
+     ]
+    },
+    {
+     "heading": "Common reflexive verbs",
+     "text": "alzarsi (get up), lavarsi (wash), vestirsi (get dressed: mi vesto), farsi la doccia (have a shower: mi faccio la doccia), riposarsi (rest), divertirsi (have fun: mi diverto), addormentarsi (fall asleep), prepararsi (get ready). With a modal, the pronoun goes before the modal or is attached to the infinitive: Mi devo alzare presto = Devo alzarmi presto.",
+     "examples": [
+      {
+       "t": "Ci divertiamo molto.",
+       "en": "We have a lot of fun."
+      },
+      {
+       "t": "Devo alzarmi presto.",
+       "en": "I have to get up early."
+      }
+     ]
+    },
+    {
+     "heading": "What time is it?",
+     "text": "Che ore sono? (or Che ora è?) – Sono le otto. One o'clock, midday and midnight take è: È l'una. È mezzogiorno. È mezzanotte. Minutes: Sono le otto e dieci. Sono le otto e un quarto. Sono le otto e mezza. Before the hour: Sono le nove meno dieci (8:50). In timetables Italians also use the 24-hour clock: le quindici e trenta (15:30).",
+     "examples": [
+      {
+       "t": "Sono le otto e mezza.",
+       "en": "It's half past eight."
+      },
+      {
+       "t": "È l'una e un quarto.",
+       "en": "It's quarter past one."
+      }
+     ]
+    },
+    {
+     "heading": "At what time?",
+     "text": "A che ora …? – alle + hour (alle otto, alle sei e mezza), all'una, a mezzogiorno. Parts of the day: di mattina, di pomeriggio, di sera. Days: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica; il lunedì = on Mondays. di solito = usually. Before a word starting with e, the word e (and) often becomes ed: Mi vesto ed esco.",
+     "examples": [
+      {
+       "t": "Di solito pranzo a mezzogiorno.",
+       "en": "I usually have lunch at noon."
+      },
+      {
+       "t": "Il venerdì esco con gli amici.",
+       "en": "On Fridays I go out with friends."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "svegliarsi",
+     "en": "to wake up"
+    },
+    {
+     "term": "alzarsi",
+     "en": "to get up"
+    },
+    {
+     "term": "lavarsi",
+     "en": "to wash (oneself)"
+    },
+    {
+     "term": "vestirsi",
+     "en": "to get dressed"
+    },
+    {
+     "term": "farsi la doccia",
+     "en": "to have a shower"
+    },
+    {
+     "term": "divertirsi",
+     "en": "to have fun"
+    },
+    {
+     "term": "riposarsi",
+     "en": "to rest"
+    },
+    {
+     "term": "addormentarsi",
+     "en": "to fall asleep"
+    },
+    {
+     "term": "presto",
+     "en": "early"
+    },
+    {
+     "term": "Che ore sono?",
+     "en": "What time is it?"
+    },
+    {
+     "term": "un quarto / mezza",
+     "en": "a quarter / half"
+    },
+    {
+     "term": "mezzogiorno / mezzanotte",
+     "en": "midday / midnight"
+    },
+    {
+     "term": "di solito",
+     "en": "usually"
+    },
+    {
+     "term": "andare a letto",
+     "en": "to go to bed"
+    },
+    {
+     "term": "la giornata",
+     "en": "the day (as a span of time)"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Io ___ alle sette. (svegliarsi)",
+     "answer": "mi sveglio",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "A che ora ___ tu? (alzarsi)",
+     "answer": "ti alzi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ molto alla festa. (divertirsi)",
+     "answer": "ci divertiamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro ___ in fretta. (vestirsi)",
+     "answer": "si vestono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "translate",
+     "instruction": "Telling the time",
+     "prompt": "Write the time in Italian: 8:30",
+     "answer": "Sono le otto e mezza.",
+     "alternatives": [
+      "Sono le otto e trenta.",
+      "Sono le otto e mezzo."
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "translate",
+     "instruction": "Telling the time",
+     "prompt": "Write the time in Italian: 1:15",
+     "answer": "È l'una e un quarto.",
+     "alternatives": [
+      "È l'una e quindici."
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "translate",
+     "instruction": "Telling the time",
+     "prompt": "Write the time in Italian: 8:50",
+     "answer": "Sono le nove meno dieci.",
+     "alternatives": [
+      "Sono le otto e cinquanta."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "What time do you go to bed? (informal)",
+     "answer": "A che ora vai a letto?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "I usually get up at six and have a shower.",
+     "answer": "Di solito mi alzo alle sei e mi faccio la doccia.",
+     "alternatives": [
+      "Di solito mi alzo alle sei e faccio la doccia.",
+      "Di solito mi alzo alle 6 e mi faccio la doccia.",
+      "Di solito mi alzo alle 6 e faccio la doccia."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "La giornata di Roberto",
+     "passage": "La giornata di Roberto comincia presto. Si sveglia alle sei e un quarto, ma si alza alle sei e mezza. Si fa la doccia, si veste e fa colazione. Alle sette e mezza esce di casa. Lavora in un ospedale dalle otto alle quattro. Di pomeriggio si riposa sul divano. Il venerdì sera esce con gli amici e si diverte. Di solito si addormenta a mezzanotte.",
+     "glossary": [
+      {
+       "term": "cominciare",
+       "en": "to begin"
+      },
+      {
+       "term": "uscire di casa",
+       "en": "to leave the house"
+      },
+      {
+       "term": "l'ospedale",
+       "en": "hospital"
+      },
+      {
+       "term": "il divano",
+       "en": "sofa"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "When does Roberto wake up, and when does he get up?",
+       "answer": "He wakes up at 6:15 and gets up at 6:30.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "What does he do before he leaves the house?",
+       "answer": "He has a shower, gets dressed and has breakfast.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What are his working hours, and where does he work?",
+       "answer": "From eight to four, in a hospital.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What does he do on Friday evenings?",
+       "answer": "He goes out with friends and has fun.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Voi ___ presto la domenica? (alzarsi)",
+     "answer": "vi alzate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lei ___ di pomeriggio. (riposarsi)",
+     "answer": "si riposa",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "translate",
+     "instruction": "Telling the time",
+     "prompt": "Write the time in Italian: 12:00 (midday)",
+     "answer": "È mezzogiorno.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "instruction": "Telling the time",
+     "prompt": "Write the time in Italian: 3:45",
+     "answer": "Sono le quattro meno un quarto.",
+     "alternatives": [
+      "Sono le tre e quarantacinque.",
+      "Sono le tre e tre quarti.",
+      "Sono le quindici e quarantacinque."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "I get dressed and go out at eight.",
+     "answer": "Mi vesto ed esco alle otto.",
+     "alternatives": [
+      "Mi vesto e esco alle otto."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe your typical morning in 4–5 sentences with times and at least three reflexive verbs.",
+     "answer": "Di solito mi sveglio alle sei e mezza. Mi alzo alle sette meno un quarto. Mi faccio la doccia e mi vesto. Alle sette e mezza faccio colazione. Esco di casa alle otto.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "January"
+  },
+  {
+   "id": "it11",
+   "title": "Passato prossimo with avere",
+   "level": "A1",
+   "summary": "Talking about what you did: ho mangiato, ho fatto, ho visto …",
+   "notes": [
+    {
+     "heading": "Form",
+     "text": "Present of avere + past participle: ho mangiato, hai mangiato, ha mangiato, abbiamo mangiato, avete mangiato, hanno mangiato. With avere the participle does not change for the subject: Anna ha mangiato.",
+     "examples": [
+      {
+       "t": "Ho mangiato una pizza.",
+       "en": "I ate a pizza."
+      },
+      {
+       "t": "Anna ha lavorato molto.",
+       "en": "Anna worked a lot."
+      }
+     ]
+    },
+    {
+     "heading": "Regular participles",
+     "text": "-are → -ato (parlare → parlato), -ere → -uto (credere → creduto, avere → avuto), -ire → -ito (dormire → dormito, capire → capito, finire → finito).",
+     "examples": [
+      {
+       "t": "Hai capito?",
+       "en": "Did you understand?"
+      }
+     ]
+    },
+    {
+     "heading": "Irregular participles",
+     "text": "fare → fatto, prendere → preso, leggere → letto, scrivere → scritto, vedere → visto, aprire → aperto, chiudere → chiuso, bere → bevuto, dire → detto, mettere → messo, rispondere → risposto, perdere → perso.",
+     "examples": [
+      {
+       "t": "Abbiamo fatto la spesa.",
+       "en": "We did the shopping."
+      },
+      {
+       "t": "Ho letto il giornale.",
+       "en": "I read the newspaper."
+      }
+     ]
+    },
+    {
+     "heading": "Time words",
+     "text": "ieri (yesterday), ieri sera (last night), la settimana scorsa (last week), l'anno scorso (last year), due giorni fa (two days ago). già (already) and non … ancora (not yet) go between avere and the participle.",
+     "examples": [
+      {
+       "t": "Ho già letto il libro.",
+       "en": "I've already read the book."
+      },
+      {
+       "t": "Non ho ancora finito.",
+       "en": "I haven't finished yet."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "ieri",
+     "en": "yesterday"
+    },
+    {
+     "term": "ieri sera",
+     "en": "last night, yesterday evening"
+    },
+    {
+     "term": "la settimana scorsa",
+     "en": "last week"
+    },
+    {
+     "term": "l'anno scorso",
+     "en": "last year"
+    },
+    {
+     "term": "già",
+     "en": "already"
+    },
+    {
+     "term": "non … ancora",
+     "en": "not yet"
+    },
+    {
+     "term": "fatto",
+     "en": "done, made (fare)"
+    },
+    {
+     "term": "preso",
+     "en": "taken (prendere)"
+    },
+    {
+     "term": "letto",
+     "en": "read (leggere)"
+    },
+    {
+     "term": "scritto",
+     "en": "written (scrivere)"
+    },
+    {
+     "term": "visto",
+     "en": "seen (vedere)"
+    },
+    {
+     "term": "detto",
+     "en": "said (dire)"
+    },
+    {
+     "term": "bevuto",
+     "en": "drunk (bere)"
+    },
+    {
+     "term": "visitare",
+     "en": "to visit (a place)"
+    },
+    {
+     "term": "il biglietto",
+     "en": "ticket"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ieri io ___ molto. (lavorare)",
+     "answer": "ho lavorato",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ il film? (vedere)",
+     "answer": "hai visto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ la pizza. (mangiare)",
+     "answer": "abbiamo mangiato",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Loro ___ i biglietti. (prendere)",
+     "answer": "hanno preso",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lei ___ una lettera. (scrivere)",
+     "answer": "ha scritto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo.",
+     "prompt": "Leggo il giornale.",
+     "answer": "Ho letto il giornale.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo.",
+     "prompt": "Faccio la spesa.",
+     "answer": "Ho fatto la spesa.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Say that you haven't finished yet.",
+     "prompt": "Ho finito.",
+     "answer": "Non ho ancora finito.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Last week we visited Rome.",
+     "answer": "La settimana scorsa abbiamo visitato Roma.",
+     "alternatives": [
+      "Abbiamo visitato Roma la settimana scorsa."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "Did you (informal) understand?",
+     "answer": "Hai capito?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Una giornata a Firenze",
+     "passage": "Ieri Kim ha avuto una giornata lunga. La mattina ha preso il treno per Firenze e ha visitato gli Uffizi. A pranzo ha mangiato una bistecca e ha bevuto un bicchiere di vino rosso. Il pomeriggio ha fatto una passeggiata sul Ponte Vecchio e ha comprato una borsa di pelle. La sera ha scritto una cartolina alla madre e ha letto un po'. Ha dormito molto bene!",
+     "glossary": [
+      {
+       "term": "lungo / lunga",
+       "en": "long"
+      },
+      {
+       "term": "a pranzo",
+       "en": "at lunch"
+      },
+      {
+       "term": "il bicchiere",
+       "en": "glass"
+      },
+      {
+       "term": "di pelle",
+       "en": "leather"
+      },
+      {
+       "term": "la cartolina",
+       "en": "postcard"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "How did Kim travel to Florence, and what did she visit?",
+       "answer": "By train; she visited the Uffizi.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What did she have for lunch?",
+       "answer": "A steak and a glass of red wine.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What did she buy?",
+       "answer": "A leather bag.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What did she do in the evening?",
+       "answer": "She wrote a postcard to her mother and read a bit.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Voi ___ la finestra? (aprire)",
+     "answer": "avete aperto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io non ___ niente. (dire)",
+     "answer": "ho detto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo.",
+     "prompt": "Marco dorme molto.",
+     "answer": "Marco ha dormito molto.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "Last night I watched a film.",
+     "answer": "Ieri sera ho guardato un film.",
+     "alternatives": [
+      "Ieri sera ho visto un film.",
+      "Ho guardato un film ieri sera.",
+      "Ho visto un film ieri sera."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "We have already eaten.",
+     "answer": "Abbiamo già mangiato.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4–5 sentences about what you did yesterday, using the passato prossimo with avere.",
+     "answer": "Ieri ho lavorato fino alle sei. A pranzo ho mangiato un panino. Il pomeriggio ho studiato il tedesco. La sera ho cucinato e ho visto un film. Poi ho letto un po'.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "January"
+  },
+  {
+   "id": "it12",
+   "title": "Passato prossimo with essere",
+   "level": "A1–A2",
+   "summary": "sono andata, siamo partiti, mi sono alzata …: movement, change and reflexive verbs.",
+   "notes": [
+    {
+     "heading": "Which verbs use essere?",
+     "text": "Verbs of movement from one place to another and of change or staying: andare, venire, arrivare, partire, uscire, entrare, tornare, restare, stare (stato), essere (stato), nascere (nato), diventare (become). Some movement verbs without a destination use avere: camminare (walk), viaggiare (travel).",
+     "examples": [
+      {
+       "t": "Sono andata a Roma.",
+       "en": "I went to Rome. (woman speaking)"
+      },
+      {
+       "t": "Ho viaggiato molto.",
+       "en": "I travelled a lot."
+      }
+     ]
+    },
+    {
+     "heading": "Agreement",
+     "text": "With essere the participle agrees with the subject like an adjective: andato (m sg), andata (f sg), andati (m pl or mixed), andate (f pl).",
+     "examples": [
+      {
+       "t": "Marco è andato. Anna è andata.",
+       "en": "Marco went. Anna went."
+      },
+      {
+       "t": "Paolo e Anna sono usciti. Le ragazze sono uscite.",
+       "en": "Paolo and Anna went out. The girls went out."
+      }
+     ]
+    },
+    {
+     "heading": "Reflexive verbs",
+     "text": "All reflexive verbs use essere, with agreement: mi sono alzato/alzata, ti sei svegliato/svegliata, ci siamo divertiti/divertite.",
+     "examples": [
+      {
+       "t": "Mi sono alzata alle sette.",
+       "en": "I got up at seven. (woman speaking)"
+      },
+      {
+       "t": "Ci siamo divertiti molto.",
+       "en": "We had a lot of fun."
+      }
+     ]
+    },
+    {
+     "heading": "avere or essere? A quick test",
+     "text": "If the verb has a direct object (mangiare una mela, visitare Roma), use avere. If it describes moving to or from a place, staying, being born or becoming, use essere. In this course model answers use the feminine form for the speaker (sono andata); if you are a man, use -o.",
+     "examples": [
+      {
+       "t": "Ho mangiato una mela e sono tornata a casa.",
+       "en": "I ate an apple and went back home. (woman)"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "arrivare",
+     "en": "to arrive"
+    },
+    {
+     "term": "entrare",
+     "en": "to enter, go in"
+    },
+    {
+     "term": "tornare",
+     "en": "to come back, return"
+    },
+    {
+     "term": "restare",
+     "en": "to stay, remain"
+    },
+    {
+     "term": "nascere (nato)",
+     "en": "to be born"
+    },
+    {
+     "term": "diventare",
+     "en": "to become"
+    },
+    {
+     "term": "viaggiare",
+     "en": "to travel (with avere)"
+    },
+    {
+     "term": "camminare",
+     "en": "to walk (with avere)"
+    },
+    {
+     "term": "la vacanza",
+     "en": "holiday"
+    },
+    {
+     "term": "in vacanza",
+     "en": "on holiday"
+    },
+    {
+     "term": "l'aereo",
+     "en": "plane"
+    },
+    {
+     "term": "in treno / in aereo",
+     "en": "by train / by plane"
+    },
+    {
+     "term": "sabato scorso",
+     "en": "last Saturday"
+    },
+    {
+     "term": "fa",
+     "en": "ago (due giorni fa)"
+    },
+    {
+     "term": "la spiaggia",
+     "en": "beach"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Anna ___ a Roma. (andare)",
+     "answer": "è andata",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Marco e Luca ___ ieri. (partire)",
+     "answer": "sono partiti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io ___ a casa. (restare, woman speaking)",
+     "answer": "sono restata",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Le ragazze ___ alle dieci. (uscire)",
+     "answer": "sono uscite",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ in treno? (venire, to a man)",
+     "answer": "sei venuto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ molto in vacanza. (divertirsi, a mixed group)",
+     "answer": "ci siamo divertiti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo (woman speaking).",
+     "prompt": "Cammino molto e torno a casa tardi.",
+     "answer": "Ho camminato molto e sono tornata a casa tardi.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo (woman speaking).",
+     "prompt": "Mi alzo presto.",
+     "answer": "Mi sono alzata presto.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Where were you born? (informal, to a woman) – I was born in Seoul. (woman speaking)",
+     "answer": "Dove sei nata? Sono nata a Seul.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "Paolo arrived in Italy two days ago.",
+     "answer": "Paolo è arrivato in Italia due giorni fa.",
+     "alternatives": [
+      "Due giorni fa Paolo è arrivato in Italia."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Una vacanza in Sicilia",
+     "passage": "Ciao Sara! Sono tornata ieri dalla Sicilia. Che vacanza! Sabato scorso sono partita da Milano con Giulia e siamo arrivate a Palermo in aereo. Il primo giorno siamo andate al mare e siamo restate in spiaggia tutto il giorno. Martedì abbiamo visitato Monreale e abbiamo mangiato i cannoli. Mercoledì Giulia è stata male, così sono uscita da sola. Mi sono divertita molto! Baci, Elena",
+     "glossary": [
+      {
+       "term": "il primo giorno",
+       "en": "the first day"
+      },
+      {
+       "term": "tutto il giorno",
+       "en": "all day"
+      },
+      {
+       "term": "stare male (è stata male)",
+       "en": "to be ill (she was ill)"
+      },
+      {
+       "term": "così",
+       "en": "so"
+      },
+      {
+       "term": "da sola",
+       "en": "alone (f)"
+      },
+      {
+       "term": "baci",
+       "en": "kisses, love"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "How did Elena and Giulia travel to Palermo, and from where?",
+       "answer": "By plane, from Milan.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What did they do on the first day?",
+       "answer": "They went to the seaside and stayed on the beach all day.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What did they do on Tuesday?",
+       "answer": "They visited Monreale and ate cannoli.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What happened on Wednesday?",
+       "answer": "Giulia was ill, so Elena went out alone.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Il treno ___ in ritardo. (arrivare)",
+     "answer": "è arrivato",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ al cinema? (andare, to a group of women)",
+     "answer": "siete andate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io ___ presto stamattina. (svegliarsi, woman speaking)",
+     "answer": "mi sono svegliata",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the passato prossimo.",
+     "prompt": "Paolo e Anna escono insieme.",
+     "answer": "Paolo e Anna sono usciti insieme.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Last year I travelled a lot and went to Italy. (woman speaking; men use -o)",
+     "answer": "L'anno scorso ho viaggiato molto e sono andata in Italia.",
+     "alternatives": [
+      "L'anno scorso ho viaggiato molto e sono andato in Italia."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write a short postcard (5–6 sentences) about a trip you took, using the passato prossimo with both essere and avere.",
+     "answer": "Cara Giulia, la settimana scorsa sono andata a Busan con un'amica. Siamo partite sabato mattina in treno. Siamo arrivate a mezzogiorno e abbiamo mangiato il pesce al mercato. Il pomeriggio siamo andate in spiaggia. Domenica sera sono tornata a Seul. Mi sono divertita molto! Baci, Shao",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "January"
+  }
+ ]
+}
