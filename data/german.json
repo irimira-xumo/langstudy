@@ -2719,6 +2719,641 @@
    "schedule": "Week 4"
   },
   {
+   "id": "de15",
+   "title": "Reflexive verbs and verbs with prepositions",
+   "level": "B1",
+   "summary": "sich freuen, sich erinnern, sich interessieren für … and the da-/wo- words that go with them.",
+   "notes": [
+    {
+     "heading": "Reflexive pronouns",
+     "text": "A reflexive verb has an object that refers back to the subject. Accusative forms: mich, dich, sich, uns, euch, sich. The formal Sie also uses sich. In the Perfekt reflexive verbs take haben.",
+     "examples": [
+      {
+       "t": "Ich wasche mich.",
+       "en": "I'm washing (myself)."
+      },
+      {
+       "t": "Wir treffen uns um acht.",
+       "en": "We're meeting at eight."
+      },
+      {
+       "t": "Ich habe mich beeilt.",
+       "en": "I hurried."
+      }
+     ]
+    },
+    {
+     "heading": "Dative reflexive pronouns",
+     "text": "If the sentence already has an accusative object (often a body part or clothing), the reflexive pronoun is dative: mir, dir, sich, uns, euch, sich. Only ich and du look different from the accusative.",
+     "examples": [
+      {
+       "t": "Ich putze mir die Zähne.",
+       "en": "I brush my teeth."
+      },
+      {
+       "t": "Kaufst du dir ein neues Handy?",
+       "en": "Are you buying yourself a new phone?"
+      }
+     ]
+    },
+    {
+     "heading": "Word order",
+     "text": "In a main clause the reflexive pronoun comes right after the verb, or right after a pronoun subject that follows the verb. A noun subject after the verb often comes after the reflexive pronoun. In a subordinate clause it comes early, straight after the subject pronoun.",
+     "examples": [
+      {
+       "t": "Heute ziehe ich mich schnell an.",
+       "en": "Today I'm getting dressed quickly."
+      },
+      {
+       "t": "Heute freut sich mein Bruder.",
+       "en": "Today my brother is happy."
+      },
+      {
+       "t": "…, weil ich mich nicht wohlfühle.",
+       "en": "…, because I don't feel well."
+      }
+     ]
+    },
+    {
+     "heading": "Verbs with fixed prepositions; da- and wo- words",
+     "text": "Many verbs come with a fixed preposition that you learn together with the verb: sich freuen auf + Akk. (look forward to), sich freuen über + Akk. (be happy about), sich interessieren für, sich ärgern über, sich erinnern an + Akk., sich kümmern um, warten auf, denken an. For things, ask with wo(r) + preposition and answer with da(r) + preposition (the r is added before a vowel). For people, use the preposition + wen/wem and a pronoun.",
+     "examples": [
+      {
+       "t": "Worauf wartest du? – Auf den Bus. Ich warte schon lange darauf.",
+       "en": "What are you waiting for? – The bus. I've been waiting for it for ages."
+      },
+      {
+       "t": "Auf wen wartest du? – Auf meine Schwester. Ich warte auf sie.",
+       "en": "Who are you waiting for? – My sister. I'm waiting for her."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "sich beeilen",
+     "en": "to hurry"
+    },
+    {
+     "term": "sich anziehen (zog an, angezogen)",
+     "en": "to get dressed"
+    },
+    {
+     "term": "sich ausruhen",
+     "en": "to rest"
+    },
+    {
+     "term": "sich erkälten",
+     "en": "to catch a cold"
+    },
+    {
+     "term": "sich fühlen",
+     "en": "to feel"
+    },
+    {
+     "term": "sich treffen (trifft, getroffen)",
+     "en": "to meet"
+    },
+    {
+     "term": "sich freuen auf + Akk.",
+     "en": "to look forward to"
+    },
+    {
+     "term": "sich freuen über + Akk.",
+     "en": "to be happy about"
+    },
+    {
+     "term": "sich interessieren für",
+     "en": "to be interested in"
+    },
+    {
+     "term": "sich ärgern über",
+     "en": "to be annoyed about"
+    },
+    {
+     "term": "sich erinnern an + Akk.",
+     "en": "to remember"
+    },
+    {
+     "term": "sich kümmern um",
+     "en": "to take care of"
+    },
+    {
+     "term": "sich verabschieden",
+     "en": "to say goodbye"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Ich freue ___ auf das Wochenende.",
+     "answer": "mich",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir treffen ___ morgen vor dem Kino.",
+     "answer": "uns",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Du musst ___ beeilen, der Zug fährt gleich ab.",
+     "answer": "dich",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich putze ___ die Zähne.",
+     "answer": "mir",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Interessierst du dich ___ Politik?",
+     "answer": "für",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich erinnere mich gut ___ meinen ersten Schultag.",
+     "answer": "an",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with a da-word.",
+     "prompt": "Wartest du auf den Bus? → Ja, …",
+     "answer": "Ja, ich warte darauf.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Ask about „über das Wetter“ with a wo-word.",
+     "prompt": "Er ärgert sich über das Wetter.",
+     "answer": "Worüber ärgert er sich?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "She has caught a cold.",
+     "answer": "Sie hat sich erkältet.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm looking forward to the holidays.",
+     "answer": "Ich freue mich auf die Ferien.",
+     "alternatives": [
+      "Ich freue mich auf den Urlaub."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Freitagabend",
+     "passage": "Am Freitagabend ist Jan immer sehr müde. Nach der Arbeit ruht er sich zuerst eine Stunde auf dem Sofa aus. Dann duscht er, zieht sich an und trifft sich mit seinen Freunden in einer Kneipe. Sie unterhalten sich über Fußball und Politik. Jan interessiert sich nicht besonders für Fußball, aber er freut sich jede Woche auf diese Abende. Letzten Freitag hat er sich allerdings geärgert: Sein Freund Max hatte den Termin vergessen und ist nicht gekommen. Jan hat sich deshalb früh verabschiedet.",
+     "glossary": [
+      {
+       "term": "die Kneipe",
+       "en": "pub"
+      },
+      {
+       "term": "sich unterhalten über",
+       "en": "to talk about"
+      },
+      {
+       "term": "nicht besonders",
+       "en": "not particularly"
+      },
+      {
+       "term": "allerdings",
+       "en": "however"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What does Jan do first after work on Fridays?",
+       "answer": "He rests on the sofa for an hour.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Where does he meet his friends, and what do they talk about?",
+       "answer": "In a pub; they talk about football and politics.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "Is Jan interested in football? Why does he still like these evenings?",
+       "answer": "Not particularly, but he looks forward to these evenings every week.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "Why was Jan annoyed last Friday?",
+       "answer": "His friend Max had forgotten the date and didn't come, so Jan left early.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Wir müssen ___ beeilen.",
+     "answer": "uns",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich wasche ___ die Hände.",
+     "answer": "mir",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with a da-word.",
+     "prompt": "Freust du dich auf die Reise? → Ja, …",
+     "answer": "Ja, ich freue mich darauf.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "translate",
+     "prompt": "He is interested in art.",
+     "answer": "Er interessiert sich für Kunst.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) remember me?",
+     "answer": "Erinnerst du dich an mich?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences about your evening routine and something you are looking forward to. Use at least three reflexive verbs.",
+     "answer": "Nach der Arbeit ruhe ich mich kurz aus. Dann treffe ich mich manchmal mit einer Freundin. Vor dem Schlafen putze ich mir die Zähne und lese noch ein bisschen. Ich freue mich schon auf meine Reise nach Berlin im Frühling.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 4"
+  },
+  {
+   "id": "de16",
+   "title": "Comparatives and superlatives",
+   "level": "B1",
+   "summary": "schneller als, so groß wie, am besten, der höchste Berg.",
+   "notes": [
+    {
+     "heading": "Comparative + als",
+     "text": "Add -er to the adjective. Many one-syllable adjectives with a, o, u also take an umlaut: alt → älter, jung → jünger, groß → größer, lang → länger, kurz → kürzer, warm → wärmer, kalt → kälter, stark → stärker, oft → öfter. Compare with als. For equality use so … wie, and nicht so … wie for less.",
+     "examples": [
+      {
+       "t": "Berlin ist größer als München.",
+       "en": "Berlin is bigger than Munich."
+      },
+      {
+       "t": "Ich bin so groß wie mein Bruder.",
+       "en": "I'm as tall as my brother."
+      },
+      {
+       "t": "Der Bus ist nicht so schnell wie die U-Bahn.",
+       "en": "The bus isn't as fast as the underground."
+      }
+     ]
+    },
+    {
+     "heading": "Superlative",
+     "text": "After a verb (and as an adverb): am + adjective + -sten (am schnellsten). Before a noun: der/die/das + adjective + -st- + the normal adjective ending (der schnellste Zug, die höchsten Berge). Adjectives ending in -t, -d, -s, -ß, -z add -est-: am ältesten, am kürzesten, am heißesten, das interessanteste Buch. Exception: groß → am größten.",
+     "examples": [
+      {
+       "t": "Der ICE ist am schnellsten.",
+       "en": "The ICE is the fastest."
+      },
+      {
+       "t": "Das ist das teuerste Hotel der Stadt.",
+       "en": "That's the most expensive hotel in the city."
+      }
+     ]
+    },
+    {
+     "heading": "Irregular forms",
+     "text": "gut – besser – am besten; viel – mehr – am meisten; gern – lieber – am liebsten; hoch – höher – am höchsten; nah – näher – am nächsten. Adjectives in -er and -el drop the e: teuer → teurer, dunkel → dunkler.",
+     "examples": [
+      {
+       "t": "Ich trinke lieber Tee als Kaffee.",
+       "en": "I prefer tea to coffee."
+      },
+      {
+       "t": "Was machst du am liebsten?",
+       "en": "What do you like doing most?"
+      }
+     ]
+    },
+    {
+     "heading": "Endings and immer + comparative",
+     "text": "Before a noun, comparatives and superlatives take normal adjective endings: ein größeres Auto, mit einem billigeren Hotel, die beste Lösung. immer + comparative means more and more.",
+     "examples": [
+      {
+       "t": "Wir suchen eine größere Wohnung.",
+       "en": "We're looking for a bigger flat."
+      },
+      {
+       "t": "Es wird immer wärmer.",
+       "en": "It's getting warmer and warmer."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "schnell",
+     "en": "fast"
+    },
+    {
+     "term": "langsam",
+     "en": "slow"
+    },
+    {
+     "term": "jung",
+     "en": "young"
+    },
+    {
+     "term": "hoch (höher, am höchsten)",
+     "en": "high, tall"
+    },
+    {
+     "term": "nah (näher, am nächsten)",
+     "en": "near"
+    },
+    {
+     "term": "weit",
+     "en": "far"
+    },
+    {
+     "term": "gesund",
+     "en": "healthy"
+    },
+    {
+     "term": "stark",
+     "en": "strong"
+    },
+    {
+     "term": "leicht",
+     "en": "easy; light"
+    },
+    {
+     "term": "schwierig",
+     "en": "difficult"
+    },
+    {
+     "term": "beliebt",
+     "en": "popular"
+    },
+    {
+     "term": "umweltfreundlich",
+     "en": "environmentally friendly"
+    },
+    {
+     "term": "der Unterschied (-e)",
+     "en": "difference"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Mein Bruder ist drei Jahre ___ als ich. (alt)",
+     "answer": "älter",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Im Winter ist es in Seoul ___ als in Busan. (kalt)",
+     "answer": "kälter",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich trinke ___ Tee als Kaffee. (gern)",
+     "answer": "lieber",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Welcher Berg in Deutschland ist ___ ? (hoch, superlative)",
+     "answer": "am höchsten",
+     "alternatives": [
+      "der höchste"
+     ],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Das ist das ___ Restaurant in der Stadt. (gut, superlative)",
+     "answer": "beste",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir suchen eine ___ Wohnung. (groß, comparative)",
+     "answer": "größere",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Compare with so … wie.",
+     "prompt": "Anna ist 1,65 m groß. Lena ist auch 1,65 m groß.",
+     "answer": "Anna ist so groß wie Lena.",
+     "alternatives": [
+      "Lena ist so groß wie Anna."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Compare with als, using teuer.",
+     "prompt": "Der Bus kostet 3 Euro. Die U-Bahn kostet 2 Euro.",
+     "answer": "Der Bus ist teurer als die U-Bahn.",
+     "alternatives": [
+      "Die U-Bahn ist billiger als der Bus."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "German is more difficult than English, but Italian is the easiest.",
+     "answer": "Deutsch ist schwieriger als Englisch, aber Italienisch ist am leichtesten.",
+     "alternatives": [
+      "Deutsch ist schwieriger als Englisch, aber Italienisch ist am einfachsten."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "It's getting warmer and warmer.",
+     "answer": "Es wird immer wärmer.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Zug oder Flugzeug?",
+     "passage": "Wer von Hamburg nach München reist, hat die Wahl. Das Flugzeug ist schneller: Der Flug dauert nur etwa eine Stunde. Aber man muss früher am Flughafen sein, und der Flughafen liegt weiter vom Zentrum entfernt als der Bahnhof. Mit dem ICE dauert die Reise ungefähr sechs Stunden. Der Zug ist also langsamer, aber oft billiger und viel umweltfreundlicher. Außerdem kann man im Zug arbeiten oder lesen. Für viele Reisende ist der Zug deshalb die beste Lösung.",
+     "glossary": [
+      {
+       "term": "die Wahl",
+       "en": "choice"
+      },
+      {
+       "term": "dauern",
+       "en": "to take (time)"
+      },
+      {
+       "term": "ungefähr",
+       "en": "about"
+      },
+      {
+       "term": "die Lösung",
+       "en": "solution"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What is the advantage of the plane?",
+       "answer": "It is faster: the flight takes only about an hour.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Which two disadvantages of flying does the text mention?",
+       "answer": "You have to be at the airport earlier, and the airport is further from the centre than the station.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "How long does the train take, and what are its advantages?",
+       "answer": "About six hours. It is often cheaper, much more environmentally friendly, and you can work or read on it.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What is the conclusion?",
+       "answer": "For many travellers the train is the best solution.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Heute ist es ___ als gestern. (warm)",
+     "answer": "wärmer",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Sie spricht ___ Englisch als ich. (gut)",
+     "answer": "besser",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Was isst du ___ ? (gern, superlative)",
+     "answer": "am liebsten",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Compare with nicht so … wie.",
+     "prompt": "Mein Auto ist schnell. Dein Auto ist schneller.",
+     "answer": "Mein Auto ist nicht so schnell wie dein Auto.",
+     "alternatives": [
+      "Mein Auto ist nicht so schnell wie deins.",
+      "Mein Auto ist nicht so schnell wie deines."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "This is the most expensive hotel in the city.",
+     "answer": "Das ist das teuerste Hotel in der Stadt.",
+     "alternatives": [
+      "Das ist das teuerste Hotel der Stadt."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Compare your city with another city you know in 4 sentences. Use als, so … wie and at least one superlative.",
+     "answer": "Seoul ist viel größer als Busan, aber Busan ist näher am Meer. Im Sommer ist es in Busan nicht so heiß wie in Seoul. Die U-Bahn in Seoul ist schneller als der Bus. Am schönsten finde ich Seoul im Herbst.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 4"
+  },
+  {
    "id": "de10",
    "title": "Relative clauses",
    "level": "B1",
@@ -4281,6 +4916,656 @@
     }
    ],
    "schedule": "Weeks 6, 8 and 9"
+  },
+  {
+   "id": "de17",
+   "title": "Nominalisation",
+   "level": "B2",
+   "summary": "Turning verbs and clauses into nouns: the formal style of B2 reading texts and letters.",
+   "notes": [
+    {
+     "heading": "Why it matters",
+     "text": "Formal written German (articles, notices, formal letters) often packs a whole clause into a noun phrase. For Lesen you must understand it; for Schreiben a few nominal phrases make your style more formal. In speaking, the verbal style is more natural.",
+     "examples": [
+      {
+       "t": "nach der Ankunft des Zuges",
+       "en": "after the arrival of the train"
+      },
+      {
+       "t": "= nachdem der Zug angekommen ist",
+       "en": "= after the train has arrived"
+      }
+     ]
+    },
+    {
+     "heading": "Making nouns from verbs and adjectives",
+     "text": "The infinitive itself is a neuter noun: das Lesen, beim Kochen (while cooking), zum Lernen (for learning). -ung nouns are feminine: entscheiden → die Entscheidung, vorbereiten → die Vorbereitung, anmelden → die Anmeldung. Many nouns from the verb stem are masculine: beginnen → der Beginn, besuchen → der Besuch, anrufen → der Anruf, verkaufen → der Verkauf (but ankommen → die Ankunft, abfahren → die Abfahrt). -e nouns are feminine: helfen → die Hilfe, fragen → die Frage, reisen → die Reise. Adjectives take -heit or -keit: krank → die Krankheit, frei → die Freiheit, möglich → die Möglichkeit.",
+     "examples": [
+      {
+       "t": "Beim Kochen höre ich Musik.",
+       "en": "I listen to music while cooking."
+      },
+      {
+       "t": "Die Entscheidung war schwierig.",
+       "en": "The decision was difficult."
+      }
+     ]
+    },
+    {
+     "heading": "From clause to prepositional phrase",
+     "text": "Typical pairs: weil → wegen + Gen.; obwohl → trotz + Gen.; während/als → während + Gen. or bei + Dat.; nachdem → nach + Dat.; bevor → vor + Dat.; wenn → bei + Dat.; um … zu / damit → zum/zur + noun. The subject of the clause becomes a genitive (or a possessive).",
+     "examples": [
+      {
+       "t": "Weil es stark regnete, … → Wegen des starken Regens …",
+       "en": "Because it was raining heavily … → Because of the heavy rain …"
+      },
+      {
+       "t": "Nachdem er angekommen war, … → Nach seiner Ankunft …",
+       "en": "After he had arrived … → After his arrival …"
+      }
+     ]
+    },
+    {
+     "heading": "And back again",
+     "text": "When a nominal phrase is hard to understand, turn it back into a clause in your head: Trotz seiner Krankheit ging er zur Arbeit = Obwohl er krank war, ging er zur Arbeit.",
+     "examples": [
+      {
+       "t": "Bei Fragen wenden Sie sich bitte an Frau Weber.",
+       "en": "If you have questions, please contact Ms Weber."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "die Ankunft",
+     "en": "arrival"
+    },
+    {
+     "term": "die Abfahrt",
+     "en": "departure"
+    },
+    {
+     "term": "die Entscheidung (-en)",
+     "en": "decision"
+    },
+    {
+     "term": "die Vorbereitung (-en)",
+     "en": "preparation"
+    },
+    {
+     "term": "die Möglichkeit (-en)",
+     "en": "possibility"
+    },
+    {
+     "term": "die Anmeldung (-en)",
+     "en": "registration"
+    },
+    {
+     "term": "die Teilnahme",
+     "en": "participation"
+    },
+    {
+     "term": "der Beginn",
+     "en": "beginning"
+    },
+    {
+     "term": "der Besuch (-e)",
+     "en": "visit"
+    },
+    {
+     "term": "der Abschluss (Abschlüsse)",
+     "en": "completion; degree"
+    },
+    {
+     "term": "die Krankheit (-en)",
+     "en": "illness"
+    },
+    {
+     "term": "die Verbesserung (-en)",
+     "en": "improvement"
+    },
+    {
+     "term": "sich wenden an + Akk.",
+     "en": "to contact, turn to"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "entscheiden",
+     "answer": "die Entscheidung",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "ankommen",
+     "answer": "die Ankunft",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "möglich",
+     "answer": "die Möglichkeit",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "helfen",
+     "answer": "die Hilfe",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with wegen + noun.",
+     "prompt": "Weil es stark regnete, fiel das Spiel aus.",
+     "answer": "Wegen des starken Regens fiel das Spiel aus.",
+     "alternatives": [
+      "Wegen starken Regens fiel das Spiel aus."
+     ],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with nach + noun.",
+     "prompt": "Nachdem der Zug angekommen war, fuhren wir ins Hotel.",
+     "answer": "Nach der Ankunft des Zuges fuhren wir ins Hotel.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with vor + noun.",
+     "prompt": "Bevor ich die Prüfung mache, lerne ich jeden Tag.",
+     "answer": "Vor der Prüfung lerne ich jeden Tag.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with beim + noun.",
+     "prompt": "Wenn man kocht, sollte man das Handy weglegen.",
+     "answer": "Beim Kochen sollte man das Handy weglegen.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the verbal style with obwohl.",
+     "prompt": "Trotz seiner Krankheit ging er zur Arbeit.",
+     "answer": "Obwohl er krank war, ging er zur Arbeit.",
+     "alternatives": [
+      "Obwohl er krank war, ist er zur Arbeit gegangen."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "For learning I need peace and quiet.",
+     "answer": "Zum Lernen brauche ich Ruhe.",
+     "alternatives": [
+      "Ich brauche Ruhe zum Lernen."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Mitteilung an alle Kursteilnehmer",
+     "passage": "Wegen der Renovierung des Gebäudes findet der Unterricht ab dem 3. März in Raum 12 im Erdgeschoss statt. Während der Bauarbeiten ist die Cafeteria geschlossen. Nach Abschluss der Arbeiten, voraussichtlich Ende April, kehren alle Kurse in die gewohnten Räume zurück. Die Anmeldung für die Prüfung im Juni ist ab sofort im Sekretariat möglich. Bei Fragen zur Prüfungsvorbereitung wenden Sie sich bitte an Frau Weber. Vielen Dank für Ihr Verständnis!",
+     "glossary": [
+      {
+       "term": "stattfinden",
+       "en": "to take place"
+      },
+      {
+       "term": "das Erdgeschoss",
+       "en": "ground floor"
+      },
+      {
+       "term": "die Bauarbeiten",
+       "en": "building work"
+      },
+      {
+       "term": "voraussichtlich",
+       "en": "expected to, probably"
+      },
+      {
+       "term": "gewohnt",
+       "en": "usual"
+      },
+      {
+       "term": "ab sofort",
+       "en": "from now on"
+      },
+      {
+       "term": "das Verständnis",
+       "en": "understanding"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why are the classes moving, and where to?",
+       "answer": "Because the building is being renovated; from 3 March they are in room 12 on the ground floor.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What is closed during the building work?",
+       "answer": "The cafeteria.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "When will the classes go back to their usual rooms?",
+       "answer": "After the work is finished, probably at the end of April.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What can you do at the office now, and who answers questions about exam preparation?",
+       "answer": "Register for the June exam; Ms Weber answers questions about exam preparation.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "vorbereiten",
+     "answer": "die Vorbereitung",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the noun with its article.",
+     "prompt": "abfahren",
+     "answer": "die Abfahrt",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with während + noun.",
+     "prompt": "Während wir aßen, klingelte das Telefon.",
+     "answer": "Während des Essens klingelte das Telefon.",
+     "alternatives": [
+      "Beim Essen klingelte das Telefon."
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with weil.",
+     "prompt": "Wegen der hohen Mieten ziehen viele Familien aufs Land.",
+     "answer": "Weil die Mieten hoch sind, ziehen viele Familien aufs Land.",
+     "alternatives": [
+      "Viele Familien ziehen aufs Land, weil die Mieten hoch sind."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite with nachdem.",
+     "prompt": "Nach dem Abschluss des Studiums fand sie sofort eine Stelle.",
+     "answer": "Nachdem sie das Studium abgeschlossen hatte, fand sie sofort eine Stelle.",
+     "alternatives": [
+      "Nachdem sie ihr Studium abgeschlossen hatte, fand sie sofort eine Stelle."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Rewrite this informal message in formal nominal style (2 sentences): „Weil wir umziehen, ist das Büro am Freitag zu. Wenn ihr Fragen habt, ruft bitte Herrn Lang an.“",
+     "answer": "Wegen unseres Umzugs ist das Büro am Freitag geschlossen. Bei Fragen wenden Sie sich bitte an Herrn Lang.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 8"
+  },
+  {
+   "id": "de18",
+   "title": "Participles as adjectives and participle phrases",
+   "level": "B2",
+   "summary": "die steigenden Preise, das gekaufte Auto, die von vielen besuchte Stadt.",
+   "notes": [
+    {
+     "heading": "Partizip I: something happening",
+     "text": "Infinitive + -d gives the present participle: lachen → lachend, steigen → steigend. Before a noun it takes normal adjective endings and has an active, ongoing meaning.",
+     "examples": [
+      {
+       "t": "das lachende Kind",
+       "en": "the laughing child"
+      },
+      {
+       "t": "steigende Preise",
+       "en": "rising prices"
+      }
+     ]
+    },
+    {
+     "heading": "Partizip II: something done",
+     "text": "The past participle used as an adjective usually has a passive, completed meaning: das gekaufte Auto (the car that was bought), die geschlossene Tür. With verbs that take sein in the Perfekt it is active and completed: der angekommene Zug (the train that has arrived).",
+     "examples": [
+      {
+       "t": "frisch gebackenes Brot",
+       "en": "freshly baked bread"
+      },
+      {
+       "t": "Der verletzte Fahrer kam ins Krankenhaus.",
+       "en": "The injured driver was taken to hospital."
+      }
+     ]
+    },
+    {
+     "heading": "Extended participle phrases",
+     "text": "Extra information goes between the article and the participle. This is typical of newspapers and reports. To read one, find the article, jump to the noun, then read the middle part.",
+     "examples": [
+      {
+       "t": "die von vielen Touristen besuchte Stadt",
+       "en": "the city (that is) visited by many tourists"
+      },
+      {
+       "t": "der seit Stunden wartende Mann",
+       "en": "the man who has been waiting for hours"
+      }
+     ]
+    },
+    {
+     "heading": "Converting to relative clauses",
+     "text": "Partizip I → an active relative clause in the present: der wartende Mann = der Mann, der wartet. Partizip II of a verb with an object → a passive relative clause: die gestern reparierte Maschine = die Maschine, die gestern repariert wurde. Participles can also describe how something is done: Lächelnd sagte sie Hallo (she said hello, smiling).",
+     "examples": [
+      {
+       "t": "das schlafende Baby = das Baby, das schläft",
+       "en": "the sleeping baby = the baby that is sleeping"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "steigen (ist gestiegen)",
+     "en": "to rise"
+    },
+    {
+     "term": "sinken (ist gesunken)",
+     "en": "to fall, sink"
+    },
+    {
+     "term": "wachsen (wächst, ist gewachsen)",
+     "en": "to grow"
+    },
+    {
+     "term": "folgend",
+     "en": "following"
+    },
+    {
+     "term": "dringend",
+     "en": "urgent"
+    },
+    {
+     "term": "überraschend",
+     "en": "surprising"
+    },
+    {
+     "term": "gebraucht",
+     "en": "used, second-hand"
+    },
+    {
+     "term": "verletzt",
+     "en": "injured"
+    },
+    {
+     "term": "ausgebucht",
+     "en": "fully booked"
+    },
+    {
+     "term": "betroffen",
+     "en": "affected"
+    },
+    {
+     "term": "veröffentlichen",
+     "en": "to publish"
+    },
+    {
+     "term": "fördern",
+     "en": "to support, fund"
+    },
+    {
+     "term": "die Maßnahme (-n)",
+     "en": "measure"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Die ___ Preise machen vielen Menschen Sorgen. (steigen, Partizip I)",
+     "answer": "steigenden",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Vorsicht, ___ Kinder! (spielen, Partizip I, no article)",
+     "answer": "spielende",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ich kaufe ein ___ Fahrrad. (gebrauchen, Partizip II)",
+     "answer": "gebrauchtes",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Wir standen vor der ___ Tür. (schließen, Partizip II)",
+     "answer": "geschlossenen",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a relative clause.",
+     "prompt": "das schlafende Baby",
+     "answer": "das Baby, das schläft",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a relative clause.",
+     "prompt": "die gestern reparierte Maschine",
+     "answer": "die Maschine, die gestern repariert wurde",
+     "alternatives": [
+      "die Maschine, die gestern repariert worden ist"
+     ],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a participle phrase.",
+     "prompt": "der Zug, der aus Wien kommt",
+     "answer": "der aus Wien kommende Zug",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a participle phrase.",
+     "prompt": "das Buch, das von vielen gelesen wird",
+     "answer": "das von vielen gelesene Buch",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "The recommended hotel was fully booked.",
+     "answer": "Das empfohlene Hotel war ausgebucht.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Wohnen wird teurer",
+     "passage": "Die seit Jahren steigenden Mieten sind in vielen deutschen Großstädten ein wachsendes Problem. Besonders betroffen sind Studierende und junge Familien. Eine im Januar veröffentlichte Studie zeigt, dass manche Mieter fast die Hälfte ihres Einkommens für die Wohnung ausgeben. Unsere Stadt plant deshalb ein neues, vom Land gefördertes Bauprojekt mit 2000 günstigen Wohnungen. Kritiker halten die geplanten Maßnahmen jedoch für nicht ausreichend. Die bereits im letzten Jahr gebauten Wohnungen seien schon alle vermietet, sagen sie.",
+     "glossary": [
+      {
+       "term": "die Miete",
+       "en": "rent"
+      },
+      {
+       "term": "der Mieter",
+       "en": "tenant"
+      },
+      {
+       "term": "das Einkommen",
+       "en": "income"
+      },
+      {
+       "term": "das Land",
+       "en": "(here) the federal state"
+      },
+      {
+       "term": "halten für",
+       "en": "to consider"
+      },
+      {
+       "term": "ausreichend",
+       "en": "sufficient"
+      },
+      {
+       "term": "vermietet",
+       "en": "rented out"
+      },
+      {
+       "term": "seien",
+       "en": "are (reported speech)"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What problem does the text describe, and who is most affected?",
+       "answer": "Rents have been rising for years in many big cities; students and young families are most affected.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "What does the study show?",
+       "answer": "Some tenants spend almost half their income on housing.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What is the city planning?",
+       "answer": "A new building project, funded by the state, with 2,000 affordable flats.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What do the critics say?",
+       "answer": "The planned measures are not enough: the flats built last year are already all rented.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Wir suchen eine ___ Lösung. (passen, Partizip I)",
+     "answer": "passende",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Der ___ Fahrer wurde ins Krankenhaus gebracht. (verletzen, Partizip II)",
+     "answer": "verletzte",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a relative clause.",
+     "prompt": "die im Jahr 2005 gegründete Firma",
+     "answer": "die Firma, die im Jahr 2005 gegründet wurde",
+     "alternatives": [
+      "die Firma, die 2005 gegründet wurde"
+     ],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a participle phrase.",
+     "prompt": "die Frau, die am Fenster sitzt",
+     "answer": "die am Fenster sitzende Frau",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "freshly baked bread",
+     "answer": "frisch gebackenes Brot",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Join the two sentences into one with a participle phrase, then add one sentence of your own that uses a participle: „Die Stadt hat einen Park gebaut. Der Park wird von vielen Familien besucht.“",
+     "answer": "Der von der Stadt gebaute Park wird von vielen Familien besucht. Am Wochenende sieht man dort spielende Kinder und lachende Eltern.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "Week 9"
   }
  ]
 }

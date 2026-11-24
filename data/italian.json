@@ -2451,6 +2451,325 @@
    "schedule": "December"
   },
   {
+   "id": "it13",
+   "title": "Possessives",
+   "level": "A1",
+   "summary": "il mio, la tua, i suoi …: talking about your family and your things.",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "my: il mio, la mia, i miei, le mie. your (tu): il tuo, la tua, i tuoi, le tue. his/her: il suo, la sua, i suoi, le sue (with a capital S, Suo also means your for Lei). our: il nostro, la nostra, i nostri, le nostre. your (voi): il vostro, la vostra, i vostri, le vostre. their: il loro, la loro, i loro, le loro (loro never changes). Normally the article comes with the possessive.",
+     "examples": [
+      {
+       "t": "il mio libro, la mia casa",
+       "en": "my book, my house"
+      },
+      {
+       "t": "i miei amici, le mie chiavi",
+       "en": "my friends, my keys"
+      }
+     ]
+    },
+    {
+     "heading": "Agreement with the thing, not the owner",
+     "text": "The possessive agrees with the noun that follows, not with the person who owns it. So suo/sua can mean his or her: the context tells you which.",
+     "examples": [
+      {
+       "t": "Marco cerca la sua penna.",
+       "en": "Marco is looking for his pen. (penna is feminine)"
+      },
+      {
+       "t": "Anna cerca il suo libro.",
+       "en": "Anna is looking for her book. (libro is masculine)"
+      }
+     ]
+    },
+    {
+     "heading": "Family members",
+     "text": "With a singular family noun and no adjective, drop the article: mio padre, mia sorella, tuo fratello, suo marito. Keep it in the plural (i miei fratelli), with an adjective (il mio fratello piccolo), and always with loro (il loro figlio). With mamma and papà the article is usual: la mia mamma.",
+     "examples": [
+      {
+       "t": "Mia sorella abita a Roma.",
+       "en": "My sister lives in Rome."
+      },
+      {
+       "t": "I miei genitori sono di Napoli.",
+       "en": "My parents are from Naples."
+      },
+      {
+       "t": "Il loro figlio è studente.",
+       "en": "Their son is a student."
+      }
+     ]
+    },
+    {
+     "heading": "With prepositions; whose?",
+     "text": "Prepositions combine with the article as usual: nella mia borsa, dal mio medico, con il mio amico. un mio amico = a friend of mine. Di chi è? = Whose is it? – È di Marco. / È mio. (After essere the article is usually dropped.)",
+     "examples": [
+      {
+       "t": "Le chiavi sono nella mia borsa.",
+       "en": "The keys are in my bag."
+      },
+      {
+       "t": "Di chi è la macchina? – È mia.",
+       "en": "Whose car is it? – It's mine."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "il marito",
+     "en": "husband"
+    },
+    {
+     "term": "la moglie",
+     "en": "wife"
+    },
+    {
+     "term": "il nonno / la nonna",
+     "en": "grandfather / grandmother"
+    },
+    {
+     "term": "lo zio / la zia",
+     "en": "uncle / aunt"
+    },
+    {
+     "term": "il cugino / la cugina",
+     "en": "cousin (m / f)"
+    },
+    {
+     "term": "il fidanzato / la fidanzata",
+     "en": "boyfriend / girlfriend (partner)"
+    },
+    {
+     "term": "la famiglia",
+     "en": "family"
+    },
+    {
+     "term": "la foto (le foto)",
+     "en": "photo"
+    },
+    {
+     "term": "il compleanno",
+     "en": "birthday"
+    },
+    {
+     "term": "il cognome",
+     "en": "surname"
+    },
+    {
+     "term": "l'indirizzo",
+     "en": "address"
+    },
+    {
+     "term": "il numero di telefono",
+     "en": "phone number"
+    },
+    {
+     "term": "di chi è?",
+     "en": "whose is it?"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Ecco ___ chiavi. (my)",
+     "answer": "le mie",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "___ fratello abita a Milano. (my)",
+     "answer": "Mio",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "___ genitori sono di Napoli. (your, informal)",
+     "answer": "I tuoi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Marco parla con ___ sorella. (his)",
+     "answer": "sua",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Anna cerca ___ libro. (her)",
+     "answer": "il suo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Paolo e Sara abitano con ___ figli. (their)",
+     "answer": "i loro",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Signora, è ___ macchina? (your, formal)",
+     "answer": "la Sua",
+     "alternatives": [
+      "la sua"
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it plural.",
+     "prompt": "il mio amico",
+     "answer": "i miei amici",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Our house is near the station.",
+     "answer": "La nostra casa è vicino alla stazione.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "My sister and her husband live in Rome.",
+     "answer": "Mia sorella e suo marito abitano a Roma.",
+     "alternatives": [
+      "Mia sorella e suo marito vivono a Roma."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Una foto di famiglia",
+     "passage": "Ecco una foto della mia famiglia. Al centro ci sono i miei nonni, Gino e Rosa. Accanto alla nonna c'è mia madre con il suo cane, Briciola. Mio padre non c'è nella foto: è il fotografo! A destra ci sono mio fratello Luca e sua moglie Chiara con i loro figli, Matteo e Giulia. Mia zia Paola abita in Germania con suo marito, ma il loro figlio, mio cugino Marco, studia a Bologna. Il nostro cognome è Bianchi.",
+     "glossary": [
+      {
+       "term": "al centro",
+       "en": "in the middle"
+      },
+      {
+       "term": "a destra",
+       "en": "on the right"
+      },
+      {
+       "term": "il fotografo",
+       "en": "photographer"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Who is in the middle of the photo?",
+       "answer": "The grandparents, Gino and Rosa.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Why isn't the father in the photo?",
+       "answer": "He is taking the photo.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "Who are Matteo and Giulia?",
+       "answer": "The children of the writer's brother Luca and his wife Chiara (the writer's nephew and niece).",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "Where do aunt Paola and her son live?",
+       "answer": "Paola lives in Germany with her husband; their son Marco studies in Bologna.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "___ amica si chiama Elena. (my)",
+     "answer": "La mia",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Dove abitano ___ genitori? (your, informal)",
+     "answer": "i tuoi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Luca e ___ madre sono a casa. (his)",
+     "answer": "sua",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "instruction": "Write the possessive, with the article if needed.",
+     "prompt": "Ecco ___ amiche. (our)",
+     "answer": "le nostre",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Their son is a student.",
+     "answer": "Il loro figlio è studente.",
+     "alternatives": [
+      "Il loro figlio è uno studente."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Describe 3–4 members of your family with possessives: who they are, where they live, and one adjective for each.",
+     "answer": "Mia madre è di Busan. È molto simpatica. Mio padre lavora in banca. Mio fratello abita a Seul con sua moglie. I miei nonni sono vecchi ma sono molto attivi.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "December"
+  },
+  {
    "id": "it09",
    "title": "Key irregular verbs",
    "level": "A1",
@@ -3742,6 +4061,3262 @@
     }
    ],
    "schedule": "January"
+  },
+  {
+   "id": "it14",
+   "title": "The imperfetto",
+   "level": "A2",
+   "summary": "How things were and what you used to do: ero, avevo, abitavo …",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "Take the infinitive, drop -re and add -vo, -vi, -va, -vamo, -vate, -vano. parlare → parlavo, parlavi, parlava, parlavamo, parlavate, parlavano; avere → avevo; dormire → dormivo. Stress: parlaVAmo, parlaVAte, but PARlavano (like the present PARlano).",
+     "examples": [
+      {
+       "t": "Abitavo in campagna.",
+       "en": "I lived / used to live in the countryside."
+      },
+      {
+       "t": "Avevamo un cane.",
+       "en": "We had a dog."
+      }
+     ]
+    },
+    {
+     "heading": "Irregular verbs",
+     "text": "essere: ero, eri, era, eravamo, eravate, erano. fare → facevo, bere → bevevo, dire → dicevo (regular endings on an older stem).",
+     "examples": [
+      {
+       "t": "Ero molto timida.",
+       "en": "I was very shy. (woman speaking)"
+      },
+      {
+       "t": "Che cosa facevi da bambino?",
+       "en": "What did you use to do as a child?"
+      }
+     ]
+    },
+    {
+     "heading": "Use 1: habits in the past",
+     "text": "The imperfetto describes what used to happen regularly. Signal words: da bambino/a, da piccolo/a, quando ero giovane, ogni giorno, ogni estate, di solito, sempre, spesso.",
+     "examples": [
+      {
+       "t": "Da bambina andavo al mare ogni estate.",
+       "en": "As a child I used to go to the seaside every summer."
+      },
+      {
+       "t": "Di solito mio padre cucinava la domenica.",
+       "en": "My father usually cooked on Sundays."
+      }
+     ]
+    },
+    {
+     "heading": "Use 2: descriptions",
+     "text": "Use it to describe people, places, weather, age, time and feelings in the past: the background of a story. Weather: faceva caldo/freddo, pioveva (piovere = to rain), c'era il sole.",
+     "examples": [
+      {
+       "t": "Era una bella giornata e faceva caldo.",
+       "en": "It was a nice day and it was hot."
+      },
+      {
+       "t": "Avevo dieci anni. Erano le otto e pioveva.",
+       "en": "I was ten. It was eight o'clock and it was raining."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "da bambino / da bambina",
+     "en": "as a child"
+    },
+    {
+     "term": "ogni",
+     "en": "every (ogni giorno)"
+    },
+    {
+     "term": "l'estate",
+     "en": "summer"
+    },
+    {
+     "term": "l'inverno",
+     "en": "winter"
+    },
+    {
+     "term": "la campagna",
+     "en": "countryside"
+    },
+    {
+     "term": "il paese",
+     "en": "village; country"
+    },
+    {
+     "term": "giocare",
+     "en": "to play"
+    },
+    {
+     "term": "nuotare",
+     "en": "to swim"
+    },
+    {
+     "term": "raccontare",
+     "en": "to tell (a story)"
+    },
+    {
+     "term": "ricordare",
+     "en": "to remember"
+    },
+    {
+     "term": "il giardino",
+     "en": "garden"
+    },
+    {
+     "term": "felice",
+     "en": "happy"
+    },
+    {
+     "term": "timido",
+     "en": "shy"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Da bambina io ___ molto. (giocare)",
+     "answer": "giocavo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Mio nonno ___ storie divertenti. (raccontare)",
+     "answer": "raccontava",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ in campagna. (abitare)",
+     "answer": "abitavamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quando avevo sei anni, ___ timida. (essere)",
+     "answer": "ero",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ sport da piccoli? (fare)",
+     "answer": "facevate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "I miei genitori ___ sempre caffè. (bere)",
+     "answer": "bevevano",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite as a habit in the past (imperfetto).",
+     "prompt": "Ogni estate andiamo al mare.",
+     "answer": "Ogni estate andavamo al mare.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the past as a description (imperfetto).",
+     "prompt": "È una bella giornata e fa caldo.",
+     "answer": "Era una bella giornata e faceva caldo.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "When I was a child, I lived in the countryside. (woman speaking; men use -o)",
+     "answer": "Da bambina abitavo in campagna.",
+     "alternatives": [
+      "Quando ero bambina, abitavo in campagna.",
+      "Quando ero piccola, abitavo in campagna.",
+      "Da piccola abitavo in campagna.",
+      "Da bambina vivevo in campagna.",
+      "Quando ero bambina, vivevo in campagna.",
+      "Quando ero piccola, vivevo in campagna.",
+      "Da piccola vivevo in campagna.",
+      "Da bambino abitavo in campagna.",
+      "Quando ero bambino, abitavo in campagna.",
+      "Quando ero piccolo, abitavo in campagna.",
+      "Da piccolo abitavo in campagna.",
+      "Da bambino vivevo in campagna.",
+      "Quando ero bambino, vivevo in campagna.",
+      "Quando ero piccolo, vivevo in campagna.",
+      "Da piccolo vivevo in campagna."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "We used to play in the garden every day.",
+     "answer": "Giocavamo in giardino ogni giorno.",
+     "alternatives": [
+      "Ogni giorno giocavamo in giardino.",
+      "Giocavamo nel giardino ogni giorno.",
+      "Ogni giorno giocavamo nel giardino."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Le estati dai nonni",
+     "passage": "Da bambina passavo tutte le estati dai miei nonni in un piccolo paese in Toscana. La casa era vecchia ma molto bella, con un grande giardino. Ogni mattina mio nonno andava al mercato e io andavo con lui. Il pomeriggio faceva caldo e tutti dormivano. Io, invece, leggevo i libri di mia nonna in giardino. La sera mangiavamo fuori e mio nonno raccontava storie del paese. Non c'era la televisione, ma ero molto felice.",
+     "glossary": [
+      {
+       "term": "passare",
+       "en": "to spend (time)"
+      },
+      {
+       "term": "tutte le estati",
+       "en": "every summer"
+      },
+      {
+       "term": "il mercato",
+       "en": "market"
+      },
+      {
+       "term": "invece",
+       "en": "on the other hand"
+      },
+      {
+       "term": "fuori",
+       "en": "outside"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where did the writer spend her summers as a child?",
+       "answer": "At her grandparents' house in a small village in Tuscany.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What was the house like?",
+       "answer": "Old but very beautiful, with a big garden.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What happened every morning?",
+       "answer": "Her grandfather went to the market and she went with him.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What did they do in the evening?",
+       "answer": "They ate outside and her grandfather told stories about the village.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Da piccoli, voi ___ a Roma? (vivere)",
+     "answer": "vivevate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quando ___ giovane, mio padre lavorava in Germania. (essere)",
+     "answer": "era",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Che tempo ___ ieri? (fare)",
+     "answer": "faceva",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Rewrite in the imperfetto.",
+     "prompt": "Di solito mi sveglio alle sette.",
+     "answer": "Di solito mi svegliavo alle sette.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "It was eight o'clock and it was raining.",
+     "answer": "Erano le otto e pioveva.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4–5 sentences about your life when you were ten: where you lived, your school, what you did every day.",
+     "answer": "Quando avevo dieci anni, abitavo a Daegu con la mia famiglia. La mia scuola era vicino a casa. Ogni mattina andavo a scuola a piedi con mio fratello. Il pomeriggio giocavo con i miei amici nel parco. La sera guardavo la televisione.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "February"
+  },
+  {
+   "id": "it15",
+   "title": "Imperfetto or passato prossimo?",
+   "level": "A2",
+   "summary": "Background and habits versus events: telling a story in the past.",
+   "notes": [
+    {
+     "heading": "The basic contrast",
+     "text": "Passato prossimo: completed events, what happened (Ieri sono andata al cinema). Imperfetto: the background, descriptions, habits, what was going on (Era tardi e pioveva).",
+     "examples": [
+      {
+       "t": "Era tardi e pioveva. Sono tornata a casa in taxi.",
+       "en": "It was late and it was raining. I went home by taxi."
+      }
+     ]
+    },
+    {
+     "heading": "An action interrupted",
+     "text": "The ongoing action is in the imperfetto; the event that interrupts it is in the passato prossimo. mentre (while) usually goes with the imperfetto.",
+     "examples": [
+      {
+       "t": "Mentre cucinavo, è arrivato Marco.",
+       "en": "While I was cooking, Marco arrived."
+      },
+      {
+       "t": "Dormivo quando ha suonato il telefono.",
+       "en": "I was sleeping when the phone rang."
+      }
+     ]
+    },
+    {
+     "heading": "Signal words",
+     "text": "Imperfetto: mentre, sempre, di solito, ogni giorno, da bambino. Passato prossimo: ieri, una volta (once), all'improvviso (suddenly), a un certo punto, poi, tre volte, and periods with a clear end: per due anni. vivere → ho vissuto. With c'è: c'era (there was, description) but c'è stato (there was, an event).",
+     "examples": [
+      {
+       "t": "Ho vissuto a Roma per due anni.",
+       "en": "I lived in Rome for two years."
+      },
+      {
+       "t": "Ieri c'è stato un incidente.",
+       "en": "There was an accident yesterday."
+      }
+     ]
+    },
+    {
+     "heading": "Two actions at the same time, or one after another",
+     "text": "Two ongoing actions at the same time: mentre + imperfetto + imperfetto. A sequence of events: passato prossimo for each one.",
+     "examples": [
+      {
+       "t": "Mentre io leggevo, lui guardava la tv.",
+       "en": "While I was reading, he was watching TV."
+      },
+      {
+       "t": "Mi sono alzata, ho fatto colazione e sono uscita.",
+       "en": "I got up, had breakfast and went out. (woman speaking)"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "all'improvviso",
+     "en": "suddenly"
+    },
+    {
+     "term": "mentre",
+     "en": "while"
+    },
+    {
+     "term": "a un certo punto",
+     "en": "at a certain point"
+    },
+    {
+     "term": "una volta",
+     "en": "once; one time"
+    },
+    {
+     "term": "succedere (è successo)",
+     "en": "to happen"
+    },
+    {
+     "term": "cadere (è caduto)",
+     "en": "to fall"
+    },
+    {
+     "term": "rompere (rotto)",
+     "en": "to break"
+    },
+    {
+     "term": "suonare",
+     "en": "to ring; to play (music)"
+    },
+    {
+     "term": "vivere (ho vissuto)",
+     "en": "to live"
+    },
+    {
+     "term": "la pioggia",
+     "en": "rain"
+    },
+    {
+     "term": "il portafoglio",
+     "en": "wallet"
+    },
+    {
+     "term": "l'ombrello",
+     "en": "umbrella"
+    },
+    {
+     "term": "la fermata",
+     "en": "(bus) stop"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Mentre io ___ la doccia, ha suonato il telefono. (fare)",
+     "answer": "facevo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Mentre io facevo la doccia, il telefono ___ . (suonare)",
+     "answer": "ha suonato",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ieri sera ___ a letto alle undici. (andare, woman speaking; men use -o)",
+     "answer": "sono andata",
+     "alternatives": [
+      "sono andato"
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Da bambino Luca ___ sempre la bici. (prendere)",
+     "answer": "prendeva",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quando siamo arrivati, ___ molta gente. (there was: c'era or c'è stato?)",
+     "answer": "c'era",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "All'improvviso Anna ___ . (cadere)",
+     "answer": "è caduta",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with mentre and put them in the past.",
+     "prompt": "Io guardo la tv. Arriva mio fratello.",
+     "answer": "Mentre guardavo la tv, è arrivato mio fratello.",
+     "alternatives": [
+      "Mentre io guardavo la tv, è arrivato mio fratello.",
+      "Mentre guardavo la televisione, è arrivato mio fratello.",
+      "Mentre io guardavo la televisione, è arrivato mio fratello."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I lived in Milan for three years.",
+     "answer": "Ho vissuto a Milano per tre anni.",
+     "alternatives": [
+      "Ho abitato a Milano per tre anni.",
+      "Per tre anni ho vissuto a Milano.",
+      "Per tre anni ho abitato a Milano."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "It was raining and I took the umbrella.",
+     "answer": "Pioveva e ho preso l'ombrello.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Il portafoglio rosso",
+     "passage": "Sabato scorso Giulia aveva un appuntamento con un'amica in centro. Era una giornata grigia e faceva freddo. Mentre aspettava l'autobus, ha cominciato a piovere. Giulia non aveva l'ombrello, così è entrata in un bar. Mentre beveva un cappuccino, è entrato un ragazzo con un portafoglio rosso in mano. «Scusi, è Suo? Era a terra, alla fermata dell'autobus» ha chiesto. Sì, era il portafoglio di Giulia! Lei era molto contenta e ha offerto un caffè al ragazzo.",
+     "glossary": [
+      {
+       "term": "l'appuntamento",
+       "en": "appointment, date"
+      },
+      {
+       "term": "grigio",
+       "en": "grey"
+      },
+      {
+       "term": "cominciare a",
+       "en": "to start to"
+      },
+      {
+       "term": "così",
+       "en": "so"
+      },
+      {
+       "term": "in mano",
+       "en": "in his hand"
+      },
+      {
+       "term": "a terra",
+       "en": "on the ground"
+      },
+      {
+       "term": "chiedere (chiesto)",
+       "en": "to ask"
+      },
+      {
+       "term": "offrire (offerto)",
+       "en": "to offer; to buy someone something"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What was the weather like?",
+       "answer": "It was a grey, cold day, and then it started to rain.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "Why did Giulia go into a café?",
+       "answer": "It started raining while she was waiting for the bus and she had no umbrella.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "Who came in while she was drinking her cappuccino?",
+       "answer": "A young man with a red wallet in his hand.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "Whose wallet was it, and how did the story end?",
+       "answer": "It was Giulia's: it was on the ground at the bus stop. She was very happy and bought the young man a coffee.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Quando ero piccola, ___ spesso dai nonni. (andare)",
+     "answer": "andavo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ieri ___ un incidente in via Roma. (there was: c'era or c'è stato?)",
+     "answer": "c'è stato",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Mentre noi ___ , è arrivato il treno. (parlare)",
+     "answer": "parlavamo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence in the past (woman speaking; men use -o).",
+     "prompt": "Mentre leggo, mi addormento.",
+     "answer": "Mentre leggevo, mi sono addormentata.",
+     "alternatives": [
+      "Mentre leggevo, mi sono addormentato."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "When I arrived, everybody was eating. (woman speaking; men use -o)",
+     "answer": "Quando sono arrivata, tutti mangiavano.",
+     "alternatives": [
+      "Quando sono arrivato, tutti mangiavano."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Tell a short story (5–6 sentences) about something unexpected that happened to you. Use the imperfetto for the background and the passato prossimo for the events.",
+     "answer": "L'anno scorso ero a Busan per lavoro. Era sera e faceva molto freddo. Mentre aspettavo la metro, ho visto una vecchia amica di scuola. Abbiamo preso un caffè insieme e abbiamo parlato per due ore. È stata una bella sorpresa.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "February"
+  },
+  {
+   "id": "it16",
+   "title": "Direct object pronouns",
+   "level": "A2",
+   "summary": "lo, la, li, le …: Lo compro. L'ho visto. Voglio vederla.",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "mi (me), ti (you), lo (him, it m), la (her, it f), La (you, formal), ci (us), vi (you pl.), li (them m), le (them f). They replace a direct object, i.e. one without a preposition.",
+     "examples": [
+      {
+       "t": "Compro il pane. → Lo compro.",
+       "en": "I buy the bread. → I buy it."
+      },
+      {
+       "t": "Conosci Anna? – Sì, la conosco.",
+       "en": "Do you know Anna? – Yes, I know her."
+      }
+     ]
+    },
+    {
+     "heading": "Position",
+     "text": "Before the conjugated verb: Non lo trovo. With volere, potere, dovere + infinitive, put the pronoun before the modal or attach it to the infinitive (which drops its final -e). With ecco it is attached: eccolo, eccola, eccoli, eccole.",
+     "examples": [
+      {
+       "t": "La voglio vedere. = Voglio vederla.",
+       "en": "I want to see her."
+      },
+      {
+       "t": "Dove sono le chiavi? – Eccole!",
+       "en": "Where are the keys? – Here they are!"
+      }
+     ]
+    },
+    {
+     "heading": "In the passato prossimo",
+     "text": "lo and la become l' before avere, and the participle agrees with lo, la, li, le.",
+     "examples": [
+      {
+       "t": "Hai visto Anna? – Sì, l'ho vista.",
+       "en": "Have you seen Anna? – Yes, I've seen her."
+      },
+      {
+       "t": "I biglietti? Li ho comprati ieri.",
+       "en": "The tickets? I bought them yesterday."
+      },
+      {
+       "t": "Le chiavi? Le ho prese io.",
+       "en": "The keys? I took them."
+      }
+     ]
+    },
+    {
+     "heading": "Useful verbs",
+     "text": "Verbs that take a direct object in Italian: conoscere (to know a person or place), aiutare, chiamare, invitare, aspettare (to wait for), cercare (to look for), ascoltare (to listen to), guardare (to look at). In a shop: Lo prendo. = I'll take it.",
+     "examples": [
+      {
+       "t": "Ti aspetto davanti al bar.",
+       "en": "I'll wait for you in front of the café."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "conoscere",
+     "en": "to know (a person, a place)"
+    },
+    {
+     "term": "aiutare",
+     "en": "to help"
+    },
+    {
+     "term": "chiamare",
+     "en": "to call"
+    },
+    {
+     "term": "invitare",
+     "en": "to invite"
+    },
+    {
+     "term": "trovare",
+     "en": "to find"
+    },
+    {
+     "term": "portare",
+     "en": "to bring; to carry"
+    },
+    {
+     "term": "lasciare",
+     "en": "to leave (something)"
+    },
+    {
+     "term": "salutare",
+     "en": "to greet, say hi"
+    },
+    {
+     "term": "la festa",
+     "en": "party"
+    },
+    {
+     "term": "il regalo",
+     "en": "present"
+    },
+    {
+     "term": "la torta",
+     "en": "cake"
+    },
+    {
+     "term": "gli occhiali",
+     "en": "glasses"
+    },
+    {
+     "term": "eccolo / eccola / eccoli / eccole",
+     "en": "here it is / here they are"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Compro il giornale.",
+     "answer": "Lo compro.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Leggo le lettere.",
+     "answer": "Le leggo.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Inviti Marco e Luca?",
+     "answer": "Li inviti?",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Aspetto mia sorella.",
+     "answer": "La aspetto.",
+     "alternatives": [
+      "L'aspetto."
+     ],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Conosci Paolo? Sì, ___ conosco bene.",
+     "answer": "lo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun attached to the infinitive.",
+     "prompt": "Voglio comprare la torta.",
+     "answer": "Voglio comprarla.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun (careful with the participle).",
+     "prompt": "Ho visto i tuoi amici.",
+     "answer": "Li ho visti.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with a pronoun.",
+     "prompt": "Hai preso le chiavi? → Sì, …",
+     "answer": "Sì, le ho prese.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Where are my glasses? – Here they are!",
+     "answer": "Dove sono i miei occhiali? Eccoli!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "Can you help me? (informal)",
+     "answer": "Puoi aiutarmi?",
+     "alternatives": [
+      "Mi puoi aiutare?"
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "La festa di Elena",
+     "passage": "Sara: Allora, la festa è domani. Hai invitato Marco?\nLuca: Sì, l'ho invitato ieri. E Chiara? La inviti tu?\nSara: Sì, la chiamo stasera. E la torta? Chi la prepara?\nLuca: La prepara mia madre: è molto brava!\nSara: Perfetto. E il regalo per Elena? L'hai già comprato?\nLuca: No, non l'ho ancora comprato. Lo cerco domani in centro. Mi aiuti?\nSara: Certo! Ti aspetto alle dieci davanti alla libreria.\nLuca: Va bene, a domani!",
+     "glossary": [
+      {
+       "term": "allora",
+       "en": "so, well then"
+      },
+      {
+       "term": "chi",
+       "en": "who"
+      },
+      {
+       "term": "bravo / brava",
+       "en": "good (at something)"
+      },
+      {
+       "term": "certo",
+       "en": "of course"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Who invited Marco, and when?",
+       "answer": "Luca, yesterday.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Who is going to call Chiara?",
+       "answer": "Sara, this evening.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "Who is making the cake?",
+       "answer": "Luca's mother.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What about Elena's present?",
+       "answer": "Luca hasn't bought it yet. He'll look for it in town tomorrow and Sara will help; they're meeting at ten in front of the bookshop.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Mangio la pizza.",
+     "answer": "La mangio.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun.",
+     "prompt": "Non trovo i biglietti.",
+     "answer": "Non li trovo.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace the object with a pronoun (careful with the participle).",
+     "prompt": "Ho chiamato Anna ieri.",
+     "answer": "L'ho chiamata ieri.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Signora, ___ aiuto io! (you, formal)",
+     "answer": "La",
+     "alternatives": [
+      "L'"
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "We'll wait for you (informal) at the station.",
+     "answer": "Ti aspettiamo alla stazione.",
+     "alternatives": [
+      "Ti aspettiamo in stazione."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Answer in full sentences, using a pronoun each time: Hai fatto la spesa? Hai visto l'ultimo film di Sorrentino? Conosci i tuoi vicini? Dove compri il pane?",
+     "answer": "Sì, l'ho fatta ieri. No, non l'ho ancora visto. Sì, li conosco bene. Lo compro al supermercato.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "March"
+  },
+  {
+   "id": "it17",
+   "title": "Indirect object pronouns and piacere",
+   "level": "A2",
+   "summary": "gli, le, mi piace, mi piacciono …",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "An indirect object answers to whom / for whom (a + person). Forms: mi, ti, gli (to him), le (to her), Le (to you, formal), ci, vi, gli (to them; in formal writing also loro after the verb). Before a vowel, a often becomes ad: ad Anna.",
+     "examples": [
+      {
+       "t": "Telefono a Marco. → Gli telefono.",
+       "en": "I'm calling Marco. → I'm calling him."
+      },
+      {
+       "t": "Scrivo ad Anna. → Le scrivo.",
+       "en": "I'm writing to Anna. → I'm writing to her."
+      }
+     ]
+    },
+    {
+     "heading": "Verbs and position",
+     "text": "Common verbs: telefonare a, scrivere a, rispondere a, regalare, mandare, portare, prestare, spiegare, chiedere, and two irregular ones: dare (do, dai, dà, diamo, date, danno) and dire (dico, dici, dice, diciamo, dite, dicono). The position is the same as for direct pronouns. In the passato prossimo the participle does not agree with indirect pronouns.",
+     "examples": [
+      {
+       "t": "Le ho scritto ieri.",
+       "en": "I wrote to her yesterday."
+      },
+      {
+       "t": "Mi presti la tua penna?",
+       "en": "Can you lend me your pen?"
+      }
+     ]
+    },
+    {
+     "heading": "piacere",
+     "text": "Mi piace means it pleases me. The thing you like is the subject: piace + a singular noun or an infinitive, piacciono + a plural noun. With a name or noun use a: A Marco piace il calcio. Short replies: Anche a me (me too), A me no (not me), Neanche a me (me neither).",
+     "examples": [
+      {
+       "t": "Mi piace il caffè. Mi piacciono i gatti.",
+       "en": "I like coffee. I like cats."
+      },
+      {
+       "t": "Ti piace cucinare? – Sì, ma a mio marito no.",
+       "en": "Do you like cooking? – Yes, but my husband doesn't."
+      }
+     ]
+    },
+    {
+     "heading": "piacere in the past",
+     "text": "piacere takes essere, and the participle agrees with the thing you liked.",
+     "examples": [
+      {
+       "t": "Mi è piaciuto il film.",
+       "en": "I liked the film."
+      },
+      {
+       "t": "Ti sono piaciute le foto?",
+       "en": "Did you like the photos?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "telefonare a",
+     "en": "to phone"
+    },
+    {
+     "term": "rispondere a",
+     "en": "to answer"
+    },
+    {
+     "term": "dare",
+     "en": "to give"
+    },
+    {
+     "term": "dire",
+     "en": "to say, tell"
+    },
+    {
+     "term": "regalare",
+     "en": "to give as a present"
+    },
+    {
+     "term": "mandare",
+     "en": "to send"
+    },
+    {
+     "term": "prestare",
+     "en": "to lend"
+    },
+    {
+     "term": "spiegare",
+     "en": "to explain"
+    },
+    {
+     "term": "chiedere (chiesto)",
+     "en": "to ask"
+    },
+    {
+     "term": "piacere (piace / piacciono)",
+     "en": "to be liked by"
+    },
+    {
+     "term": "anche a me / neanche a me",
+     "en": "me too / me neither"
+    },
+    {
+     "term": "il messaggio",
+     "en": "message"
+    },
+    {
+     "term": "il calcio",
+     "en": "football"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Replace a + person with a pronoun.",
+     "prompt": "Telefono a Marco stasera.",
+     "answer": "Gli telefono stasera.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace a + person with a pronoun.",
+     "prompt": "Scrivo una lettera a mia nonna.",
+     "answer": "Le scrivo una lettera.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace a + person with a pronoun.",
+     "prompt": "Rispondiamo agli studenti domani.",
+     "answer": "Gli rispondiamo domani.",
+     "alternatives": [
+      "Rispondiamo loro domani."
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Mi ___ molto i film italiani. (piacere)",
+     "answer": "piacciono",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "A Luca non ___ studiare. (piacere)",
+     "answer": "piace",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ piace la cucina coreana? (to you, informal)",
+     "answer": "Ti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ti ___ il concerto ieri sera? (piacere, passato prossimo)",
+     "answer": "è piaciuto",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "fill",
+     "prompt": "Che cosa ___ a tua sorella per il compleanno? (dare, tu)",
+     "answer": "dai",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "I like dogs, but I don't like cats.",
+     "answer": "Mi piacciono i cani, ma non mi piacciono i gatti.",
+     "alternatives": [
+      "Mi piacciono i cani ma non i gatti."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "Can you lend me your pen? (informal)",
+     "answer": "Mi presti la tua penna?",
+     "alternatives": [
+      "Puoi prestarmi la tua penna?",
+      "Mi puoi prestare la tua penna?"
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Un regalo per Marta",
+     "passage": "Ciao Paolo! Sabato è il compleanno di mia sorella Marta e cerco un regalo per lei. Le piacciono molto i libri, ma ha già tanti libri. Le piace anche la musica: forse le regalo un biglietto per un concerto. L'anno scorso le ho dato una borsa, ma non le è piaciuta molto! Tu che cosa mi consigli? Ah, un'altra cosa: mi presti la tua macchina sabato? Ti mando un messaggio stasera. Un abbraccio, Elena",
+     "glossary": [
+      {
+       "term": "tanti / tante",
+       "en": "so many"
+      },
+      {
+       "term": "forse",
+       "en": "maybe"
+      },
+      {
+       "term": "consigliare",
+       "en": "to advise"
+      },
+      {
+       "term": "un'altra cosa",
+       "en": "one more thing"
+      },
+      {
+       "term": "un abbraccio",
+       "en": "a hug (letter ending)"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Why is Elena looking for a present?",
+       "answer": "On Saturday it's her sister Marta's birthday.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Why might a book not be a good idea?",
+       "answer": "Marta already has a lot of books.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What is Elena thinking of giving, and why?",
+       "answer": "A ticket for a concert, because Marta also likes music.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What happened with last year's present, and what does Elena ask Paolo?",
+       "answer": "She gave Marta a bag but Marta didn't like it much. She asks Paolo for advice and to lend her his car on Saturday.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Replace a + person with a pronoun.",
+     "prompt": "Mando un messaggio a Giulia.",
+     "answer": "Le mando un messaggio.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "A noi ___ molto viaggiare. (piacere)",
+     "answer": "piace",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Signor Rossi, ___ telefono domani. (to you, formal)",
+     "answer": "Le",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Le scarpe nuove non mi ___ . (piacere, passato prossimo)",
+     "answer": "sono piaciute",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'm giving my brother a book.",
+     "answer": "Do un libro a mio fratello.",
+     "alternatives": [
+      "Regalo un libro a mio fratello."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4 sentences about what you and someone in your family like and don't like. Use mi piace / mi piacciono, gli / le piace and anche a me or neanche a me.",
+     "answer": "Mi piace molto leggere, ma non mi piacciono i film dell'orrore. A mia madre piace cucinare. Mio fratello dice: «Mi piace il calcio.» Anche a me! A mio padre non piace viaggiare, e neanche a me.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "March"
+  },
+  {
+   "id": "it18",
+   "title": "ci and ne",
+   "level": "A2",
+   "summary": "Ci vado domani. Ne prendo due. Some: del pane, delle mele.",
+   "notes": [
+    {
+     "heading": "ci = there",
+     "text": "ci replaces a place introduced by a, in or da: Vai a Roma? – Sì, ci vado domani. It goes in the same position as the other pronouns: Ci voglio andare = Voglio andarci. In the passato prossimo: Ci sono stata due volte (I've been there twice).",
+     "examples": [
+      {
+       "t": "Sei stata in Sicilia? – Sì, ci sono stata l'anno scorso.",
+       "en": "Have you been to Sicily? – Yes, I went there last year."
+      },
+      {
+       "t": "Ci penso io.",
+       "en": "I'll take care of it. (pensare a = to think about)"
+      }
+     ]
+    },
+    {
+     "heading": "ne = of it, of them (quantities)",
+     "text": "With numbers and quantities, ne replaces the noun and the number stays: Quanti fratelli hai? – Ne ho due. Quanto pane compri? – Ne compro mezzo chilo. Non ne ho = I don't have any.",
+     "examples": [
+      {
+       "t": "Quanti caffè prendi al giorno? – Ne prendo tre.",
+       "en": "How many coffees do you have a day? – I have three."
+      },
+      {
+       "t": "Hai del latte? – No, non ne ho.",
+       "en": "Do you have any milk? – No, I don't have any."
+      }
+     ]
+    },
+    {
+     "heading": "ne in the passato prossimo",
+     "text": "With ne the participle agrees with the thing counted.",
+     "examples": [
+      {
+       "t": "Quante pizze hai mangiato? – Ne ho mangiate due.",
+       "en": "How many pizzas did you eat? – Two."
+      },
+      {
+       "t": "Quanti libri hai letto? – Ne ho letti tre.",
+       "en": "How many books did you read? – Three."
+      }
+     ]
+    },
+    {
+     "heading": "Some: the partitive",
+     "text": "di + article means some: del pane, dello zucchero, dell'acqua, della frutta, dei pomodori, degli spinaci, delle mele. Shopping quantities: un chilo di, mezzo chilo di, un etto di (100 g; plural due etti), una bottiglia di, un pacco di, un po' di.",
+     "examples": [
+      {
+       "t": "Compro del pane e delle mele.",
+       "en": "I'm buying some bread and some apples."
+      },
+      {
+       "t": "Due etti di prosciutto, per favore.",
+       "en": "200 grams of ham, please."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "un chilo / mezzo chilo",
+     "en": "a kilo / half a kilo"
+    },
+    {
+     "term": "un etto (due etti)",
+     "en": "100 grams"
+    },
+    {
+     "term": "la bottiglia",
+     "en": "bottle"
+    },
+    {
+     "term": "il pacco",
+     "en": "packet"
+    },
+    {
+     "term": "un po' di",
+     "en": "a bit of, some"
+    },
+    {
+     "term": "la volta",
+     "en": "time (occasion): due volte"
+    },
+    {
+     "term": "pensare a",
+     "en": "to think about"
+    },
+    {
+     "term": "il formaggio",
+     "en": "cheese"
+    },
+    {
+     "term": "il prosciutto",
+     "en": "ham"
+    },
+    {
+     "term": "il latte",
+     "en": "milk"
+    },
+    {
+     "term": "l'uovo (le uova)",
+     "en": "egg (eggs)"
+    },
+    {
+     "term": "il pomodoro",
+     "en": "tomato"
+    },
+    {
+     "term": "la mela",
+     "en": "apple"
+    }
+   ],
+   "practice": [
+    {
+     "type": "transform",
+     "instruction": "Answer with ci.",
+     "prompt": "Vai in ufficio domani? → Sì, …",
+     "answer": "Sì, ci vado domani.",
+     "alternatives": [
+      "Sì, ci vado."
+     ],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ci.",
+     "prompt": "Siete stati a Venezia? → No, …",
+     "answer": "No, non ci siamo stati.",
+     "alternatives": [
+      "No, non ci siamo mai stati."
+     ],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne.",
+     "prompt": "Quanti caffè prendi al giorno? (due)",
+     "answer": "Ne prendo due.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne.",
+     "prompt": "Quante uova compri? (sei)",
+     "answer": "Ne compro sei.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne.",
+     "prompt": "Hai dei fratelli? → No, …",
+     "answer": "No, non ne ho.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne (careful with the participle).",
+     "prompt": "Quanti libri hai letto l'anno scorso? (cinque)",
+     "answer": "Ne ho letti cinque.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "fill",
+     "prompt": "Compro ___ formaggio. (some)",
+     "answer": "del",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I've been there three times. (woman speaking; men use -o)",
+     "answer": "Ci sono stata tre volte.",
+     "alternatives": [
+      "Ci sono stato tre volte."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Two etti (200 g) of ham, please.",
+     "answer": "Due etti di prosciutto, per favore.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Al mercato",
+     "passage": "Cliente: Buongiorno! Mi dà un chilo di pomodori, per favore?\nFruttivendolo: Certo. Ecco a Lei. Altro?\nCliente: Sì, delle mele. Sono buone?\nFruttivendolo: Sono molto buone. Quante ne vuole?\nCliente: Ne prendo sei. E le uova, le avete?\nFruttivendolo: No, mi dispiace, oggi non ne ho. Ci sono al supermercato qui vicino.\nCliente: Va bene, ci vado dopo. Quanto pago?\nFruttivendolo: Sono sette euro e cinquanta.\nCliente: Ecco a Lei. Grazie e arrivederci!",
+     "glossary": [
+      {
+       "term": "il fruttivendolo",
+       "en": "greengrocer"
+      },
+      {
+       "term": "ecco a Lei",
+       "en": "here you are"
+      },
+      {
+       "term": "altro?",
+       "en": "anything else?"
+      },
+      {
+       "term": "mi dispiace",
+       "en": "I'm sorry"
+      },
+      {
+       "term": "dopo",
+       "en": "later"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What does the customer buy first?",
+       "answer": "A kilo of tomatoes.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "How many apples does the customer take?",
+       "answer": "Six.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "Why can't the customer buy eggs here, and what will they do?",
+       "answer": "The greengrocer has none today; the customer will go to the supermarket nearby later.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "How much does the customer pay?",
+       "answer": "€7.50.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "transform",
+     "instruction": "Answer with ci.",
+     "prompt": "Quando vai a Napoli? (sabato)",
+     "answer": "Ci vado sabato.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne.",
+     "prompt": "Quanti anni hai? (trenta)",
+     "answer": "Ne ho trenta.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "transform",
+     "instruction": "Answer with ne (careful with the participle).",
+     "prompt": "Quante foto hai fatto? (venti)",
+     "answer": "Ne ho fatte venti.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ci sono ___ pomodori? (some)",
+     "answer": "dei",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Do you (informal) have any milk? – No, I don't have any.",
+     "answer": "Hai del latte? No, non ne ho.",
+     "alternatives": [
+      "Hai latte? No, non ne ho."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write a short dialogue (4–6 lines) at the market. Use ne at least twice and at least one quantity (un chilo, un etto, una bottiglia …).",
+     "answer": "– Buongiorno! Avete delle arance?\n– Sì, quante ne vuole?\n– Ne prendo un chilo. E del formaggio?\n– Quanto ne vuole?\n– Due etti, per favore.\n– Ecco a Lei.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "March"
+  },
+  {
+   "id": "it19",
+   "title": "The future tense (futuro semplice)",
+   "level": "A2",
+   "summary": "Plans, predictions and guesses: andrò, farò, sarà …",
+   "notes": [
+    {
+     "heading": "Regular forms",
+     "text": "-are and -ere verbs: stem + -erò, -erai, -erà, -eremo, -erete, -eranno (parlare → parlerò; prendere → prenderò). -ire verbs: -irò, -irai, -irà, -iremo, -irete, -iranno (partire → partirò). The stress is on the ending: parlerò, partirà.",
+     "examples": [
+      {
+       "t": "L'anno prossimo parlerò meglio l'italiano.",
+       "en": "Next year I'll speak Italian better."
+      },
+      {
+       "t": "Partiremo alle otto.",
+       "en": "We'll leave at eight."
+      }
+     ]
+    },
+    {
+     "heading": "Spelling",
+     "text": "-care / -gare add h to keep the hard sound: cercherò, pagherò. -ciare / -giare drop the i: comincerò, mangerò.",
+     "examples": [
+      {
+       "t": "Chi pagherà il conto?",
+       "en": "Who will pay the bill?"
+      }
+     ]
+    },
+    {
+     "heading": "Irregular stems",
+     "text": "essere → sarò; avere → avrò; andare → andrò; fare → farò; stare → starò; dare → darò; venire → verrò; volere → vorrò; potere → potrò; dovere → dovrò; vedere → vedrò; bere → berrò; vivere → vivrò. The endings are always the same.",
+     "examples": [
+      {
+       "t": "Domani farà bel tempo.",
+       "en": "Tomorrow the weather will be nice."
+      },
+      {
+       "t": "Verrai alla festa?",
+       "en": "Will you come to the party?"
+      }
+     ]
+    },
+    {
+     "heading": "Uses and time words",
+     "text": "Plans and predictions (in speech Italians also use the present for the near future). Guesses about the present: Che ore sono? – Saranno le otto (it must be about eight). Unlike English, Italian normally uses the future after quando when the action is in the future: Quando avrò tempo … After se the present is also common in speech: Se ho tempo, ti chiamo. Time words: domani, dopodomani, la settimana prossima, l'anno prossimo, tra/fra due giorni (in two days). Months: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre (a settembre = in September).",
+     "examples": [
+      {
+       "t": "Quando avrò tempo, ti chiamerò.",
+       "en": "When I have time, I'll call you."
+      },
+      {
+       "t": "Tra due anni vivrò in Italia.",
+       "en": "In two years I'll live in Italy."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "la settimana prossima",
+     "en": "next week"
+    },
+    {
+     "term": "l'anno prossimo",
+     "en": "next year"
+    },
+    {
+     "term": "dopodomani",
+     "en": "the day after tomorrow"
+    },
+    {
+     "term": "tra / fra",
+     "en": "in (+ time): tra due giorni"
+    },
+    {
+     "term": "il progetto",
+     "en": "plan, project"
+    },
+    {
+     "term": "il viaggio",
+     "en": "trip, journey"
+    },
+    {
+     "term": "l'esame",
+     "en": "exam"
+    },
+    {
+     "term": "superare (un esame)",
+     "en": "to pass (an exam)"
+    },
+    {
+     "term": "trasferirsi (-isc-)",
+     "en": "to move (to another city)"
+    },
+    {
+     "term": "sposarsi",
+     "en": "to get married"
+    },
+    {
+     "term": "cambiare",
+     "en": "to change"
+    },
+    {
+     "term": "risparmiare",
+     "en": "to save (money)"
+    },
+    {
+     "term": "forse",
+     "en": "maybe"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "L'anno prossimo io ___ in Italia. (andare)",
+     "answer": "andrò",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Domani ___ bel tempo. (fare)",
+     "answer": "farà",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ alle otto. (partire)",
+     "answer": "partiremo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ il conto? (pagare)",
+     "answer": "pagherai",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "I miei genitori ___ a trovarmi la settimana prossima. (venire)",
+     "answer": "verranno",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quando ___ tempo, leggerò un libro. (avere)",
+     "answer": "avrò",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Use the future to make a guess.",
+     "prompt": "Forse sono le dieci.",
+     "answer": "Saranno le dieci.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the future.",
+     "prompt": "Il corso comincia lunedì.",
+     "answer": "Il corso comincerà lunedì.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "In two years I'll live in Rome.",
+     "answer": "Tra due anni vivrò a Roma.",
+     "alternatives": [
+      "Fra due anni vivrò a Roma.",
+      "Tra due anni abiterò a Roma.",
+      "Fra due anni abiterò a Roma."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "If I pass the exam, I'll be very happy. (woman speaking; men use -o)",
+     "answer": "Se supererò l'esame, sarò molto contenta.",
+     "alternatives": [
+      "Se supero l'esame, sarò molto contenta.",
+      "Se supererò l'esame, sarò molto felice.",
+      "Se supero l'esame, sarò molto felice.",
+      "Se supererò l'esame, sarò molto contento.",
+      "Se supero l'esame, sarò molto contento."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Una grande notizia",
+     "passage": "Cara Anna, ho una grande notizia: a settembre mi trasferirò a Firenze per lavoro! Lavorerò in un piccolo hotel vicino al Duomo. All'inizio abiterò da mia cugina, poi cercherò un appartamento. Il lavoro sarà difficile: dovrò parlare italiano tutto il giorno. Ma imparerò molto! Il fine settimana visiterò le città della Toscana e forse farò un corso di cucina. E tu? Quando verrai a trovarmi? Ti aspetto! Un abbraccio, Mina",
+     "glossary": [
+      {
+       "term": "la notizia",
+       "en": "(piece of) news"
+      },
+      {
+       "term": "il Duomo",
+       "en": "the cathedral"
+      },
+      {
+       "term": "all'inizio",
+       "en": "at first"
+      },
+      {
+       "term": "il fine settimana",
+       "en": "the weekend"
+      },
+      {
+       "term": "venire a trovare",
+       "en": "to come and visit"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Where is Mina moving, when and why?",
+       "answer": "To Florence, in September, for work.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "Where will she work?",
+       "answer": "In a small hotel near the cathedral.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "Where will she live at first?",
+       "answer": "At her cousin's; later she'll look for a flat.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "Why will the job be difficult, and what will she do at weekends?",
+       "answer": "She'll have to speak Italian all day. At weekends she'll visit Tuscan towns and maybe do a cooking course.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Domani io ___ a casa tutto il giorno. (stare)",
+     "answer": "starò",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ la partita stasera? (vedere)",
+     "answer": "vedrete",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Quando ___ a Roma, ti telefonerò. (arrivare, io)",
+     "answer": "arriverò",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Put the sentence into the future.",
+     "prompt": "Mangiamo da Marco sabato.",
+     "answer": "Mangeremo da Marco sabato.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Next week I'll have to work a lot.",
+     "answer": "La settimana prossima dovrò lavorare molto.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write 4–5 sentences about your plans for next year, using the future.",
+     "answer": "L'anno prossimo farò l'esame CILS A2. A giugno andrò in Italia per due settimane. Visiterò Roma e Firenze e parlerò italiano tutti i giorni. Dopo l'esame comincerò a studiare per il B1.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "April"
+  },
+  {
+   "id": "it20",
+   "title": "Comparatives and superlatives",
+   "level": "A2",
+   "summary": "più grande di, bello come, il più alto, bellissimo, migliore.",
+   "notes": [
+    {
+     "heading": "più / meno … di",
+     "text": "Compare two people or things with più (more) or meno (less) + adjective + di. di joins the article: del, della … Before a pronoun use the stressed form: di me, di te.",
+     "examples": [
+      {
+       "t": "Roma è più grande di Firenze.",
+       "en": "Rome is bigger than Florence."
+      },
+      {
+       "t": "Il treno è meno caro dell'aereo.",
+       "en": "The train is cheaper than the plane."
+      },
+      {
+       "t": "Mio fratello è più alto di me.",
+       "en": "My brother is taller than me."
+      }
+     ]
+    },
+    {
+     "heading": "più … che; equality",
+     "text": "Use che instead of di when you compare two adjectives, two verbs, or two things introduced by a preposition. For equality use come (or quanto).",
+     "examples": [
+      {
+       "t": "È più facile leggere che scrivere.",
+       "en": "Reading is easier than writing."
+      },
+      {
+       "t": "Fa più freddo a Milano che a Roma.",
+       "en": "It's colder in Milan than in Rome."
+      },
+      {
+       "t": "Luca è alto come suo padre.",
+       "en": "Luca is as tall as his father."
+      }
+     ]
+    },
+    {
+     "heading": "Superlatives",
+     "text": "Relative superlative: il/la/i/le + più + adjective + di: È la città più bella d'Italia; Anna è la più alta della classe. Absolute superlative: drop the final vowel and add -issimo/-issima/-issimi/-issime, which means very: bello → bellissimo, buono → buonissimo, lungo → lunghissimo, simpatico → simpaticissimo.",
+     "examples": [
+      {
+       "t": "Il film è lunghissimo.",
+       "en": "The film is very, very long."
+      },
+      {
+       "t": "È il ristorante più caro della città.",
+       "en": "It's the most expensive restaurant in the city."
+      }
+     ]
+    },
+    {
+     "heading": "Irregular forms",
+     "text": "buono → migliore (better), il migliore (the best); cattivo → peggiore, il peggiore. The adverbs bene and male become meglio and peggio. di più = more (on its own), di meno = less.",
+     "examples": [
+      {
+       "t": "La pizzeria qui vicino è la migliore del quartiere.",
+       "en": "The pizzeria near here is the best in the neighbourhood."
+      },
+      {
+       "t": "Parli italiano meglio di me.",
+       "en": "You speak Italian better than me."
+      },
+      {
+       "t": "Devo studiare di più.",
+       "en": "I need to study more."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "veloce",
+     "en": "fast"
+    },
+    {
+     "term": "lento",
+     "en": "slow"
+    },
+    {
+     "term": "comodo",
+     "en": "comfortable; convenient"
+    },
+    {
+     "term": "scomodo",
+     "en": "uncomfortable; inconvenient"
+    },
+    {
+     "term": "rumoroso",
+     "en": "noisy"
+    },
+    {
+     "term": "pulito",
+     "en": "clean"
+    },
+    {
+     "term": "sporco",
+     "en": "dirty"
+    },
+    {
+     "term": "utile",
+     "en": "useful"
+    },
+    {
+     "term": "facile / difficile",
+     "en": "easy / difficult"
+    },
+    {
+     "term": "migliore / il migliore",
+     "en": "better / the best"
+    },
+    {
+     "term": "peggiore / il peggiore",
+     "en": "worse / the worst"
+    },
+    {
+     "term": "meglio / peggio",
+     "en": "better / worse (adverbs)"
+    },
+    {
+     "term": "di più / di meno",
+     "en": "more / less"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Milano è più grande ___ Bologna.",
+     "answer": "di",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "L'aereo è più caro ___ treno. (di + article)",
+     "answer": "del",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "È più facile leggere ___ scrivere.",
+     "answer": "che",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "La pizza qui è ___ ! (buono, -issimo)",
+     "answer": "buonissima",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Lucia canta ___ di me. (bene, comparative)",
+     "answer": "meglio",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "È il ristorante ___ della città. (buono, superlative)",
+     "answer": "migliore",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Compare with come, using giovane.",
+     "prompt": "Marco ha venti anni. Anche Luca ha venti anni.",
+     "answer": "Marco è giovane come Luca.",
+     "alternatives": [
+      "Luca è giovane come Marco.",
+      "Marco è giovane quanto Luca.",
+      "Marco è tanto giovane quanto Luca.",
+      "Marco è così giovane come Luca."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make a relative superlative with la classe.",
+     "prompt": "Anna è alta.",
+     "answer": "Anna è la più alta della classe.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "Seoul is bigger than Busan, but Busan is more beautiful.",
+     "answer": "Seul è più grande di Busan, ma Busan è più bella.",
+     "alternatives": [
+      "Seoul è più grande di Busan, ma Busan è più bella."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "The bus is slower but cheaper than the metro.",
+     "answer": "L'autobus è più lento ma più economico della metropolitana.",
+     "alternatives": [
+      "L'autobus è più lento ma più economico della metro.",
+      "L'autobus è più lento, ma più economico della metropolitana.",
+      "L'autobus è più lento ma meno caro della metropolitana.",
+      "L'autobus è più lento ma meno caro della metro."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Centro o periferia?",
+     "passage": "Elena deve scegliere tra due appartamenti. Il primo è in centro: è più piccolo e più caro del secondo, ma è vicinissimo all'ufficio ed Elena può andare a piedi. Il secondo è in periferia: è grande come una casa, ha un giardino ed è molto più tranquillo. Ma l'autobus per il centro è lentissimo e la mattina la strada è rumorosa. Alla fine Elena sceglie il primo appartamento: per lei il tempo è più importante dello spazio.",
+     "glossary": [
+      {
+       "term": "scegliere",
+       "en": "to choose"
+      },
+      {
+       "term": "il primo / il secondo",
+       "en": "the first / the second"
+      },
+      {
+       "term": "andare a piedi",
+       "en": "to walk"
+      },
+      {
+       "term": "la periferia",
+       "en": "outskirts"
+      },
+      {
+       "term": "alla fine",
+       "en": "in the end"
+      },
+      {
+       "term": "lo spazio",
+       "en": "space"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "Which flat is bigger and cheaper?",
+       "answer": "The second one, on the outskirts.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What is the advantage of the flat in the centre?",
+       "answer": "It is very close to the office, so Elena can walk there.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "What are the disadvantages of the second flat?",
+       "answer": "The bus to the centre is very slow and the street is noisy in the morning.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "Which flat does Elena choose, and why?",
+       "answer": "The first one, because for her time is more important than space.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Mio fratello è più alto ___ me.",
+     "answer": "di",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Oggi sto ___ di ieri. (bene, comparative)",
+     "answer": "meglio",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il Monte Bianco è la montagna più alta ___ Alpi. (di + article)",
+     "answer": "delle",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Use -issimo.",
+     "prompt": "Il film è molto lungo.",
+     "answer": "Il film è lunghissimo.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Learning Italian is easier than learning German.",
+     "answer": "Imparare l'italiano è più facile che imparare il tedesco.",
+     "alternatives": [
+      "È più facile imparare l'italiano che imparare il tedesco.",
+      "È più facile imparare l'italiano che il tedesco."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Compare two places you know (cities, cafés or flats) in 4 sentences, using più/meno … di, come and one superlative.",
+     "answer": "Seul è più grande di Busan, ma Busan è più tranquilla. Il mare a Busan è bellissimo. I ristoranti a Seul sono cari come a Busan. Per me Busan è la città più bella della Corea.",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "April"
+  },
+  {
+   "id": "it21",
+   "title": "The imperative",
+   "level": "A2",
+   "summary": "Instructions, directions and recipes: gira a destra, prendi, non preoccuparti, senta!",
+   "notes": [
+    {
+     "heading": "tu, noi, voi",
+     "text": "noi and voi use the present-tense form (andiamo! parlate!). For tu, -ere and -ire verbs also use the present (prendi! senti! finisci!), but -are verbs end in -a (parla! gira! mangia!).",
+     "examples": [
+      {
+       "t": "Gira a destra!",
+       "en": "Turn right!"
+      },
+      {
+       "t": "Prendete l'autobus numero 3.",
+       "en": "Take bus number 3. (to several people)"
+      }
+     ]
+    },
+    {
+     "heading": "Negative",
+     "text": "For tu, use non + infinitive: Non parlare! Non preoccuparti! For noi and voi, put non before the normal form: Non parlate!",
+     "examples": [
+      {
+       "t": "Non toccare!",
+       "en": "Don't touch!"
+      },
+      {
+       "t": "Non preoccuparti!",
+       "en": "Don't worry!"
+      }
+     ]
+    },
+    {
+     "heading": "Irregular tu forms and pronouns",
+     "text": "andare → va' (or vai), fare → fa' (or fai), stare → sta' (or stai), dare → da' (or dai), dire → di', essere → sii, avere → abbi. venire → vieni and uscire → esci follow the present. Pronouns are attached to the tu, noi and voi forms: Prendilo! Alzati! Svegliatevi! After the one-syllable forms the consonant doubles: dimmi, fammi, dammi.",
+     "examples": [
+      {
+       "t": "Dimmi la verità!",
+       "en": "Tell me the truth!"
+      },
+      {
+       "t": "Alzati, è tardi!",
+       "en": "Get up, it's late!"
+      }
+     ]
+    },
+    {
+     "heading": "Formal Lei",
+     "text": "-are verbs end in -i (scusi! giri! parli!). -ere and -ire verbs end in -a (prenda! senta! scriva! finisca!). Common irregular Lei forms: vada, venga, faccia, stia, dica, esca, abbia, sia. Pronouns go before the Lei form: Mi scusi.",
+     "examples": [
+      {
+       "t": "Senta, scusi, dov'è la stazione?",
+       "en": "Excuse me, where is the station?"
+      },
+      {
+       "t": "Prenda la seconda strada a sinistra.",
+       "en": "Take the second street on the left."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "girare",
+     "en": "to turn"
+    },
+    {
+     "term": "attraversare",
+     "en": "to cross"
+    },
+    {
+     "term": "continuare",
+     "en": "to continue"
+    },
+    {
+     "term": "dritto",
+     "en": "straight on"
+    },
+    {
+     "term": "a destra / a sinistra",
+     "en": "on the right / on the left"
+    },
+    {
+     "term": "l'incrocio",
+     "en": "crossroads"
+    },
+    {
+     "term": "il semaforo",
+     "en": "traffic lights"
+    },
+    {
+     "term": "aggiungere",
+     "en": "to add"
+    },
+    {
+     "term": "tagliare",
+     "en": "to cut"
+    },
+    {
+     "term": "mescolare",
+     "en": "to stir, mix"
+    },
+    {
+     "term": "il sale",
+     "en": "salt"
+    },
+    {
+     "term": "preoccuparsi",
+     "en": "to worry"
+    },
+    {
+     "term": "fare attenzione",
+     "en": "to be careful"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "___ a destra al semaforo! (girare, tu)",
+     "answer": "Gira",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ la porta, per favore! (chiudere, tu)",
+     "answer": "Chiudi",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Non ___ ! (preoccuparsi, tu)",
+     "answer": "preoccuparti",
+     "alternatives": [
+      "ti preoccupare"
+     ],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ragazzi, ___ attenzione! (fare, voi)",
+     "answer": "fate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Signora, ___ la seconda strada a sinistra. (prendere, Lei)",
+     "answer": "prenda",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ qui, per favore! (venire, tu)",
+     "answer": "Vieni",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it negative.",
+     "prompt": "Mangia la torta!",
+     "answer": "Non mangiare la torta!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Write the tu imperative with the pronoun attached.",
+     "prompt": "(tu) alzarsi presto",
+     "answer": "Alzati presto!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace il libro with a pronoun.",
+     "prompt": "Leggi il libro!",
+     "answer": "Leggilo!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "Tell me the truth! (informal)",
+     "answer": "Dimmi la verità!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Pasta al pomodoro",
+     "passage": "Pasta al pomodoro (per due persone). Metti sul fuoco una pentola con molta acqua. Intanto taglia una cipolla e mettila in una padella con un po' d'olio. Dopo cinque minuti aggiungi i pomodori e un po' di sale. Fai cuocere il sugo per venti minuti e mescola ogni tanto. Quando l'acqua bolle, aggiungi il sale e butta la pasta. Non cuocerla troppo! Scolala e mettila nella padella con il sugo. Mescola bene, aggiungi del basilico e servi subito. Buon appetito!",
+     "glossary": [
+      {
+       "term": "la pentola / la padella",
+       "en": "pot / frying pan"
+      },
+      {
+       "term": "sul fuoco",
+       "en": "on the heat"
+      },
+      {
+       "term": "intanto",
+       "en": "meanwhile"
+      },
+      {
+       "term": "la cipolla",
+       "en": "onion"
+      },
+      {
+       "term": "l'olio",
+       "en": "oil"
+      },
+      {
+       "term": "il sugo",
+       "en": "(pasta) sauce"
+      },
+      {
+       "term": "fare cuocere",
+       "en": "to cook (something)"
+      },
+      {
+       "term": "ogni tanto",
+       "en": "now and then"
+      },
+      {
+       "term": "bollire",
+       "en": "to boil"
+      },
+      {
+       "term": "buttare la pasta",
+       "en": "to put the pasta in"
+      },
+      {
+       "term": "scolare",
+       "en": "to drain"
+      },
+      {
+       "term": "subito",
+       "en": "immediately"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What do you do first?",
+       "answer": "Put a pot with lots of water on the heat.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What do you do with the onion?",
+       "answer": "Cut it and put it in a pan with a little oil.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "How long does the sauce cook?",
+       "answer": "Twenty minutes, stirring now and then.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What must you not do with the pasta, and what happens at the end?",
+       "answer": "Don't overcook it. Drain it, put it in the pan with the sauce, mix well, add basil and serve straight away.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "___ piano, per favore! (parlare, voi)",
+     "answer": "Parlate",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Non ___ tardi stasera! (tornare, tu)",
+     "answer": "tornare",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ , scusi! Dov'è la stazione? (sentire, Lei)",
+     "answer": "Senta",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Replace il pane with a pronoun.",
+     "prompt": "Compra il pane!",
+     "answer": "Compralo!",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "Go straight on and then turn left at the crossroads. (informal)",
+     "answer": "Va' dritto e poi gira a sinistra all'incrocio.",
+     "alternatives": [
+      "Vai dritto e poi gira a sinistra all'incrocio.",
+      "Va' sempre dritto e poi gira a sinistra all'incrocio.",
+      "Vai sempre dritto e poi gira a sinistra all'incrocio."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Explain to a friend (tu) how to get from the station to your home, or how to make a simple dish, in 4–5 imperative sentences.",
+     "answer": "Esci dalla stazione e gira a destra. Va' sempre dritto. Al semaforo attraversa la strada e prendi la prima a sinistra. La mia casa è il numero 12. Quando arrivi, chiamami!",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "April"
+  },
+  {
+   "id": "it22",
+   "title": "The conditional (condizionale presente)",
+   "level": "A2",
+   "summary": "Polite requests, wishes and advice: vorrei, potrebbe, mi piacerebbe, dovresti.",
+   "notes": [
+    {
+     "heading": "Forms",
+     "text": "Use the same stem as the future and add -ei, -esti, -ebbe, -emmo, -este, -ebbero: parlerei, parleresti, parlerebbe, parleremmo, parlereste, parlerebbero; prenderei; partirei. Careful: future parleremo (one m) but conditional parleremmo (double m).",
+     "examples": [
+      {
+       "t": "Parlerei con il direttore.",
+       "en": "I would speak to the manager."
+      }
+     ]
+    },
+    {
+     "heading": "Irregular stems (the same as the future)",
+     "text": "sarei, avrei, andrei, farei, starei, darei, verrei, vorrei, potrei, dovrei, vedrei, berrei, vivrei. With piacere: mi piacerebbe.",
+     "examples": [
+      {
+       "t": "Vorrei un caffè, per favore.",
+       "en": "I'd like a coffee, please."
+      },
+      {
+       "t": "Mi piacerebbe vivere al mare.",
+       "en": "I'd love to live by the sea."
+      }
+     ]
+    },
+    {
+     "heading": "Polite requests",
+     "text": "The conditional makes a request softer and more polite: Vorrei … (I'd like), Potrebbe …? (Could you …?, formal), Mi darebbe …? (Would you give me …?). Mi potrebbe dire …? = Could you tell me …?",
+     "examples": [
+      {
+       "t": "Potrebbe ripetere, per favore?",
+       "en": "Could you repeat that, please?"
+      },
+      {
+       "t": "Mi potrebbe dire se la colazione è compresa?",
+       "en": "Could you tell me whether breakfast is included?"
+      }
+     ]
+    },
+    {
+     "heading": "Wishes and advice",
+     "text": "Wishes: Vorrei imparare a nuotare. Mi piacerebbe … Advice: Dovresti … (you should), Al posto tuo … (if I were you).",
+     "examples": [
+      {
+       "t": "Dovresti dormire di più.",
+       "en": "You should sleep more."
+      },
+      {
+       "t": "Al posto tuo prenderei il treno.",
+       "en": "If I were you, I'd take the train."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "vorrei",
+     "en": "I would like"
+    },
+    {
+     "term": "potrebbe …?",
+     "en": "could you …? (formal)"
+    },
+    {
+     "term": "dovresti",
+     "en": "you should"
+    },
+    {
+     "term": "mi piacerebbe",
+     "en": "I would like / love to"
+    },
+    {
+     "term": "al posto tuo",
+     "en": "if I were you"
+    },
+    {
+     "term": "il consiglio",
+     "en": "(piece of) advice"
+    },
+    {
+     "term": "consigliare",
+     "en": "to advise, recommend"
+    },
+    {
+     "term": "prenotare",
+     "en": "to book"
+    },
+    {
+     "term": "la camera singola / doppia",
+     "en": "single / double room"
+    },
+    {
+     "term": "disponibile",
+     "en": "available"
+    },
+    {
+     "term": "il prezzo",
+     "en": "price"
+    },
+    {
+     "term": "compreso",
+     "en": "included"
+    },
+    {
+     "term": "il soggiorno",
+     "en": "stay"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "___ un cappuccino, per favore. (volere, io)",
+     "answer": "Vorrei",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ chiudere la finestra? (potere, Lei)",
+     "answer": "Potrebbe",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Tu ___ studiare di più. (dovere)",
+     "answer": "dovresti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "Ci ___ vivere al mare. (piacere)",
+     "answer": "piacerebbe",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Al posto tuo io ___ il treno. (prendere)",
+     "answer": "prenderei",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "fill",
+     "prompt": "Voi ___ venire con noi? (volere)",
+     "answer": "vorreste",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it more polite.",
+     "prompt": "Voglio una camera doppia.",
+     "answer": "Vorrei una camera doppia.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "transform",
+     "instruction": "Make it more polite.",
+     "prompt": "Può ripetere?",
+     "answer": "Potrebbe ripetere?",
+     "alternatives": [
+      "Potrebbe ripetere, per favore?"
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "We would like to book a table for four.",
+     "answer": "Vorremmo prenotare un tavolo per quattro.",
+     "alternatives": [
+      "Vorremmo prenotare un tavolo per quattro persone."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "translate",
+     "prompt": "You (informal) should go to the doctor.",
+     "answer": "Dovresti andare dal medico.",
+     "alternatives": [
+      "Dovresti andare dal dottore."
+     ],
+     "check": "auto",
+     "id": "p10"
+    },
+    {
+     "type": "reading",
+     "title": "Una richiesta all'hotel",
+     "passage": "Gentile signora Rossi, vorrei prenotare una camera singola per tre notti, dal 12 al 15 maggio. Sarebbe possibile avere una camera con vista sul mare? Mi potrebbe dire anche se la colazione è compresa nel prezzo? Arriverò in treno verso le sette di sera. Durante il soggiorno mi piacerebbe fare una gita in barca: mi potrebbe consigliare un'agenzia? Infine, dovrei pagare qualcosa subito? La ringrazio molto. Cordiali saluti, Mina Park",
+     "glossary": [
+      {
+       "term": "gentile",
+       "en": "dear (formal letters); kind"
+      },
+      {
+       "term": "la vista sul mare",
+       "en": "sea view"
+      },
+      {
+       "term": "verso",
+       "en": "around (time)"
+      },
+      {
+       "term": "durante",
+       "en": "during"
+      },
+      {
+       "term": "la gita in barca",
+       "en": "boat trip"
+      },
+      {
+       "term": "infine",
+       "en": "finally"
+      },
+      {
+       "term": "qualcosa",
+       "en": "something"
+      },
+      {
+       "term": "cordiali saluti",
+       "en": "kind regards"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "What kind of room does Mina want, and for how long?",
+       "answer": "A single room for three nights, from 12 to 15 May.",
+       "check": "self",
+       "id": "p11a"
+      },
+      {
+       "prompt": "What two questions does she ask about the room and the price?",
+       "answer": "Whether she can have a sea view, and whether breakfast is included.",
+       "check": "self",
+       "id": "p11b"
+      },
+      {
+       "prompt": "How and when will she arrive?",
+       "answer": "By train, at around seven in the evening.",
+       "check": "self",
+       "id": "p11c"
+      },
+      {
+       "prompt": "What would she like to do, and what else does she ask?",
+       "answer": "Go on a boat trip; she asks for a recommended agency and whether she has to pay something now.",
+       "check": "self",
+       "id": "p11d"
+      }
+     ],
+     "id": "p11"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Mi ___ un bicchiere d'acqua? (dare, Lei)",
+     "answer": "darebbe",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Noi ___ in Sicilia, ma non abbiamo tempo. (andare)",
+     "answer": "andremmo",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "Che cosa ___ al posto mio? (fare, tu)",
+     "answer": "faresti",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Turn it into advice with the conditional.",
+     "prompt": "Devi chiamare tua madre.",
+     "answer": "Dovresti chiamare tua madre.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "I would like to learn to swim.",
+     "answer": "Vorrei imparare a nuotare.",
+     "alternatives": [
+      "Mi piacerebbe imparare a nuotare."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Write a short polite message (4–5 sentences) to a language school asking about a course: dates, price and level. Use vorrei, potrebbe and mi piacerebbe.",
+     "answer": "Buongiorno, vorrei delle informazioni sui vostri corsi di italiano. Mi piacerebbe fare un corso di due settimane a luglio. Il mio livello è A2. Mi potrebbe dire quando comincia il corso e quanto costa? Grazie mille. Cordiali saluti, Shao",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "May"
+  },
+  {
+   "id": "it23",
+   "title": "Connectors",
+   "level": "A2",
+   "summary": "perché, quindi, però, anche se, invece, prima di …: linking ideas in speaking and writing.",
+   "notes": [
+    {
+     "heading": "Reasons and results",
+     "text": "perché = because (and why?); siccome = since (at the start of the sentence); quindi / allora / così = so; infatti = in fact, indeed (it confirms what you said before).",
+     "examples": [
+      {
+       "t": "Resto a casa perché sono stanca.",
+       "en": "I'm staying at home because I'm tired. (woman speaking)"
+      },
+      {
+       "t": "Siccome pioveva, abbiamo preso un taxi.",
+       "en": "Since it was raining, we took a taxi."
+      },
+      {
+       "t": "Era tardi, quindi siamo tornati a casa.",
+       "en": "It was late, so we went home."
+      }
+     ]
+    },
+    {
+     "heading": "Contrast",
+     "text": "ma / però = but, however; anche se = even though; invece = on the other hand, instead; comunque = anyway, however.",
+     "examples": [
+      {
+       "t": "Anche se fa freddo, andiamo al mare.",
+       "en": "Even though it's cold, we're going to the seaside."
+      },
+      {
+       "t": "Io bevo il caffè; mio marito, invece, preferisce il tè.",
+       "en": "I drink coffee; my husband, on the other hand, prefers tea."
+      }
+     ]
+    },
+    {
+     "heading": "Time",
+     "text": "quando, mentre, prima, poi, dopo, alla fine. prima di + infinitive = before doing something. dopo + noun = after something (dopo cena, dopo il lavoro).",
+     "examples": [
+      {
+       "t": "Prima di uscire, chiudo le finestre.",
+       "en": "Before going out, I close the windows."
+      },
+      {
+       "t": "Dopo il lavoro vado in palestra.",
+       "en": "After work I go to the gym."
+      }
+     ]
+    },
+    {
+     "heading": "Conditions, adding, opinions",
+     "text": "se = if; anche / inoltre = also, moreover; sia … sia (or sia … che) = both … and; né … né = neither … nor (with non before the verb). secondo me / per me = in my opinion.",
+     "examples": [
+      {
+       "t": "Non mangio né carne né pesce.",
+       "en": "I eat neither meat nor fish."
+      },
+      {
+       "t": "Secondo me, l'italiano è una lingua bellissima.",
+       "en": "In my opinion, Italian is a beautiful language."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "term": "perché",
+     "en": "because; why"
+    },
+    {
+     "term": "siccome",
+     "en": "since, as"
+    },
+    {
+     "term": "quindi",
+     "en": "so, therefore"
+    },
+    {
+     "term": "però",
+     "en": "but, however"
+    },
+    {
+     "term": "anche se",
+     "en": "even though"
+    },
+    {
+     "term": "invece",
+     "en": "on the other hand, instead"
+    },
+    {
+     "term": "infatti",
+     "en": "in fact, indeed"
+    },
+    {
+     "term": "comunque",
+     "en": "anyway, however"
+    },
+    {
+     "term": "prima di (+ infinitive)",
+     "en": "before (doing)"
+    },
+    {
+     "term": "inoltre",
+     "en": "moreover"
+    },
+    {
+     "term": "né … né",
+     "en": "neither … nor"
+    },
+    {
+     "term": "secondo me",
+     "en": "in my opinion"
+    },
+    {
+     "term": "la palestra",
+     "en": "gym"
+    }
+   ],
+   "practice": [
+    {
+     "type": "fill",
+     "prompt": "Resto a casa ___ sono stanca. (because)",
+     "answer": "perché",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Pioveva, ___ abbiamo preso un taxi. (so)",
+     "answer": "quindi",
+     "alternatives": [
+      "allora",
+      "così"
+     ],
+     "check": "auto",
+     "id": "p2"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ ho studiato molto, non ho superato l'esame. (even though)",
+     "answer": "Anche se",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p3"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ uscire, chiudo le finestre. (before)",
+     "answer": "Prima di",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p4"
+    },
+    {
+     "type": "fill",
+     "prompt": "Io bevo il caffè; mio marito, ___ , preferisce il tè. (on the other hand)",
+     "answer": "invece",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p5"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with siccome.",
+     "prompt": "Non avevo tempo. Non ti ho telefonato.",
+     "answer": "Siccome non avevo tempo, non ti ho telefonato.",
+     "alternatives": [],
+     "check": "auto",
+     "id": "p6"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with né … né.",
+     "prompt": "Non mangio la carne. Non mangio il pesce.",
+     "answer": "Non mangio né carne né pesce.",
+     "alternatives": [
+      "Non mangio né la carne né il pesce."
+     ],
+     "check": "auto",
+     "id": "p7"
+    },
+    {
+     "type": "translate",
+     "prompt": "I'll call you (informal) if I have time.",
+     "answer": "Ti chiamo se ho tempo.",
+     "alternatives": [
+      "Ti chiamerò se avrò tempo.",
+      "Ti telefono se ho tempo.",
+      "Ti telefonerò se avrò tempo.",
+      "Se ho tempo, ti chiamo.",
+      "Se avrò tempo, ti chiamerò.",
+      "Se ho tempo, ti telefono.",
+      "Se avrò tempo, ti telefonerò."
+     ],
+     "check": "auto",
+     "id": "p8"
+    },
+    {
+     "type": "translate",
+     "prompt": "In my opinion Italian is easy, but the verbs are difficult.",
+     "answer": "Secondo me l'italiano è facile, ma i verbi sono difficili.",
+     "alternatives": [
+      "Secondo me l'italiano è facile, però i verbi sono difficili.",
+      "Per me l'italiano è facile, ma i verbi sono difficili.",
+      "Per me l'italiano è facile, però i verbi sono difficili."
+     ],
+     "check": "auto",
+     "id": "p9"
+    },
+    {
+     "type": "reading",
+     "title": "Studiare una lingua",
+     "passage": "Secondo me, imparare una lingua straniera è molto utile, ma non è sempre facile. Io studio l'italiano da un anno: siccome lavoro tutto il giorno, studio la sera o la mattina presto. Prima di andare in ufficio, ascolto un podcast. Anche se sono stanca, ogni sera scrivo qualche frase nel mio quaderno. Scrivere mi aiuta molto: infatti ricordo meglio le parole nuove. Comunque, la cosa più difficile per me è parlare, perché ho paura di sbagliare. Quindi l'anno prossimo farò un corso in Italia: lì dovrò parlare sempre!",
+     "glossary": [
+      {
+       "term": "straniero",
+       "en": "foreign"
+      },
+      {
+       "term": "da un anno",
+       "en": "for a year (and still now)"
+      },
+      {
+       "term": "qualche frase",
+       "en": "a few sentences"
+      },
+      {
+       "term": "il quaderno",
+       "en": "notebook"
+      },
+      {
+       "term": "avere paura di",
+       "en": "to be afraid of"
+      },
+      {
+       "term": "sbagliare",
+       "en": "to make mistakes"
+      },
+      {
+       "term": "lì",
+       "en": "there"
+      }
+     ],
+     "questions": [
+      {
+       "prompt": "When does the writer study Italian, and why then?",
+       "answer": "In the evening or early in the morning, because she works all day.",
+       "check": "self",
+       "id": "p10a"
+      },
+      {
+       "prompt": "What does she do before going to the office?",
+       "answer": "She listens to a podcast.",
+       "check": "self",
+       "id": "p10b"
+      },
+      {
+       "prompt": "What helps her a lot?",
+       "answer": "Writing: every evening she writes a few sentences in her notebook, and she remembers new words better.",
+       "check": "self",
+       "id": "p10c"
+      },
+      {
+       "prompt": "What is the hardest thing for her, and what is her plan?",
+       "answer": "Speaking, because she is afraid of making mistakes. Next year she'll do a course in Italy.",
+       "check": "self",
+       "id": "p10d"
+      }
+     ],
+     "id": "p10"
+    }
+   ],
+   "test": [
+    {
+     "type": "fill",
+     "prompt": "Non sono venuta alla festa ___ ero malata. (because)",
+     "answer": "perché",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t1"
+    },
+    {
+     "type": "fill",
+     "prompt": "Il ristorante era caro; ___ , abbiamo mangiato bene. (anyway)",
+     "answer": "comunque",
+     "alternatives": [
+      "però"
+     ],
+     "check": "auto",
+     "id": "t2"
+    },
+    {
+     "type": "fill",
+     "prompt": "___ dormire, leggo sempre un po'. (before)",
+     "answer": "Prima di",
+     "alternatives": [],
+     "check": "auto",
+     "id": "t3"
+    },
+    {
+     "type": "transform",
+     "instruction": "Join the sentences with anche se.",
+     "prompt": "Fa freddo. Andiamo al mare.",
+     "answer": "Anche se fa freddo, andiamo al mare.",
+     "alternatives": [
+      "Andiamo al mare anche se fa freddo."
+     ],
+     "check": "auto",
+     "id": "t4"
+    },
+    {
+     "type": "translate",
+     "prompt": "It was late, so we took a taxi.",
+     "answer": "Era tardi, quindi abbiamo preso un taxi.",
+     "alternatives": [
+      "Era tardi, allora abbiamo preso un taxi.",
+      "Era tardi, così abbiamo preso un taxi."
+     ],
+     "check": "auto",
+     "id": "t5"
+    },
+    {
+     "type": "write",
+     "prompt": "Exam-style task: in about 60 words, write to an Italian friend about your language studies: what you like, what is difficult and your plans. Use at least four connectors (perché, ma/però, anche se, quindi, prima di, secondo me …).",
+     "answer": "Cara Giulia, studio l'italiano da sei mesi e mi piace molto, perché è una lingua musicale. Secondo me la grammatica non è difficile, però i verbi irregolari sono tanti! Anche se lavoro molto, studio ogni sera prima di dormire. A giugno farò l'esame CILS A2, quindi devo studiare molto. Mi aiuterai a prepararmi? Un abbraccio, Shao",
+     "alternatives": [],
+     "check": "self",
+     "id": "t6"
+    }
+   ],
+   "schedule": "May"
   }
  ]
 }
