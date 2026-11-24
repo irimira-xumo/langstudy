@@ -365,12 +365,12 @@
       return h;
     }
     // self-marked
-    var sel = function (r) { return e.result === r ? " sel-" + r : ""; };
+    var sel = function (r) { return (e.result === r ? " sel-" + r : "") + '" aria-pressed="' + (e.result === r); };
     h = '<div class="compare">' +
       '<div><h4>Your answer</h4><div class="txt">' + (e.answer && e.answer.trim() ? esc(e.answer) : '<span class="muted">(empty)</span>') + "</div></div>" +
       '<div><h4>Model answer</h4><div class="txt">' + esc(item.answer) + "</div></div></div>" +
-      '<div class="small muted" style="margin-top:8px">How did you do? Mark it honestly – partly and wrong answers come back for review tomorrow.</div>' +
-      '<div class="btn-row">' +
+      '<div class="small muted mark-hint">How did you do? Mark it honestly – partly and wrong answers come back for review tomorrow.</div>' +
+      '<div class="btn-row seg" role="group" aria-label="Mark your answer">' +
       '<button class="btn small' + sel("correct") + '" data-action="mark" data-value="correct">✓ Correct</button>' +
       '<button class="btn small' + sel("partly") + '" data-action="mark" data-value="partly">~ Partly</button>' +
       '<button class="btn small' + sel("wrong") + '" data-action="mark" data-value="wrong">✗ Wrong</button>' +
@@ -414,9 +414,9 @@
     var buttons = "";
     if (mode !== "test") {
       buttons = '<div class="btn-row"><button class="btn primary" data-action="check">' + (self ? "Show model answer" : "Check") + "</button>" +
-        '<button class="btn" data-action="ask">Ask Claude to correct</button></div>';
+        '<button class="btn quiet" data-action="ask">Ask Claude to correct</button></div>';
     } else if (e.submitted) {
-      buttons = '<div class="btn-row"><button class="btn small" data-action="ask">Ask Claude to correct</button></div>';
+      buttons = '<div class="btn-row"><button class="btn small quiet" data-action="ask">Ask Claude to correct</button></div>';
     }
     var fb = mode === "test" && !e.submitted ? "" : feedbackHTML(mode, lang, uid, id, item, e);
     return '<div class="card ex" data-card="' + esc(cardKey(mode, lang, uid, id)) + '">' + context + head + promptHTML + input + buttons +
@@ -447,22 +447,24 @@
     var total = units(lang).length;
     var done = units(lang).filter(function (u) { return isDone(lang, u.id); }).length;
     var pct = Math.round(done / total * 100);
-    return '<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="' + total + '" aria-valuenow="' + done + '"><span style="width:' + pct + '%"></span></div>' +
-      '<div class="small muted">' + done + " of " + total + " units done · " + pct + "%</div>";
+    return '<div class="progress-label"><span>' + done + " of " + total + " units done</span><span>" + pct + "%</span></div>" +
+      '<div class="progress" role="progressbar" aria-label="Units done" aria-valuemin="0" aria-valuemax="' + total + '" aria-valuenow="' + done + '"><span style="width:' + pct + '%"></span></div>';
   }
 
   function todayCard(lang) {
     var c = DATA[lang], ci = currentIndex(lang), us = units(lang);
-    var h = '<section class="card"><div class="lang-label">' + esc(c.language) + " · " + esc(c.goal) + " · " + esc(c.examDate) + "</div>";
-    h += progressHTML(lang);
+    var h = '<section class="card today-card" aria-labelledby="tc-' + lang + '">' +
+      '<header class="tc-head"><h2 class="tc-lang" id="tc-' + lang + '"><span class="lang-mark" aria-hidden="true">' + lang.toUpperCase() + "</span>" + esc(c.language) + "</h2>" +
+      '<span class="tc-goal">' + esc(c.goal) + " · " + esc(c.examDate) + "</span></header>";
     if (ci >= us.length) {
-      h += '<h2 style="margin-top:12px">All units done 🎉</h2><p>Keep your reviews going and retake tests to push your scores up.</p>';
+      h += '<div class="tc-unit"><h3 class="tc-title">All units done 🎉</h3><p class="meta">Keep your reviews going and retake tests to push your scores up.</p></div>';
     } else {
       var u = us[ci], st = status(lang, u.id), us0 = peekU(lang, u.id);
       var answered = us0 ? Object.keys(us0.practice).filter(function (k) { return us0.practice[k].result; }).length : 0;
       var totalQ = countPractice(u);
-      h += '<h2 style="margin-top:12px">Unit ' + (ci + 1) + ": " + esc(u.title) + '<span class="pill ' + st + '">' + STATUS_LABEL[st] + "</span></h2>";
-      h += '<p class="muted small">' + esc(u.level) + (u.schedule ? " · Syllabus: " + esc(u.schedule) : "") + " · Practice " + answered + "/" + totalQ + "</p>";
+      h += '<div class="tc-unit"><div class="kicker-row"><span class="kicker">Unit ' + (ci + 1) + " of " + us.length + '</span><span class="pill ' + st + '">' + STATUS_LABEL[st] + "</span></div>" +
+        '<h3 class="tc-title">' + esc(u.title) + "</h3>" +
+        '<p class="meta">' + esc(u.level) + (u.schedule ? " · Syllabus: " + esc(u.schedule) : "") + " · Practice " + answered + "/" + totalQ + "</p></div>";
       if (lang === "it" && hasActivity(lang, u.id)) {
         h += '<div class="note info">Repeat this lesson today: re-read the notes, redo the practice, then take the test when you feel ready. The next unit unlocks once you have attempted this unit\'s test.</div>';
       }
@@ -470,18 +472,20 @@
         h += '<div class="note warn">Best test score so far: ' + bestScore(lang, u.id) + "%. You need " + c.passMark + "% to finish this unit. Review the weak points, then retake the test.</div>";
       }
       var target = !hasActivity(lang, u.id) ? "" : (answered >= totalQ ? "/test" : "/practice");
-      h += '<div class="btn-row"><a class="btn primary" href="#/' + lang + "/" + u.id + target + '">' + (hasActivity(lang, u.id) ? "Continue" : "Start unit") + "</a>" +
-        '<a class="btn" href="#/' + lang + '">Unit path</a></div>';
+      h += '<a class="btn primary block" href="#/' + lang + "/" + u.id + target + '">' + (hasActivity(lang, u.id) ? "Continue" : "Start unit") + ' <span aria-hidden="true">→</span></a>';
     }
     var due = dueItems(lang).length;
-    h += '<div class="note ' + (due ? "warn" : "good") + '">' + (due
-      ? "<strong>" + due + " review item" + (due === 1 ? "" : "s") + " due.</strong> " + '<a href="#/' + lang + "/" + reviewUnit(lang) + '/review?all">Start review</a>'
-      : "No reviews due today." + (upcomingCount(lang) ? " " + upcomingCount(lang) + " coming up later." : "")) + "</div>";
+    h += '<ul class="tc-status">';
+    h += due
+      ? '<li class="is-due"><span class="st-icon" aria-hidden="true">↻</span><span><strong>' + due + " review item" + (due === 1 ? "" : "s") + ' due</strong></span><a class="tc-action" href="#/' + lang + "/" + reviewUnit(lang) + '/review?all">Review</a></li>'
+      : '<li><span class="st-icon ok" aria-hidden="true">✓</span><span>No reviews due today' + (upcomingCount(lang) ? '<span class="muted"> · ' + upcomingCount(lang) + " coming up later</span>" : "") + "</span></li>";
     if (lang === "de") {
       var drafts = Object.keys(S.langs.de.drafts).length;
-      if (drafts) h += '<div class="note warn"><strong>' + drafts + " unfinished test" + (drafts === 1 ? "" : "s") + ".</strong> " +
-        '<a href="#/de/' + reviewUnit("de") + '/unfinished">Finish ' + (drafts === 1 ? "it" : "them") + "</a></div>";
+      if (drafts) h += '<li class="is-due"><span class="st-icon" aria-hidden="true">✎</span><span><strong>' + drafts + " unfinished test" + (drafts === 1 ? "" : "s") + "</strong></span>" +
+        '<a class="tc-action" href="#/de/' + reviewUnit("de") + '/unfinished">Finish</a></li>';
     }
+    h += "</ul>";
+    h += '<footer class="tc-foot">' + progressHTML(lang) + '<a class="text-link" href="#/' + lang + '">See all units <span aria-hidden="true">→</span></a></footer>';
     return h + "</section>";
   }
   // A unit to host language-wide tabs (Review "all", Unfinished): the current unit, or the last unit when finished.
@@ -498,30 +502,30 @@
   function viewToday() {
     setNav("today");
     var t = today();
-    return '<div class="today-date">' + esc(prettyDate(t)) + "</div><h1>Today</h1>" +
+    return '<header class="page-head"><p class="eyebrow">' + esc(prettyDate(t)) + "</p><h1>Today</h1></header>" +
       '<div class="today-grid">' + todayCard("de") + todayCard("it") + "</div>" +
-      '<p class="small muted" style="margin-top:18px">Tip: wrong and partly-correct answers come back in Review after 1, 3 and 7 days. Use <strong>Ask Claude to correct</strong> on any written answer to get detailed feedback.</p>';
+      '<p class="tip"><strong>Tip:</strong> wrong and partly-correct answers come back in Review after 1, 3 and 7 days. Use <strong>Ask Claude to correct</strong> on any written answer to get detailed feedback.</p>';
   }
 
   function viewPath(lang) {
     setNav(lang);
     var c = DATA[lang];
-    var h = '<h1>' + esc(c.language) + "</h1>" +
-      '<p class="muted">' + esc(c.goal) + " · exam " + esc(c.examDate) + ". " +
+    var h = '<header class="page-head"><p class="eyebrow">' + esc(c.goal) + " · exam " + esc(c.examDate) + "</p><h1>" + esc(c.language) + "</h1>" +
+      '<p class="lead">' +
       (c.progression === "score"
         ? "A unit is done when you score " + c.passMark + "% or more on its test; the next unit then unlocks."
-        : "The next unit unlocks as soon as you have attempted the current unit's test, whatever the score.") + "</p>";
-    h += '<section class="card">' + progressHTML(lang) + "</section>";
-    h += '<ol class="path" style="margin-top:14px">';
+        : "The next unit unlocks as soon as you have attempted the current unit's test, whatever the score.") + "</p></header>";
+    h += '<div class="card path-progress">' + progressHTML(lang) + "</div>";
+    h += '<ol class="path card">';
     units(lang).forEach(function (u, i) {
       var st = status(lang, u.id), best = bestScore(lang, u.id);
       var meta = esc(u.level) + (u.schedule ? " · " + esc(u.schedule) : "") + (best != null ? " · best test " + best + "%" : "");
-      var inner = '<span class="dot">' + (st === "done" ? "✓" : st === "locked" ? "🔒" : (i + 1)) + "</span>" +
-        '<span><span class="title">' + (i + 1) + ". " + esc(u.title) + '</span><span class="pill ' + st + '">' + STATUS_LABEL[st] + "</span>" +
-        '<br><span class="meta">' + meta + "</span></span>";
-      h += '<li class="card st-' + st + '">' + (st === "locked"
-        ? '<div class="locked-row" data-action="locked" aria-disabled="true">' + inner + "</div>"
-        : '<a href="#/' + lang + "/" + u.id + '">' + inner + "</a>") + "</li>";
+      var inner = '<span class="dot" aria-hidden="true">' + (st === "done" ? "✓" : (i + 1)) + "</span>" +
+        '<span class="path-text"><span class="title">' + esc(u.title) + '</span><span class="meta">' + meta + "</span></span>" +
+        '<span class="pill ' + st + '">' + (st === "locked" ? '<span aria-hidden="true">🔒&#xFE0E;&nbsp;</span>' : "") + STATUS_LABEL[st] + "</span>";
+      h += '<li class="st-' + st + '">' + (st === "locked"
+        ? '<div class="path-row locked-row" data-action="locked" aria-disabled="true"><span class="sr-only">Unit ' + (i + 1) + ": </span>" + inner + "</div>"
+        : '<a class="path-row" href="#/' + lang + "/" + u.id + '"' + (st === "current" || st === "in-progress" ? ' aria-current="step"' : "") + '><span class="sr-only">Unit ' + (i + 1) + ": </span>" + inner + "</a>") + "</li>";
     });
     return h + "</ol>";
   }
@@ -536,14 +540,14 @@
     if (!u) return '<div class="empty">Unit not found. <a href="#/' + lang + '">Back to the unit path</a></div>';
     var st = status(lang, uid), i = unitIndex(lang, uid);
     if (st === "locked" && tab !== "review" && tab !== "unfinished") {
-      return '<a class="crumb" href="#/' + lang + '">← ' + esc(DATA[lang].language) + " units</a>" +
+      return '<a class="crumb" href="#/' + lang + '"><span aria-hidden="true">←</span> ' + esc(DATA[lang].language) + " units</a>" +
         '<div class="card empty">🔒 Unit ' + (i + 1) + " is locked. Finish unit " + (currentIndex(lang) + 1) + " first.</div>";
     }
     var dueUnit = dueItems(lang, uid).length;
     var drafts = Object.keys(S.langs[lang].drafts).length;
-    var h = '<a class="crumb" href="#/' + lang + '">← ' + esc(DATA[lang].language) + " units</a>" +
-      "<h1>Unit " + (i + 1) + ": " + esc(u.title) + '<span class="pill ' + st + '">' + STATUS_LABEL[st] + "</span></h1>" +
-      '<p class="muted small">' + esc(u.level) + (u.schedule ? " · Syllabus: " + esc(u.schedule) : "") + "</p>";
+    var h = '<a class="crumb" href="#/' + lang + '"><span aria-hidden="true">←</span> ' + esc(DATA[lang].language) + " units</a>" +
+      '<header class="page-head unit-head"><div class="kicker-row"><span class="kicker">Unit ' + (i + 1) + " · " + esc(u.level) + (u.schedule ? " · " + esc(u.schedule) : "") + '</span><span class="pill ' + st + '">' + STATUS_LABEL[st] + "</span></div>" +
+      "<h1>" + esc(u.title) + "</h1></header>";
     h += '<nav class="tabs" aria-label="Unit sections">' +
       tabLink(lang, uid, "study", "Study", tab) +
       tabLink(lang, uid, "practice", "Practice", tab) +
@@ -560,9 +564,9 @@
   }
 
   function tabStudy(lang, u) {
-    var h = '<div class="stack"><p>' + esc(u.summary) + "</p>";
+    var h = '<div class="stack"><p class="lead">' + esc(u.summary) + "</p>";
     u.notes.forEach(function (n) {
-      h += '<section class="card"><h2>' + esc(n.heading) + "</h2><p>" + esc(n.text) + "</p>";
+      h += '<section class="card page"><h2>' + esc(n.heading) + '</h2><p class="prose">' + esc(n.text) + "</p>";
       if (n.examples && n.examples.length) {
         h += '<ul class="examples">' + n.examples.map(function (ex) {
           return "<li>" + speakBtn(ex.t, lang) + '<div><div class="t">' + esc(ex.t) + '</div><div class="en">' + esc(ex.en) + "</div></div></li>";
@@ -570,10 +574,10 @@
       }
       h += "</section>";
     });
-    h += '<section class="card"><h2>Vocabulary</h2><table class="vocab"><tbody>' + u.vocab.map(function (v) {
+    h += '<section class="card page"><h2>Vocabulary <span class="count-muted">' + u.vocab.length + '</span></h2><table class="vocab"><tbody>' + u.vocab.map(function (v) {
       return "<tr><td>" + speakBtn(v.term.replace(/\s*\(.*?\)\s*/g, " ").trim(), lang, "Listen: " + v.term) + '</td><td class="term">' + esc(v.term) + '</td><td class="en">' + esc(v.en) + "</td></tr>";
     }).join("") + "</tbody></table></section>";
-    h += '<div class="btn-row"><a class="btn primary" href="#/' + lang + "/" + u.id + '/practice">Go to practice →</a></div>';
+    h += '<div class="btn-row"><a class="btn primary" href="#/' + lang + "/" + u.id + '/practice">Go to practice <span aria-hidden="true">→</span></a></div>';
     return h + "</div>";
   }
 
@@ -582,8 +586,8 @@
       ? '<details class="gloss"><summary>Glossary (' + ex.glossary.length + ")</summary><ul>" + ex.glossary.map(function (g) {
         return "<li><strong>" + esc(g.term) + "</strong> – " + esc(g.en) + "</li>";
       }).join("") + "</ul></details>" : "";
-    return '<section class="card ruled"><div class="ex-head"><span class="tag">Read</span><span class="ins">Read the passage, then answer the questions in English.</span></div>' +
-      '<h3 style="display:flex;gap:8px;align-items:center">' + speakBtn(ex.passage, lang, "Listen to the passage") + esc(ex.title) + "</h3>" +
+    return '<section class="card page ruled"><div class="ex-head"><span class="tag">Read</span><span class="ins">Read the passage, then answer the questions in English.</span></div>' +
+      '<h3 class="passage-title">' + speakBtn(ex.passage, lang, "Listen to the passage") + esc(ex.title) + "</h3>" +
       '<div class="passage">' + esc(ex.passage) + "</div>" + gl + "</section>";
   }
 
@@ -597,7 +601,7 @@
         h += renderCard("practice", lang, u.id, ex.id);
       }
     });
-    h += '<div class="btn-row"><a class="btn primary" href="#/' + lang + "/" + u.id + '/test">Go to the unit test →</a>' +
+    h += '<div class="btn-row"><a class="btn primary" href="#/' + lang + "/" + u.id + '/test">Go to the unit test <span aria-hidden="true">→</span></a>' +
       '<button class="btn ghost" data-action="clear-practice" data-unit="' + u.id + '">Clear my practice answers</button></div>';
     return h + "</div>";
   }
@@ -635,7 +639,7 @@
               '<div class="prompt">' + esc(q.prompt) + "</div>" +
               '<div class="compare"><div><h4>Your answer</h4><div class="txt">' + (it.answer ? esc(it.answer) : '<span class="muted">(empty)</span>') + "</div></div>" +
               '<div><h4>Model answer</h4><div class="txt">' + esc(q.answer) + "</div></div></div>" +
-              '<div class="btn-row"><button class="btn small" data-action="ask-attempt" data-lang="' + lang + '" data-unit="' + u.id + '" data-id="' + q.id + '">Ask Claude to correct</button></div></div>';
+              '<div class="btn-row"><button class="btn small quiet" data-action="ask-attempt" data-lang="' + lang + '" data-unit="' + u.id + '" data-id="' + q.id + '">Ask Claude to correct</button></div></div>';
           });
         }
       } else {
@@ -873,7 +877,7 @@
     });
     var meta = document.querySelectorAll('meta[name="theme-color"]');
     var dark = S.theme === "dark" || (S.theme === "auto" && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
-    meta.forEach(function (m) { m.setAttribute("content", dark ? "#1b1a18" : "#fbf8f1"); });
+    meta.forEach(function (m) { m.setAttribute("content", dark ? "#191816" : "#faf7f0"); });
     var len = $("#opt-lenient");
     if (len) len.checked = !!S.lenient;
   }
