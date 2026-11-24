@@ -8,7 +8,7 @@ It is a plain static website: HTML, CSS and vanilla JavaScript, no build step, n
 
 - **Today** – opens on today's German unit, today's Italian unit, the review items due, and any unfinished German tests.
 - **Language switcher** (Deutsch / Italiano) with a progress bar and a unit path showing each unit as *done*, *in progress*, *current* or *locked*.
-- **Units** – 14 German units and 12 Italian units. Each unit has these tabs:
+- **Units** – 18 German units (syllabus weeks 1–9) and 23 Italian units (October to May). Each unit has these tabs:
   - **Study**: short grammar notes with examples, plus 13–15 vocabulary items with English meanings.
   - **Practice**: 9–11 exercises, mostly writing: fill in, rewrite, translate, short free writing and a reading passage with English questions.
   - **Test**: 6 written questions that decide progression.
@@ -126,7 +126,7 @@ Tips:
 - **Umlaut and accent leniency** is on by default and such answers count as correct (with a warning). Turn it off in the ⋯ menu for strict spelling.
 - **Review** only includes answers marked wrong or partly right. Practising an item correctly again in the Practice tab doesn't move its review date; only the Review tab does. You can change your mind about a mark on the same visit and the schedule is corrected.
 - **Italian first-person model answers** use the feminine form (*sono coreana, sono andata*). The masculine form is listed as an alternative where it matters.
-- **Italian unit 1** teaches *Mi chiamo…, Come stai?* as fixed phrases. The grammar behind them comes in units 9 and 10. Apart from such phrases, Italian exercises use only grammar from the same or earlier units.
-- **Coverage**: the 14 German units cover the grammar in syllabus weeks 1–9. Comparatives, reflexive verbs (week 4), participle phrases (week 9) and nominalisation (week 8) only appear in passing and could become extra units. The 12 Italian units cover October to January of the syllabus. Possessives (December) and February–May topics (imperfetto, object pronouns, futuro, imperativo, condizionale) are not yet included.
+- **Italian unit 1** teaches *Mi chiamo…, Come stai?* as fixed phrases. The grammar behind them comes in units 10 and 11. Apart from such phrases, Italian exercises use only grammar from the same or earlier units.
+- **Coverage**: the 18 German units cover all the grammar in syllabus weeks 1–9, and the 23 Italian units cover the whole syllabus from October to May. Units added after the first version were slotted in where they belong in the syllabus (for example German reflexive verbs and comparatives come after unit 9, and Italian possessives after unit 8), so the unit number shown in the app is its position in the course. The ids (`de15`, `it13` …) stay fixed, so saved progress is never mixed up.
 - **Progress is per browser.** Clearing site data deletes it, so export a backup now and then.
 - **Speech** uses whatever German and Italian voices your device has. Quality varies by device. On a computer with no such voice, the 🔊 buttons stay hidden.
